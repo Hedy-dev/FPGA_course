@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "p3dmc1Sa/Lxo0bNnapVq2fcVlWC+PGLCD3qaxv+/H35XSGi/AQ9cppGm5lhH0bFFowz7ykc8KrP5gvxxt7K2sQ==",
+  "success": true,
+  "projectFilePath": "D:\\projects\\FPGA\\Xenia\\C#\\project1\\project1\\project1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\engineer\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
