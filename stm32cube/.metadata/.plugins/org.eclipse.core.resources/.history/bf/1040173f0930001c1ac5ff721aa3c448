@@ -1,0 +1,112 @@
+#include "main.h"
+//#include "mainpp.h"
+
+#include "FSM.h"
+#include "DataReader.h"
+#include "DataSender.h"
+
+#include <vector>
+#include <deque>
+
+// external vars declaration
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart2;
+
+// global objects
+static DataReader reader;
+static DataSender sender(&huart1);
+
+static FSMSIG _signal;
+static FSMSTATE state;
+
+static std::deque<uint16_t> deque;
+
+// global variables definition
+//FSMSIG ext_signal;
+uint8_t prev_send_sig_count;
+uint8_t send_sig_count;
+uint8_t prev_read_sig_count;
+uint8_t read_sig_count;
+
+uint8_t is_gen_started;
+
+bool is_read_finished;
+
+void wait_state_proc() {
+	if(prev_send_sig_count != send_sig_count) {
+		state = SEND;
+		prev_send_sig_count = send_sig_count;
+	}
+	else if(prev_read_sig_count != read_sig_count){
+		state = READ;
+		prev_read_sig_count = read_sig_count;
+	}
+	else {
+		state = WAIT;
+	}
+}
+
+void send_state_proc() {
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_15, GPIO_PIN_RESET);
+	HAL_GPIO_WritePin(NXT_SMPL_RAISED_GPIO_Port, NXT_SMPL_RAISED_Pin, GPIO_PIN_RESET);
+	if(deque.size() > 0) {
+		auto val = deque.front();
+		sender.send_signal_sample(val);
+		deque.pop_front();
+		if(deque.size() < 5 && !reader.is_read_finished()) {
+			read_sig_count++;
+		}
+	}
+	else {
+		//queue empty stop signal generation
+		HAL_GPIO_WritePin(GPIOC, GEN_STARTED_Pin, GPIO_PIN_RESET);
+		is_gen_started = 0x00;
+		reader.rewind();
+	}
+}
+
+void read_state_proc() {
+	if(reader.next_chunk()) {
+		reader.get_data(deque);
+	}
+}
+
+int main() {
+	is_gen_started = 0x00;
+
+	send_sig_count = 0x00;
+	read_sig_count = 0x00;
+	prev_send_sig_count = 0x00;
+	prev_read_sig_count = 0x00;
+
+	initialize();
+	if( !reader.init() ) {
+		while(true) {
+			HAL_GPIO_TogglePin(GPIOA, LD2_Pin);
+			HAL_Delay(500);
+		}
+	}
+
+	bool is_fsm_processing = true;
+	while(is_fsm_processing) {
+		switch(state) {
+			case WAIT:
+				HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_SET);
+				wait_state_proc();
+				HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, GPIO_PIN_RESET);
+				break;
+			case SEND:
+				HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_SET);
+				send_state_proc();
+				HAL_GPIO_WritePin(GPIOC, GPIO_PIN_5, GPIO_PIN_RESET);
+				break;
+			case READ:
+				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_12, GPIO_PIN_SET);
+				read_state_proc();
+				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_12, GPIO_PIN_RESET);
+				break;
+			default:
+				is_fsm_processing = false;
+		}
+	}
+}

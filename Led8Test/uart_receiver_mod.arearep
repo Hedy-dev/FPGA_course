@@ -1,0 +1,15 @@
+----------------------------------------------------------------------
+Report for cell uart_receiver_mod.TECH
+Register bits:  32 of 1280 (2.500%)
+I/O cells:      0
+                                  Cell usage:
+                               cell     count   Res Usage(%)
+                           SB_CARRY        15          100.0
+                             SB_DFF        25          100.0
+                            SB_DFFE         4          100.0
+                          SB_DFFESR         2          100.0
+                           SB_DFFSR         1          100.0
+                           SB_GB_IO         1          100.0
+                              SB_IO        13          100.0
+                            SB_LUT4        93          100.0
+                              TOTAL       154

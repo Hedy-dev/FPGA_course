@@ -1,0 +1,131 @@
+ble_pack delay_0_LC_1_2_0 { delay_RNO[0], delay[0], delay_cry_c[0] }
+ble_pack delay_1_LC_1_2_1 { delay_RNO[1], delay[1], delay_cry_c[1] }
+ble_pack delay_2_LC_1_2_2 { delay_RNO[2], delay[2], delay_cry_c[2] }
+ble_pack delay_3_LC_1_2_3 { delay_RNO[3], delay[3], delay_cry_c[3] }
+ble_pack delay_4_LC_1_2_4 { delay_RNO[4], delay[4], delay_cry_c[4] }
+ble_pack delay_5_LC_1_2_5 { delay_RNO[5], delay[5], delay_cry_c[5] }
+ble_pack delay_6_LC_1_2_6 { delay_RNO[6], delay[6], delay_cry_c[6] }
+ble_pack delay_7_LC_1_2_7 { delay_RNO[7], delay[7], delay_cry_c[7] }
+clb_pack LT_1_2 { delay_0_LC_1_2_0, delay_1_LC_1_2_1, delay_2_LC_1_2_2, delay_3_LC_1_2_3, delay_4_LC_1_2_4, delay_5_LC_1_2_5, delay_6_LC_1_2_6, delay_7_LC_1_2_7 }
+set_location LT_1_2 1 2
+ble_pack delay_8_LC_1_3_0 { delay_RNO[8], delay[8], delay_cry_c[8] }
+ble_pack delay_9_LC_1_3_1 { delay_RNO[9], delay[9], delay_cry_c[9] }
+ble_pack delay_10_LC_1_3_2 { delay_RNO[10], delay[10], delay_cry_c[10] }
+ble_pack delay_11_LC_1_3_3 { delay_RNO[11], delay[11], delay_cry_c[11] }
+ble_pack delay_12_LC_1_3_4 { delay_RNO[12], delay[12], delay_cry_c[12] }
+ble_pack delay_13_LC_1_3_5 { delay_RNO[13], delay[13], delay_cry_c[13] }
+ble_pack delay_14_LC_1_3_6 { delay_RNO[14], delay[14] }
+ble_pack delay_RNIABQR_14_LC_1_3_7 { delay_RNIABQR[14] }
+clb_pack LT_1_3 { delay_8_LC_1_3_0, delay_9_LC_1_3_1, delay_10_LC_1_3_2, delay_11_LC_1_3_3, delay_12_LC_1_3_4, delay_13_LC_1_3_5, delay_14_LC_1_3_6, delay_RNIABQR_14_LC_1_3_7 }
+set_location LT_1_3 1 3
+ble_pack cntr_esr_3_LC_1_5_0 { cntr_esr_RNO[3], cntr_esr[3] }
+clb_pack LT_1_5 { cntr_esr_3_LC_1_5_0 }
+set_location LT_1_5 1 5
+ble_pack cntr_2_LC_1_6_0 { cntr_RNO[2], cntr[2] }
+ble_pack cntr_4_LC_1_6_1 { cntr_RNO[4], cntr[4] }
+ble_pack cntr_5_LC_1_6_3 { cntr_RNO[5], cntr[5] }
+ble_pack cntr_1_LC_1_6_4 { cntr_RNO[1], cntr[1] }
+ble_pack cntr_0_LC_1_6_5 { cntr_RNO[0], cntr[0] }
+clb_pack LT_1_6 { cntr_2_LC_1_6_0, cntr_4_LC_1_6_1, cntr_5_LC_1_6_3, cntr_1_LC_1_6_4, cntr_0_LC_1_6_5 }
+set_location LT_1_6 1 6
+ble_pack clk_div_RNI91U1_1_LC_1_7_0 { clk_div_RNI91U1[1] }
+ble_pack clk_div_RNIF3T2_2_LC_1_7_1 { clk_div_RNIF3T2[2] }
+ble_pack clk_div_RNIM6S3_3_LC_1_7_2 { clk_div_RNIM6S3[3] }
+ble_pack clk_div_RNIUAR4_4_LC_1_7_3 { clk_div_RNIUAR4[4] }
+ble_pack clk_div_RNI7GQ5_5_LC_1_7_4 { clk_div_RNI7GQ5[5] }
+ble_pack clk_div_RNIHMP6_6_LC_1_7_5 { clk_div_RNIHMP6[6] }
+ble_pack clk_div_RNISTO7_7_LC_1_7_6 { clk_div_RNISTO7[7] }
+ble_pack clk_div_RNI86O8_8_LC_1_7_7 { clk_div_RNI86O8[8] }
+clb_pack LT_1_7 { clk_div_RNI91U1_1_LC_1_7_0, clk_div_RNIF3T2_2_LC_1_7_1, clk_div_RNIM6S3_3_LC_1_7_2, clk_div_RNIUAR4_4_LC_1_7_3, clk_div_RNI7GQ5_5_LC_1_7_4, clk_div_RNIHMP6_6_LC_1_7_5, clk_div_RNISTO7_7_LC_1_7_6, clk_div_RNI86O8_8_LC_1_7_7 }
+set_location LT_1_7 1 7
+ble_pack clk_div_RNILFN9_9_LC_1_8_0 { clk_div_RNILFN9[9] }
+ble_pack clk_div_RNIAAMP_10_LC_1_8_1 { clk_div_RNIAAMP[10] }
+ble_pack clk_div_RNI06L91_11_LC_1_8_2 { clk_div_RNI06L91[11] }
+ble_pack clk_div_1_LC_1_8_4 { clk_div_RNO[1], clk_div[1] }
+clb_pack LT_1_8 { clk_div_RNILFN9_9_LC_1_8_0, clk_div_RNIAAMP_10_LC_1_8_1, clk_div_RNI06L91_11_LC_1_8_2, clk_div_1_LC_1_8_4 }
+set_location LT_1_8 1 8
+ble_pack delay_RNIKNK01_4_LC_2_2_1 { delay_RNIKNK01[4] }
+ble_pack delay_RNI5HJ71_10_LC_2_2_2 { delay_RNI5HJ71[10] }
+ble_pack delay_RNI2HGB1_0_LC_2_2_5 { delay_RNI2HGB1[0] }
+ble_pack delay_RNI55JF4_10_LC_2_2_6 { delay_RNI55JF4[10] }
+clb_pack LT_2_2 { delay_RNIKNK01_4_LC_2_2_1, delay_RNI5HJ71_10_LC_2_2_2, delay_RNI2HGB1_0_LC_2_2_5, delay_RNI55JF4_10_LC_2_2_6 }
+set_location LT_2_2 2 2
+ble_pack how_RNO_0_2_LC_2_3_6 { how_RNO_0[2] }
+clb_pack LT_2_3 { how_RNO_0_2_LC_2_3_6 }
+set_location LT_2_3 2 3
+ble_pack how_1_LC_2_4_1 { how_RNO[1], how[1] }
+ble_pack how_0_LC_2_4_2 { how_RNO[0], how[0] }
+ble_pack PWM_NUM_0_LC_2_4_3 { PWM_NUM_10_2_0_.N_46_i, PWM_NUM[0] }
+ble_pack how_2_LC_2_4_4 { how_RNO[2], how[2] }
+clb_pack LT_2_4 { how_1_LC_2_4_1, how_0_LC_2_4_2, PWM_NUM_0_LC_2_4_3, how_2_LC_2_4_4 }
+set_location LT_2_4 2 4
+ble_pack PORT_r_RNO_1_LC_2_5_0 { PORT_r_RNO_1 }
+ble_pack PWM_NUM_3_LC_2_5_1 { PWM_NUM_RNO[3], PWM_NUM[3] }
+ble_pack PWM_NUM_RNIDRQK_3_LC_2_5_2 { PWM_NUM_RNIDRQK[3] }
+ble_pack PWM_NUM_5_LC_2_5_3 { PWM_NUM_RNO[5], PWM_NUM[5] }
+ble_pack PWM_NUM_4_LC_2_5_4 { PWM_NUM_RNO[4], PWM_NUM[4] }
+ble_pack PWM_NUM_1_LC_2_5_5 { PWM_NUM_10_2_0_.m3, PWM_NUM[1] }
+ble_pack PWM_NUM_RNIQIR6_1_LC_2_5_6 { PWM_NUM_RNIQIR6[1] }
+ble_pack PWM_NUM_2_LC_2_5_7 { PWM_NUM_10_2_0_.m5, PWM_NUM[2] }
+clb_pack LT_2_5 { PORT_r_RNO_1_LC_2_5_0, PWM_NUM_3_LC_2_5_1, PWM_NUM_RNIDRQK_3_LC_2_5_2, PWM_NUM_5_LC_2_5_3, PWM_NUM_4_LC_2_5_4, PWM_NUM_1_LC_2_5_5, PWM_NUM_RNIQIR6_1_LC_2_5_6, PWM_NUM_2_LC_2_5_7 }
+set_location LT_2_5 2 5
+ble_pack PORT_r_LC_2_6_0 { PORT_r_RNO, PORT_r }
+ble_pack PWM_NUM_RNIQ48Q_0_LC_2_6_1 { PWM_NUM_RNIQ48Q[0] }
+ble_pack PWM_NUM_RNIKTNT2_0_LC_2_6_2 { PWM_NUM_RNIKTNT2[0] }
+ble_pack cntr_esr_RNO_0_3_LC_2_6_3 { cntr_esr_RNO_0[3] }
+ble_pack clk_div_RNIM1KP1_11_LC_2_6_4 { clk_div_RNIM1KP1[11] }
+ble_pack PWM_NUM_RNIDNV4_4_LC_2_6_5 { PWM_NUM_RNIDNV4[4] }
+ble_pack cntr_6_LC_2_6_7 { cntr_RNO[6], cntr[6] }
+clb_pack LT_2_6 { PORT_r_LC_2_6_0, PWM_NUM_RNIQ48Q_0_LC_2_6_1, PWM_NUM_RNIKTNT2_0_LC_2_6_2, cntr_esr_RNO_0_3_LC_2_6_3, clk_div_RNIM1KP1_11_LC_2_6_4, PWM_NUM_RNIDNV4_4_LC_2_6_5, cntr_6_LC_2_6_7 }
+set_location LT_2_6 2 6
+ble_pack cntr_RNIB8QE_2_LC_2_7_0 { cntr_RNIB8QE[2] }
+ble_pack clk_div_0_LC_2_7_1 { clk_div_RNO[0], clk_div[0] }
+ble_pack PORT_r_RNO_2_LC_2_7_3 { PORT_r_RNO_2 }
+ble_pack PORT_r_RNO_0_LC_2_7_4 { PORT_r_RNO_0 }
+ble_pack clk_div_11_LC_2_7_7 { clk_div_11_THRU_LUT4_0, clk_div[11] }
+clb_pack LT_2_7 { cntr_RNIB8QE_2_LC_2_7_0, clk_div_0_LC_2_7_1, PORT_r_RNO_2_LC_2_7_3, PORT_r_RNO_0_LC_2_7_4, clk_div_11_LC_2_7_7 }
+set_location LT_2_7 2 7
+ble_pack clk_div_1_cry_1_c_LC_2_8_0 { clk_div_1_cry_1_c }
+ble_pack clk_div_2_LC_2_8_1 { clk_div_RNO[2], clk_div[2], clk_div_1_cry_2_c }
+ble_pack clk_div_3_LC_2_8_2 { clk_div_RNO[3], clk_div[3], clk_div_1_cry_3_c }
+ble_pack clk_div_4_LC_2_8_3 { clk_div_RNO[4], clk_div[4], clk_div_1_cry_4_c }
+ble_pack clk_div_5_LC_2_8_4 { clk_div_RNO[5], clk_div[5], clk_div_1_cry_5_c }
+ble_pack clk_div_6_LC_2_8_5 { clk_div_RNO[6], clk_div[6], clk_div_1_cry_6_c }
+ble_pack clk_div_7_LC_2_8_6 { clk_div_RNO[7], clk_div[7], clk_div_1_cry_7_c }
+ble_pack clk_div_8_LC_2_8_7 { clk_div_RNO[8], clk_div[8], clk_div_1_cry_8_c }
+clb_pack LT_2_8 { clk_div_1_cry_1_c_LC_2_8_0, clk_div_2_LC_2_8_1, clk_div_3_LC_2_8_2, clk_div_4_LC_2_8_3, clk_div_5_LC_2_8_4, clk_div_6_LC_2_8_5, clk_div_7_LC_2_8_6, clk_div_8_LC_2_8_7 }
+set_location LT_2_8 2 8
+ble_pack clk_div_9_LC_2_9_0 { clk_div_RNO[9], clk_div[9], clk_div_1_cry_9_c }
+ble_pack clk_div_10_LC_2_9_1 { clk_div_RNO[10], clk_div[10] }
+clb_pack LT_2_9 { clk_div_9_LC_2_9_0, clk_div_10_LC_2_9_1 }
+set_location LT_2_9 2 9
+ble_pack shift_ret_1_LC_4_2_0 { shift_ret_1_RNO, shift_ret_1 }
+ble_pack shift_0_2_LC_4_2_3 { shift_0_2_THRU_LUT4_0, shift_0[2] }
+ble_pack shift_0_1_LC_4_2_4 { shift_0_1_THRU_LUT4_0, shift_0[1] }
+ble_pack shift_ret_1_RNI69IQ_LC_4_2_5 { shift_ret_1_RNI69IQ }
+clb_pack LT_4_2 { shift_ret_1_LC_4_2_0, shift_0_2_LC_4_2_3, shift_0_1_LC_4_2_4, shift_ret_1_RNI69IQ_LC_4_2_5 }
+set_location LT_4_2 4 2
+ble_pack up_2_LC_4_3_2 { up_RNO[2], up[2] }
+ble_pack up_1_LC_4_3_5 { up_RNO[1], up[1] }
+clb_pack LT_4_3 { up_2_LC_4_3_2, up_1_LC_4_3_5 }
+set_location LT_4_3 4 3
+ble_pack up_e_0_LC_5_2_7 { up_e_RNO[0], up_e[0] }
+clb_pack LT_5_2 { up_e_0_LC_5_2_7 }
+set_location LT_5_2 5 2
+ble_pack down_1_LC_5_3_0 { down_RNO[1], down[1] }
+ble_pack down_2_LC_5_3_2 { down_RNO[2], down[2] }
+clb_pack LT_5_3 { down_1_LC_5_3_0, down_2_LC_5_3_2 }
+set_location LT_5_3 5 3
+ble_pack shift2_0_2_LC_6_2_1 { shift2_0_2_THRU_LUT4_0, shift2_0[2] }
+ble_pack shift2_ret_1_RNITCI51_LC_6_2_4 { shift2_ret_1_RNITCI51 }
+ble_pack shift2_ret_1_LC_6_2_5 { shift2_ret_1_RNO, shift2_ret_1 }
+ble_pack shift2_0_1_LC_6_2_7 { shift2_0_1_THRU_LUT4_0, shift2_0[1] }
+clb_pack LT_6_2 { shift2_0_2_LC_6_2_1, shift2_ret_1_RNITCI51_LC_6_2_4, shift2_ret_1_LC_6_2_5, shift2_0_1_LC_6_2_7 }
+set_location LT_6_2 6 2
+ble_pack down_e_0_LC_6_3_4 { down_e_RNO[0], down_e[0] }
+clb_pack LT_6_3 { down_e_0_LC_6_3_4 }
+set_location LT_6_3 6 3
+set_io PORT1 1
+set_io CLK 15
+set_io BUT2 42
+set_io BUT1 41

@@ -1,0 +1,12 @@
+set_io CLK J3
+set_io LED0 G1
+set_io LED1 C1
+set_io LED2 J5
+set_io LED3 C2
+set_io LED4 H2
+set_io LED5 F4
+set_io LED6 J4
+set_io LED7 D2
+set_io uart_txd J2
+set_io signalA E4
+set_io signalB B2

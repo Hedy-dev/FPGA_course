@@ -1,0 +1,17 @@
+@P:  Worst Slack : -1.068
+@P:  top|CLK - Estimated Frequency : 173.4 MHz
+@P:  top|CLK - Requested Frequency : 204.0 MHz
+@P:  top|CLK - Estimated Period : 5.768
+@P:  top|CLK - Requested Period : 4.903
+@P:  top|CLK - Slack : -0.865
+@P:  System - Estimated Frequency : 167.5 MHz
+@P:  System - Requested Frequency : 197.0 MHz
+@P:  System - Estimated Period : 5.971
+@P:  System - Requested Period : 5.075
+@P:  System - Slack : -0.896
+@P: top Part : ice40hx1kvq100
+@P: top I/O primitives : 11
+@P: top I/O Register bits : 0
+@P: top Register bits (Non I/O) : 38 (2%)
+@P: top Total Luts : 42 (3%)
+@P:  CPU Time : 0h:00m:00s

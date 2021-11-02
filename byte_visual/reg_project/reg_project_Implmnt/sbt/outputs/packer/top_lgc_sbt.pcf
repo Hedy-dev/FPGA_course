@@ -1,0 +1,114 @@
+set_location IN_MUX_bfv_5_3_0_ 5 3 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_5_4_0_ 5 4 0 #ICE_CARRY_IN_MUX
+set_location shift_0_RNIETMJ_1_shift_ret_1_REP_LUT4_0 4 1 2 #SB_LUT4
+set_location shift_0_2_THRU_LUT4_0 4 1 0 #SB_LUT4
+set_location shift_0_1_THRU_LUT4_0 4 1 1 #SB_LUT4
+set_location shift2_0_RNIJLUP_1_shift2_ret_1_REP_LUT4_0 4 2 5 #SB_LUT4
+set_location shift2_0_2_THRU_LUT4_0 4 2 2 #SB_LUT4
+set_location shift2_0_1_THRU_LUT4_0 4 2 1 #SB_LUT4
+set_location up_RNO[2] 4 1 7 #SB_LUT4
+set_location delay_RNO[13] 5 4 5 #SB_LUT4
+set_location delay[10] 5 4 2 #SB_DFF
+set_location BIT[7] 1 3 4 #SB_DFF
+set_location down_RNO[1] 4 2 0 #SB_LUT4
+set_location delay[1] 5 3 1 #SB_DFF
+set_location BIT_RNO[3] 1 3 5 #SB_LUT4
+set_location how_RNO[1] 2 2 7 #SB_LUT4
+set_location delay_cry_c[6] 5 3 6 #SB_CARRY
+set_location delay[8] 5 4 0 #SB_DFF
+set_location up[1] 4 1 4 #SB_DFF
+set_location down[2] 4 2 4 #SB_DFF
+set_location delay_RNO[6] 5 3 6 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location shift_0[2] 4 1 0 #SB_DFF
+set_location delay_RNO[9] 5 4 1 #SB_LUT4
+set_location BIT[3] 1 3 5 #SB_DFF
+set_location up_RNO_0[2] 4 1 6 #SB_LUT4
+set_location delay_cry_c[1] 5 3 1 #SB_CARRY
+set_location delay_RNIABQR[14] 5 4 7 #SB_LUT4
+set_location delay_RNI55JF4[10] 6 3 1 #SB_LUT4
+set_location delay[5] 5 3 5 #SB_DFF
+set_location BIT_RNO[7] 1 3 4 #SB_LUT4
+set_location delay_RNO[12] 5 4 4 #SB_LUT4
+set_location shift2_0[1] 4 2 1 #SB_DFF
+set_location delay_RNO[2] 5 3 2 #SB_LUT4
+set_location delay[13] 5 4 5 #SB_DFF
+set_location how[2] 2 2 1 #SB_DFF
+set_location down_e_RNO[0] 5 2 3 #SB_LUT4
+set_location delay[2] 5 3 2 #SB_DFF
+set_location BIT_RNO[0] 2 1 7 #SB_LUT4
+set_location how_RNO[0] 2 2 3 #SB_LUT4
+set_location delay_cry_c[5] 5 3 5 #SB_CARRY
+set_location delay_cry_c[10] 5 4 2 #SB_CARRY
+set_location delay[9] 5 4 1 #SB_DFF
+set_location up[2] 4 1 7 #SB_DFF
+set_location down[1] 4 2 0 #SB_DFF
+set_location delay_RNO[7] 5 3 7 #SB_LUT4
+set_location delay[0] 5 3 0 #SB_DFF
+set_location BIT_RNO[2] 2 1 6 #SB_LUT4
+set_location delay_cry_c[7] 5 3 7 #SB_CARRY
+set_location BIT[4] 2 1 0 #SB_DFF
+set_location shift_0_RNIETMJ[1] 4 1 3 #SB_LUT4
+set_location delay_cry_c[0] 5 3 0 #SB_CARRY
+set_location delay_RNO[1] 5 3 1 #SB_LUT4
+set_location delay[6] 5 3 6 #SB_DFF
+set_location delay[14] 5 4 6 #SB_DFF
+set_location BIT_RNO[4] 2 1 0 #SB_LUT4
+set_location up_e[0] 5 1 1 #SB_DFFE
+set_location shift_ret_1 4 1 2 #SB_DFF
+set_location shift_0[1] 4 1 1 #SB_DFF
+set_location delay_cry_c[9] 5 4 1 #SB_CARRY
+set_location delay_RNO[8] 5 4 0 #SB_LUT4
+set_location delay_RNO[11] 5 4 3 #SB_LUT4
+set_location BIT[2] 2 1 6 #SB_DFF
+set_location shift2_0[2] 4 2 2 #SB_DFF
+set_location down_RNO_0[2] 4 2 3 #SB_LUT4
+set_location delay_cry_c[2] 5 3 2 #SB_CARRY
+set_location delay_cry_c[13] 5 4 5 #SB_CARRY
+set_location delay_RNO[3] 5 3 3 #SB_LUT4
+set_location delay[4] 5 3 4 #SB_DFF
+set_location delay[12] 5 4 4 #SB_DFF
+set_location BIT_RNO[6] 2 1 5 #SB_LUT4
+set_location shift2_0_RNIJLUP[1] 4 2 7 #SB_LUT4
+set_location how[1] 2 2 7 #SB_DFF
+set_location delay[3] 5 3 3 #SB_DFF
+set_location BIT_RNO[1] 1 3 3 #SB_LUT4
+set_location BIT[0] 2 1 7 #SB_DFF
+set_location shift2_ret_1 4 2 5 #SB_DFF
+set_location delay_cry_c[4] 5 3 4 #SB_CARRY
+set_location delay_cry_c[11] 5 4 3 #SB_CARRY
+set_location delay_RNO[14] 5 4 6 #SB_LUT4
+set_location delay_RNO[4] 5 3 4 #SB_LUT4
+set_location BIT[5] 1 3 7 #SB_DFF
+set_location delay[7] 5 3 7 #SB_DFF
+set_location BIT_RNO[5] 1 3 7 #SB_LUT4
+set_location up_RNO[1] 4 1 4 #SB_LUT4
+set_location delay_cry_c[8] 5 4 0 #SB_CARRY
+set_location delay_RNO[10] 5 4 2 #SB_LUT4
+set_location delay_RNO[0] 5 3 0 #SB_LUT4
+set_location how[0] 2 2 3 #SB_DFF
+set_location down_RNO[2] 4 2 4 #SB_LUT4
+set_location delay_RNI5HJ71[10] 6 3 0 #SB_LUT4
+set_location delay_RNI2HGB1[0] 6 3 4 #SB_LUT4
+set_location BIT[1] 1 3 3 #SB_DFF
+set_location how_RNO[2] 2 2 1 #SB_LUT4
+set_location how_RNO_0[2] 2 2 0 #SB_LUT4
+set_location delay_cry_c[3] 5 3 3 #SB_CARRY
+set_location delay_cry_c[12] 5 4 4 #SB_CARRY
+set_location up_e_RNO[0] 5 1 1 #SB_LUT4
+set_location delay_RNO[5] 5 3 5 #SB_LUT4
+set_location down_e[0] 5 2 3 #SB_DFFE
+set_location delay_RNIKNK01[4] 6 3 2 #SB_LUT4
+set_location delay[11] 5 4 3 #SB_DFF
+set_location BIT[6] 2 1 5 #SB_DFF
+set_io LED5 12
+set_io LED1 9
+set_io BUT2 42
+set_io LED6 29
+set_io LED4 30
+set_io LED2 33
+set_io LED0 34
+set_io CLK 15
+set_io BUT1 41
+set_io LED7 13
+set_io LED3 10

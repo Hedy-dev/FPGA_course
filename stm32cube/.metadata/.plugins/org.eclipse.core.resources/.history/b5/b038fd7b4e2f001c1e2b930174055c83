@@ -1,0 +1,124 @@
+#include "main.h"
+//#include "mainpp.h"
+
+#include "FSM.h"
+#include "DataReader.h"
+#include "DataSender.h"
+
+#include <vector>
+#include <deque>
+
+// external vars declaration
+extern UART_HandleTypeDef huart1;
+extern UART_HandleTypeDef huart2;
+
+// global objects
+static DataReader reader;
+static DataSender sender(&huart1);
+
+static FSMSIG _signal;
+static FSMSTATE state;
+
+static std::deque<uint16_t> deque;
+
+// global variables definition
+FSMSIG ext_signal;
+uint8_t is_gen_started;
+
+bool is_read_finished;
+
+void wait_state_proc() {
+	FSMSIG tmp_signal = _signal;
+	switch(tmp_signal) {
+		case NOP:
+			state = WAIT;
+			break;
+		case NEXT_SAMPLE:
+			state = SEND;
+			break;
+		case NEXT_CHUNK:
+			state = READ;
+			break;
+	}
+}
+
+void send_state_proc() {
+	FSMSIG tmp_signal = _signal;
+	HAL_GPIO_WritePin(NXT_SMPL_RAISED_GPIO_Port, NXT_SMPL_RAISED_Pin, GPIO_PIN_RESET);
+	if(deque.size() > 0) {
+		auto val = deque.front();
+		if(sender.send_signal_sample(val)) {
+			//TODO: что делать, если не передали?
+		}
+		deque.pop_front();
+		if(deque.size() < 5 && !reader.is_read_finished()) {
+			_signal = NEXT_CHUNK;
+		}
+	}
+	else {
+		//queue empty stop signal generation
+		HAL_GPIO_WritePin(GPIOC, GEN_STARTED_Pin, GPIO_PIN_RESET);
+		is_gen_started = 0x00;
+		reader.rewind();
+	}
+	switch(tmp_signal) {
+		case NOP:
+			state = WAIT;
+			break;
+		case NEXT_CHUNK:
+			state = READ;
+			break;
+		default:
+			//TODO: handle error
+			break;
+	}
+}
+
+void read_state_proc() {
+	FSMSIG tmp_signal = _signal;
+	if(reader.next_chunk()) {
+		reader.get_data(deque);
+	}
+	switch(tmp_signal) {
+		case NOP:
+			state = WAIT;
+			break;
+		case NEXT_SAMPLE:
+			state = SEND;
+			break;
+		default:
+			//TODO: handle error
+			break;
+	}
+}
+
+int main() {
+	is_gen_started = 0x00;
+
+	initialize();
+	if( !reader.init() ) {
+		while(true) {
+			HAL_GPIO_TogglePin(GPIOA, LD2_Pin);
+			HAL_Delay(500);
+		}
+	}
+
+	bool is_fsm_processing = true;
+	while(is_fsm_processing) {
+		switch(state) {
+			case WAIT:
+				wait_state_proc();
+				break;
+			case SEND:
+				send_state_proc();
+				break;
+			case READ:
+				read_state_proc();
+				break;
+			default:
+				is_fsm_processing = false;
+		}
+		_signal = ext_signal;
+		ext_signal = NOP;
+	}
+}

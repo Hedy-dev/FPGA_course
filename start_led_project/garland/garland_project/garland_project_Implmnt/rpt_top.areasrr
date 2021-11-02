@@ -1,0 +1,35 @@
+#### START OF AREA REPORT #####[
+
+Part:			ICE40HX1KVQ100 (Lattice)
+
+-------------------------------------------------------------------
+########   Utilization report for  Top level view:   top   ########
+===================================================================
+
+SEQUENTIAL ELEMENTS
+Name      Total elements     Utilization     Notes
+--------------------------------------------------
+FLOPS     35                 100 %                
+==================================================
+Total SEQUENTIAL ELEMENTS in the block top:	35 (23.81 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name       Total elements     Utilization     Notes
+---------------------------------------------------
+LUTS       60                 100 %                
+CARRYS     41                 100 %                
+===================================================
+Total COMBINATIONAL LOGIC in the block top:	101 (68.71 % Utilization)
+
+
+IO PADS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+PADS     9                  100 %                
+=================================================
+Total IO PADS in the block top:	9 (6.12 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

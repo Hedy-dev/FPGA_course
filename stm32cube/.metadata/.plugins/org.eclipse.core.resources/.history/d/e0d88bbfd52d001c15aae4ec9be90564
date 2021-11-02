@@ -1,0 +1,47 @@
+#include "DataSender.h"
+
+
+DataSender::DataSender() : m_huart_ptr(nullptr) {
+
+}
+
+DataSender::DataSender(UART_HandleTypeDef* uart_ptr) : m_huart_ptr(uart_ptr) {
+
+}
+
+DataSender::~DataSender() {
+
+}
+
+uint8_t buffer[2];
+bool DataSender::send_signal_sample(uint16_t data) const {
+	bool result = false;
+	HAL_StatusTypeDef status;
+
+	buffer[0] = data;
+	buffer[1] = data >> 8;
+	if(m_huart_ptr != nullptr) {
+		//status = HAL_UART_Transmit_IT(m_huart_ptr, buffer, sizeof(buffer));
+		status = HAL_UART_Transmit(m_huart_ptr, buffer, 1, 1);
+		//status = HAL_UART_Transmit(m_huart_ptr, buffer, sizeof(buffer), 1);
+		if(status == HAL_OK) {
+			result = true;
+		}
+	}
+	return result;
+
+}
+
+bool DataSender::send(std::vector<uint8_t>& data) {
+	bool result = false;
+	HAL_StatusTypeDef status;
+
+	if(m_huart_ptr != nullptr) {
+		status = HAL_UART_Transmit_IT(m_huart_ptr, data.data(), data.size());
+		if(status == HAL_OK) {
+			result = true;
+		}
+	}
+	return result;
+}
+

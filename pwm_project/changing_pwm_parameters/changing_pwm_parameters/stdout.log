@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    DESKTOP-MCV12E2
+Date:        Tue Jul 13 16:01:31 2021
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch changing_pwm_parameters_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.srr"
+Running: changing_pwm_parameters_Implmnt in foreground
+
+Running changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+
+Running: compile (Compile) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:31 2021
+
+Running: compile_flow (Compile Process) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:31 2021
+
+Running: compiler (Compile Input) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:31 2021
+Copied D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\synwork\changing_pwm_parameters_comp.srs to D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.srs
+
+compiler completed
+# Tue Jul 13 16:01:32 2021
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:32 2021
+
+multi_srs_gen completed
+# Tue Jul 13 16:01:32 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\synwork\changing_pwm_parameters_mult.srs to D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.srs
+Complete: Compile Process on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+
+Running: premap (Pre-mapping) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:32 2021
+
+premap completed with warnings
+# Tue Jul 13 16:01:33 2021
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+
+Running: map (Map) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:33 2021
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+# Tue Jul 13 16:01:33 2021
+Copied D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\synwork\changing_pwm_parameters_m.srm to D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.srm
+
+fpga_mapper completed with warnings
+# Tue Jul 13 16:01:33 2021
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Map on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+Complete: Logic Synthesis on changing_pwm_parameters_syn|changing_pwm_parameters_Implmnt
+
+exit status=0
+
+exit status=0
+

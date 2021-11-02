@@ -1,0 +1,971 @@
+12:56:55
+"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Led8Test_syn.prj" -log "D:/projects/FPGA/ksenia/Led8Test/Led8Test_Implmnt/Led8Test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of D:/projects/FPGA/ksenia/Led8Test/Led8Test_Implmnt/Led8Test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MCV12E2
+
+# Wed Jul 14 12:57:13 2021
+
+#Implementation: Led8Test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v" (library work)
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":14:7:14:15|Assignment target READ_DATA must be a net type
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v" (library work)
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":25:11:25:17|Assignment target rx_byte must be a net type
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Previous module with same name spi_slave
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Duplicate module name spi_slave
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":14:7:14:15|Assignment target READ_DATA must be a net type
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Previous module with same name uart_receiver
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Duplicate module name uart_receiver
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":25:11:25:17|Assignment target rx_byte must be a net type
+6 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 12:57:13 2021
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 12:57:13 2021
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Led8Test_syn.prj" -log "Led8Test_Implmnt/Led8Test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Led8Test_Implmnt/Led8Test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MCV12E2
+
+# Wed Jul 14 12:57:44 2021
+
+#Implementation: Led8Test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v" (library work)
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":14:7:14:15|Assignment target READ_DATA must be a net type
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v" (library work)
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":25:11:25:17|Assignment target rx_byte must be a net type
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Previous module with same name spi_slave
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Duplicate module name spi_slave
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":14:7:14:15|Assignment target READ_DATA must be a net type
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Previous module with same name uart_receiver
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Duplicate module name uart_receiver
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":25:11:25:17|Assignment target rx_byte must be a net type
+6 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 12:57:44 2021
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 12:57:44 2021
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:00:06 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(14): concurrent assignment to a non-net READ_DATA is not permitted. VERI-1195
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:00:28 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(14): concurrent assignment to a non-net READ_DATA is not permitted. VERI-1195
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:03:52 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(44): ss is not declared. VERI-1128
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:03:55 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(44): ss is not declared. VERI-1128
+Synthesis failed.
+Synthesis batch mode runtime 0 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Led8Test_syn.prj" -log "Led8Test_Implmnt/Led8Test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Led8Test_Implmnt/Led8Test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MCV12E2
+
+# Wed Jul 14 13:04:17 2021
+
+#Implementation: Led8Test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v" (library work)
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":25:11:25:17|Assignment target rx_byte must be a net type
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Previous module with same name spi_slave
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Duplicate module name spi_slave
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Previous module with same name uart_receiver
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Duplicate module name uart_receiver
+@E: CS179 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":25:11:25:17|Assignment target rx_byte must be a net type
+4 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 13:04:17 2021
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 13:04:17 2021
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Led8Test_syn.prj" -log "Led8Test_Implmnt/Led8Test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Led8Test_Implmnt/Led8Test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MCV12E2
+
+# Wed Jul 14 13:04:48 2021
+
+#Implementation: Led8Test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v" (library work)
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Previous module with same name spi_slave
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Duplicate module name spi_slave
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Previous module with same name uart_receiver
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:19|Duplicate module name uart_receiver
+2 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 13:04:48 2021
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 13:04:48 2021
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 seconds"C:\lscc\iCEcube2.2020.12\sbt_backend\bin\win32\opt\synpwrap\synpwrap.exe" -prj "Led8Test_syn.prj" -log "Led8Test_Implmnt/Led8Test.srr"
+starting Synthesisrunning SynthesisCopyright (C) 1992-2014 Lattice Semiconductor Corporation. All rights reserved.
+
+==contents of Led8Test_Implmnt/Led8Test.srr
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MCV12E2
+
+# Wed Jul 14 13:05:17 2021
+
+#Implementation: Led8Test_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v" (library work)
+@I:"D:\projects\FPGA\ksenia\Led8Test\Led8Test.v":"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v" (library work)
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Previous module with same name spi_slave
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Duplicate module name spi_slave
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:23|Previous module with same name uart_receiver_mod
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:23|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@E: CG855 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:23|Duplicate module name uart_receiver_mod
+2 syntax errors
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 13:05:17 2021
+
+###########################################################]
+@END
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Wed Jul 14 13:05:17 2021
+
+###########################################################]
+
+
+Synthesis exit by 2.
+Synthesis failed.
+Synthesis batch mode runtime 1 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:05:51 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(44): ss is not declared. VERI-1128
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:11:45 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(75): duplicate module name spi_slave. VERI-1206
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:12:12 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+ERROR - synthesis: spi_slave.v(75): duplicate module name spi_slave_mod. VERI-1206
+Synthesis failed.
+Synthesis batch mode runtime 0 secondsC:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f "Led8Test_lse.prj"
+starting Synthesisrunning SynthesisCopyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2015 Lattice Semiconductor Corporation,  All rights reserved.
+Wed Jul 14 13:18:31 2021
+
+
+Command Line:  C:\lscc\iCEcube2.2020.12\LSE\bin\nt\synthesis.exe -f Led8Test_lse.prj 
+
+INFO - synthesis: Lattice Synthesis Engine Launched.
+Synthesis options:
+The -a option is SBTiCE40.
+The -t option is VQ100.
+The -d option is iCE40HX1K.
+                                                          
+
+##########################################################
+
+### Lattice Family : SBTiCE40
+
+### Device  : iCE40HX1K
+
+### Package : VQ100
+
+### Number of Logic Cells: 1280
+
+### Number of RAM4k Blocks: 16
+
+### Number of DSP Blocks: 0
+
+### Number of PLLs: 1
+
+### Number of IO Pins: 95
+
+##########################################################
+
+                                                          
+
+Optimization goal = Area
+The -top option is not used.
+Target frequency = 1.000000 MHz.
+Maximum fanout = 10000.
+Timing path count = 3
+RWCheckOnRam = 0
+
+BRAM utilization = 100.000000 %
+DSP usage = true (default)
+DSP utilization = 100 % (default)
+fsm_encoding_style = auto
+resolve_mixed_drivers = 0
+fix_gated_clocks = 1
+
+Mux style = auto (Default)
+Use Carry Chain = true
+carry_chain_length = 0
+Loop Limit = 1950.
+Use IO Insertion = TRUE
+Use IO Reg = AUTO
+
+Resource Sharing = TRUE
+Propagate Constants = TRUE
+Remove Duplicate Registers = TRUE
+Output EDIF file name = Led8Test_Implmnt/Led8Test.edf.
+WARNING - synthesis: Option -force_gsr will be set to false when option -output_edif/-ngo are set
+ROM style = auto
+RAM style = auto
+The -comp option is FALSE.
+The -syn option is FALSE.
+-p D:/projects/FPGA/ksenia/Led8Test (searchpath added)
+Verilog design file = Led8Test.v
+Verilog design file = spi_slave.v
+Verilog design file = uart_receiver.v
+-sdc option: SDC file input not used.
+WARNING - synthesis: Setting uart_receiver_mod as the top-level module. To specify the top-level module explicitly, use the -top option.
+Technology check ok...
+
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/machxo2.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+Compile design.
+Compile Design Begin
+Analyzing Verilog file led8test.v. VERI-1482
+Analyzing Verilog file spi_slave.v. VERI-1482
+Analyzing Verilog file uart_receiver.v. VERI-1482
+Analyzing Verilog file C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v. VERI-1482
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(79): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(88): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(98): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(108): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(118): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(170): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(179): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(189): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(199): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(209): assignment to input EVERI-1214
+WARNING - synthesis: C:/lscc/iCEcube2.2020.12/LSE/userware/NT/SYNTHESIS_HEADERS/sb_ice40.v(3725): empty port in module declaration. VERI-1294
+Top module name (Verilog): uart_receiver_mod
+INFO - synthesis: uart_receiver.v(1): compiling module uart_receiver_mod. VERI-1018
+WARNING - synthesis: uart_receiver.v(38): expression size 32 truncated to fit in target size 11. VERI-1209
+WARNING - synthesis: uart_receiver.v(41): expression size 32 truncated to fit in target size 6. VERI-1209
+WARNING - synthesis: uart_receiver.v(81): expression size 32 truncated to fit in target size 4. VERI-1209
+WARNING - synthesis: uart_receiver.v(82): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: uart_receiver.v(90): expression size 32 truncated to fit in target size 3. VERI-1209
+WARNING - synthesis: uart_receiver.v(96): expression size 32 truncated to fit in target size 3. VERI-1209
+Last elaborated design is uart_receiver_mod()
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/xo2c00/data/xo2clib.ngl'...
+Loading NGL library 'C:/lscc/iCEcube2.2020.12/LSE/or5g00/data/orc5glib.ngl'...
+Top-level module name = uart_receiver_mod.
+
+
+
+Applying 1.000000 MHz constraint to all clocks
+
+Writing scf file : Led8Test_Implmnt/Led8Test.scf
+
+Results of NGD DRC are available in uart_receiver_mod_drc.log.
+
+################### Begin Area Report (uart_receiver_mod)######################
+Number of register bits => 32 of 1280 (2 % )
+SB_CARRY => 15
+SB_DFF => 25
+SB_DFFE => 4
+SB_DFFESR => 2
+SB_DFFSR => 1
+SB_GB_IO => 1
+SB_IO => 13
+SB_LUT4 => 93
+################### End Area Report ##################
+
+################### Begin Clock Report ######################
+Clock Nets
+Number of Clocks: 1
+  Net : clk_c, loads : 32
+Clock Enable Nets
+Number of Clock Enables: 0
+Top 0 highest fanout Clock Enables:
+Highest fanout non-clock nets
+Top 10 highest fanout non-clock nets:
+  Net : rst_c, loads : 28
+  Net : recv_state_1, loads : 17
+  Net : recv_state_0, loads : 13
+  Net : n728, loads : 11
+  Net : recv_state_2, loads : 10
+  Net : rx_c, loads : 9
+  Net : recv_state_2_N_36_2, loads : 9
+  Net : recv_state_2_N_33_2, loads : 8
+  Net : n7, loads : 8
+  Net : recv_state_2_N_33_1, loads : 7
+################### End Clock Report ##################
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_c]                   |    1.000 MHz|   24.512 MHz|    26  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Peak Memory Usage: 40.574  MB
+
+--------------------------------------------------------------
+Elapsed CPU time for LSE flow : 0.438  secs
+--------------------------------------------------------------
+Current Implementation Led8Test_Implmnt its sbt path: D:/projects/FPGA/ksenia/Led8Test/Led8Test_Implmnt\sbt
+Synthesis succeed.
+Synthesis succeeded.
+Synthesis runtime 0 seconds
+13:20:41

@@ -1,0 +1,7 @@
+C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_comp.srs  -osyn  D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_mult.srs  -log  D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synlog\pwm_generation_value_multi_srs_gen.srr 
+rc:0 success:1 runtime:0
+file:D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_comp.srs|io:i|time:1626181459|size:1756|exec:0
+file:D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_mult.srs|io:o|time:1626181460|size:1499|exec:0
+file:D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synlog\pwm_generation_value_multi_srs_gen.srr|io:o|time:1626181460|size:731|exec:0
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin\syn_nfilter.exe|io:i|time:1614852378|size:3128320|exec:1
+file:C:\lscc\iCEcube2.2020.12\synpbase\bin64\syn_nfilter.exe|io:i|time:1614852379|size:3947520|exec:1

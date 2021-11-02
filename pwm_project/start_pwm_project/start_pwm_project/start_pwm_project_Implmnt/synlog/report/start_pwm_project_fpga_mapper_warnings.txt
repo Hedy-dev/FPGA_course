@@ -1,0 +1,2 @@
+@W: FX1039 :"d:\projects\fpga\ksenia\pwm_project\start_pwm_project\pwm.v":19:0:19:5|User-specified initial value defined for instance PORT_r is being ignored. 
+@W: MT420 |Found inferred clock top|CLK with period 4.43ns. Please declare a user-defined clock on object "p:CLK"

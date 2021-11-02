@@ -1,0 +1,56 @@
+ble_pack delay[0]_LC_13 {delay[0], delay_cry_c[0], delay_RNO[0]}
+ble_pack delay[1]_LC_14 {delay[1], delay_cry_c[1], delay_RNO[1]}
+ble_pack delay[2]_LC_20 {delay[2], delay_cry_c[2], delay_RNO[2]}
+ble_pack delay[3]_LC_21 {delay[3], delay_cry_c[3], delay_RNO[3]}
+ble_pack delay[4]_LC_22 {delay[4], delay_cry_c[4], delay_RNO[4]}
+ble_pack delay[5]_LC_23 {delay[5], delay_cry_c[5], delay_RNO[5]}
+ble_pack delay[6]_LC_24 {delay[6], delay_cry_c[6], delay_RNO[6]}
+ble_pack delay[7]_LC_25 {delay[7], delay_cry_c[7], delay_RNO[7]}
+clb_pack PLB_0 {delay[0]_LC_13, delay[1]_LC_14, delay[2]_LC_20, delay[3]_LC_21, delay[4]_LC_22, delay[5]_LC_23, delay[6]_LC_24, delay[7]_LC_25}
+ble_pack delay[8]_LC_26 {delay[8], delay_cry_c[8], delay_RNO[8]}
+ble_pack delay[9]_LC_27 {delay[9], delay_cry_c[9], delay_RNO[9]}
+ble_pack delay[10]_LC_15 {delay[10], delay_cry_c[10], delay_RNO[10]}
+ble_pack delay[11]_LC_16 {delay[11], delay_cry_c[11], delay_RNO[11]}
+ble_pack delay[12]_LC_17 {delay[12], delay_cry_c[12], delay_RNO[12]}
+ble_pack delay[13]_LC_18 {delay[13], delay_cry_c[13], delay_RNO[13]}
+ble_pack delay[14]_LC_19 {delay[14], delay_RNO[14]}
+clb_pack PLB_1 {delay[8]_LC_26, delay[9]_LC_27, delay[10]_LC_15, delay[11]_LC_16, delay[12]_LC_17, delay[13]_LC_18, delay[14]_LC_19}
+ble_pack delay_RNI2HGB1[0]_LC_8 {delay_RNI2HGB1[0]}
+ble_pack delay_RNI55JF4[10]_LC_9 {delay_RNI55JF4[10]}
+ble_pack delay_RNIKNK01[4]_LC_12 {delay_RNIKNK01[4]}
+ble_pack delay_RNIABQR[14]_LC_11 {delay_RNIABQR[14]}
+ble_pack delay_RNI5HJ71[10]_LC_10 {delay_RNI5HJ71[10]}
+ble_pack shift2_0[1]_LC_42 {shift2_0[1], shift2_0_1_THRU_LUT4_0}
+ble_pack shift2_0_RNIJLUP[1]_LC_36 {shift2_0_RNIJLUP[1]}
+ble_pack shift2_ret_1_LC_44 {shift2_ret_1, shift2_0_RNIJLUP_1_shift2_ret_1_REP_LUT4_0}
+clb_pack PLB_2 {delay_RNI2HGB1[0]_LC_8, delay_RNI55JF4[10]_LC_9, delay_RNIKNK01[4]_LC_12, delay_RNIABQR[14]_LC_11, delay_RNI5HJ71[10]_LC_10, shift2_0[1]_LC_42, shift2_0_RNIJLUP[1]_LC_36, shift2_ret_1_LC_44}
+ble_pack down_RNO_0[2]_LC_28 {down_RNO_0[2]}
+ble_pack down_e[0]_LC_31 {down_e[0], down_e_RNO[0]}
+ble_pack how_RNO_0[2]_LC_33 {how_RNO_0[2]}
+ble_pack up_RNO_0[2]_LC_38 {up_RNO_0[2]}
+ble_pack shift_0_RNIETMJ[1]_LC_37 {shift_0_RNIETMJ[1]}
+clb_pack PLB_3 {down_RNO_0[2]_LC_28, down_e[0]_LC_31, how_RNO_0[2]_LC_33, up_RNO_0[2]_LC_38, shift_0_RNIETMJ[1]_LC_37}
+ble_pack how[1]_LC_34 {how[1], how_RNO[1]}
+ble_pack BIT[0]_LC_0 {BIT[0], BIT_RNO[0]}
+ble_pack how[0]_LC_32 {how[0], how_RNO[0]}
+ble_pack BIT[1]_LC_1 {BIT[1], BIT_RNO[1]}
+ble_pack BIT[2]_LC_2 {BIT[2], BIT_RNO[2]}
+ble_pack BIT[3]_LC_3 {BIT[3], BIT_RNO[3]}
+ble_pack BIT[4]_LC_4 {BIT[4], BIT_RNO[4]}
+ble_pack BIT[5]_LC_5 {BIT[5], BIT_RNO[5]}
+clb_pack PLB_4 {how[1]_LC_34, BIT[0]_LC_0, how[0]_LC_32, BIT[1]_LC_1, BIT[2]_LC_2, BIT[3]_LC_3, BIT[4]_LC_4, BIT[5]_LC_5}
+ble_pack BIT[6]_LC_6 {BIT[6], BIT_RNO[6]}
+ble_pack how[2]_LC_35 {how[2], how_RNO[2]}
+ble_pack BIT[7]_LC_7 {BIT[7], BIT_RNO[7]}
+clb_pack PLB_5 {BIT[6]_LC_6, how[2]_LC_35, BIT[7]_LC_7}
+ble_pack down[1]_LC_29 {down[1], down_RNO[1]}
+ble_pack down[2]_LC_30 {down[2], down_RNO[2]}
+ble_pack up[1]_LC_39 {up[1], up_RNO[1]}
+ble_pack up[2]_LC_40 {up[2], up_RNO[2]}
+ble_pack shift_ret_1_LC_47 {shift_ret_1, shift_0_RNIETMJ_1_shift_ret_1_REP_LUT4_0}
+ble_pack shift_0[1]_LC_45 {shift_0[1], shift_0_1_THRU_LUT4_0}
+ble_pack shift_0[2]_LC_46 {shift_0[2], shift_0_2_THRU_LUT4_0}
+ble_pack shift2_0[2]_LC_43 {shift2_0[2], shift2_0_2_THRU_LUT4_0}
+clb_pack PLB_6 {down[1]_LC_29, down[2]_LC_30, up[1]_LC_39, up[2]_LC_40, shift_ret_1_LC_47, shift_0[1]_LC_45, shift_0[2]_LC_46, shift2_0[2]_LC_43}
+ble_pack up_e[0]_LC_41 {up_e[0], up_e_RNO[0]}
+clb_pack PLB_7 {up_e[0]_LC_41}

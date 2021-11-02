@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    DESKTOP-MCV12E2
+Date:        Tue Jul 13 16:04:19 2021
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch pwm_generation_value_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\pwm_generation_value.srr"
+Running: pwm_generation_value_Implmnt in foreground
+
+Running pwm_generation_value_syn|pwm_generation_value_Implmnt
+
+Running: compile (Compile) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:19 2021
+
+Running: compile_flow (Compile Process) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:19 2021
+
+Running: compiler (Compile Input) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:19 2021
+Copied D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_comp.srs to D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\pwm_generation_value.srs
+
+compiler completed
+# Tue Jul 13 16:04:20 2021
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:20 2021
+
+multi_srs_gen completed
+# Tue Jul 13 16:04:20 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_mult.srs to D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\pwm_generation_value.srs
+Complete: Compile Process on pwm_generation_value_syn|pwm_generation_value_Implmnt
+
+Running: premap (Pre-mapping) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:20 2021
+
+premap completed with warnings
+# Tue Jul 13 16:04:21 2021
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Compile on pwm_generation_value_syn|pwm_generation_value_Implmnt
+
+Running: map (Map) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:21 2021
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on pwm_generation_value_syn|pwm_generation_value_Implmnt
+# Tue Jul 13 16:04:21 2021
+Copied D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\synwork\pwm_generation_value_m.srm to D:\projects\FPGA\ksenia\pwm_project\pwm_generation_value\pwm_generation_value\pwm_generation_value_Implmnt\pwm_generation_value.srm
+
+fpga_mapper completed with warnings
+# Tue Jul 13 16:04:21 2021
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Map on pwm_generation_value_syn|pwm_generation_value_Implmnt
+Complete: Logic Synthesis on pwm_generation_value_syn|pwm_generation_value_Implmnt
+
+exit status=0
+
+exit status=0
+

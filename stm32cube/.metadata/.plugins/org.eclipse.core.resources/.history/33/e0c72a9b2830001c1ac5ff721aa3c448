@@ -1,0 +1,14 @@
+/*
+ * mainpp.h
+ *
+ *  Created on: Oct 3, 2021
+ *      Author: vladimir
+ */
+
+#ifndef INC_MAINPP_H_
+#define INC_MAINPP_H_
+
+void init();
+void loop();
+
+#endif /* INC_MAINPP_H_ */

@@ -1,0 +1,24 @@
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+SB_CARRY        19 uses
+SB_DFF          12 uses
+SB_DFFE         1 use
+SB_LUT4         13 uses
+
+I/O ports: 2
+I/O primitives: 2
+SB_GB_IO       1 use
+SB_IO          1 use
+
+I/O Register bits:                  0
+Register bits not including I/Os:   13 (1%)
+
+@S |Mapping Summary:
+Total  LUTs: 13 (1%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 13 = 13 
+

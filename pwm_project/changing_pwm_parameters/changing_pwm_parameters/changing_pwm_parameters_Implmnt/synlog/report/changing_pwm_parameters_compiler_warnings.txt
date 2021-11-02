@@ -1,0 +1,4 @@
+@W: CG532 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":36:0:36:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CL260 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Pruning register bit 3 of how[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL260 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Pruning register bit 6 of PWM_NUM[6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

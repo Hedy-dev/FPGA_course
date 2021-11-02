@@ -1,0 +1,25 @@
+/*
+ * FSM.h
+ *
+ *  Created on: Oct 6, 2021
+ *      Author: vladimir
+ */
+
+#ifndef INC_FSM_H_
+#define INC_FSM_H_
+
+typedef enum {
+	NOP  = 0,
+	NEXT_SAMPLE,
+	NEXT_CHUNK
+} FSMSIG;
+
+
+typedef enum {
+	WAIT = 0,
+	SEND,
+	READ,
+	FAILED
+} FSMSTATE;
+
+#endif /* INC_FSM_H_ */

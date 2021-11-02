@@ -1,0 +1,8 @@
+Selecting top level module top
+@N: CG364 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":1:7:1:9|Synthesizing module top in library work.
+
+@W: CG532 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":36:0:36:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CL189 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Register bit how[3] is always 0.
+@W: CL260 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Pruning register bit 3 of how[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Register bit PWM_NUM[6] is always 0.
+@W: CL260 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Pruning register bit 6 of PWM_NUM[6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.

@@ -1,0 +1,3 @@
+set_io CLK 15
+set_io PORT_PWM 1
+set_io UART1_RX 2

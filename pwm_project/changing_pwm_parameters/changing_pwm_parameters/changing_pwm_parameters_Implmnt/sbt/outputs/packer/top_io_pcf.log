@@ -1,0 +1,4 @@
+OUTPUT PORT1 	 location (0, 14, 1) 	 1 	 
+INPUT  CLK 	 location (0, 8, 1) 	 15 	 
+INPUT  BUT2 	 location (10, 0, 1) 	 42 	 
+INPUT  BUT1 	 location (10, 0, 0) 	 41 	 

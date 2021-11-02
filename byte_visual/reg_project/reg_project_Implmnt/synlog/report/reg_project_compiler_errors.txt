@@ -1,0 +1,3 @@
+@E: CS187 :"D:\projects\FPGA\Blinker\reg_project.v":88:21:88:22|Expecting )
+@E: CS187 :"D:\projects\FPGA\Blinker\reg_project.v":125:0:125:8|Expecting endmodule
+

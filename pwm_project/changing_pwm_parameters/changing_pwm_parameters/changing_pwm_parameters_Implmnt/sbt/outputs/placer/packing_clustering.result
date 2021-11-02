@@ -1,0 +1,105 @@
+ble_pack delay[0]_LC_42 {delay[0], delay_cry_c[0], delay_RNO[0]}
+ble_pack delay[1]_LC_43 {delay[1], delay_cry_c[1], delay_RNO[1]}
+ble_pack delay[2]_LC_49 {delay[2], delay_cry_c[2], delay_RNO[2]}
+ble_pack delay[3]_LC_50 {delay[3], delay_cry_c[3], delay_RNO[3]}
+ble_pack delay[4]_LC_51 {delay[4], delay_cry_c[4], delay_RNO[4]}
+ble_pack delay[5]_LC_52 {delay[5], delay_cry_c[5], delay_RNO[5]}
+ble_pack delay[6]_LC_53 {delay[6], delay_cry_c[6], delay_RNO[6]}
+ble_pack delay[7]_LC_54 {delay[7], delay_cry_c[7], delay_RNO[7]}
+clb_pack PLB_0 {delay[0]_LC_42, delay[1]_LC_43, delay[2]_LC_49, delay[3]_LC_50, delay[4]_LC_51, delay[5]_LC_52, delay[6]_LC_53, delay[7]_LC_54}
+ble_pack delay[8]_LC_55 {delay[8], delay_cry_c[8], delay_RNO[8]}
+ble_pack delay[9]_LC_56 {delay[9], delay_cry_c[9], delay_RNO[9]}
+ble_pack delay[10]_LC_44 {delay[10], delay_cry_c[10], delay_RNO[10]}
+ble_pack delay[11]_LC_45 {delay[11], delay_cry_c[11], delay_RNO[11]}
+ble_pack delay[12]_LC_46 {delay[12], delay_cry_c[12], delay_RNO[12]}
+ble_pack delay[13]_LC_47 {delay[13], delay_cry_c[13], delay_RNO[13]}
+ble_pack delay[14]_LC_48 {delay[14], delay_RNO[14]}
+clb_pack PLB_1 {delay[8]_LC_55, delay[9]_LC_56, delay[10]_LC_44, delay[11]_LC_45, delay[12]_LC_46, delay[13]_LC_47, delay[14]_LC_48}
+ble_pack clk_div_1_cry_1_c_LC_76 {clk_div_1_cry_1_c}
+ble_pack clk_div[2]_LC_20 {clk_div[2], clk_div_1_cry_2_c, clk_div_RNO[2]}
+ble_pack clk_div[3]_LC_21 {clk_div[3], clk_div_1_cry_3_c, clk_div_RNO[3]}
+ble_pack clk_div[4]_LC_22 {clk_div[4], clk_div_1_cry_4_c, clk_div_RNO[4]}
+ble_pack clk_div[5]_LC_23 {clk_div[5], clk_div_1_cry_5_c, clk_div_RNO[5]}
+ble_pack clk_div[6]_LC_24 {clk_div[6], clk_div_1_cry_6_c, clk_div_RNO[6]}
+ble_pack clk_div[7]_LC_25 {clk_div[7], clk_div_1_cry_7_c, clk_div_RNO[7]}
+ble_pack clk_div[8]_LC_26 {clk_div[8], clk_div_1_cry_8_c, clk_div_RNO[8]}
+clb_pack PLB_2 {clk_div_1_cry_1_c_LC_76, clk_div[2]_LC_20, clk_div[3]_LC_21, clk_div[4]_LC_22, clk_div[5]_LC_23, clk_div[6]_LC_24, clk_div[7]_LC_25, clk_div[8]_LC_26}
+ble_pack clk_div[9]_LC_27 {clk_div[9], clk_div_1_cry_9_c, clk_div_RNO[9]}
+ble_pack clk_div[10]_LC_19 {clk_div[10], clk_div_RNO[10]}
+clb_pack PLB_3 {clk_div[9]_LC_27, clk_div[10]_LC_19}
+ble_pack clk_div_RNI91U1[1]_LC_79 {clk_div_RNI91U1[1]}
+ble_pack clk_div_RNIF3T2[2]_LC_81 {clk_div_RNIF3T2[2]}
+ble_pack clk_div_RNIM6S3[3]_LC_84 {clk_div_RNIM6S3[3]}
+ble_pack clk_div_RNIUAR4[4]_LC_86 {clk_div_RNIUAR4[4]}
+ble_pack clk_div_RNI7GQ5[5]_LC_77 {clk_div_RNI7GQ5[5]}
+ble_pack clk_div_RNIHMP6[6]_LC_82 {clk_div_RNIHMP6[6]}
+ble_pack clk_div_RNISTO7[7]_LC_85 {clk_div_RNISTO7[7]}
+ble_pack clk_div_RNI86O8[8]_LC_78 {clk_div_RNI86O8[8]}
+clb_pack PLB_4 {clk_div_RNI91U1[1]_LC_79, clk_div_RNIF3T2[2]_LC_81, clk_div_RNIM6S3[3]_LC_84, clk_div_RNIUAR4[4]_LC_86, clk_div_RNI7GQ5[5]_LC_77, clk_div_RNIHMP6[6]_LC_82, clk_div_RNISTO7[7]_LC_85, clk_div_RNI86O8[8]_LC_78}
+ble_pack clk_div_RNILFN9[9]_LC_83 {clk_div_RNILFN9[9]}
+ble_pack clk_div_RNIAAMP[10]_LC_80 {clk_div_RNIAAMP[10]}
+ble_pack clk_div_RNI06L91[11]_LC_15 {clk_div_RNI06L91[11]}
+clb_pack PLB_5 {clk_div_RNILFN9[9]_LC_83, clk_div_RNIAAMP[10]_LC_80, clk_div_RNI06L91[11]_LC_15}
+ble_pack PORT_r_LC_0 {PORT_r, PORT_r_RNO}
+ble_pack PWM_NUM_RNIDNV4[4]_LC_7 {PWM_NUM_RNIDNV4[4]}
+ble_pack PWM_NUM_RNIKTNT2[0]_LC_9 {PWM_NUM_RNIKTNT2[0]}
+ble_pack cntr_esr_RNO_0[3]_LC_35 {cntr_esr_RNO_0[3]}
+ble_pack clk_div_RNIM1KP1[11]_LC_16 {clk_div_RNIM1KP1[11]}
+ble_pack PWM_NUM_RNIQ48Q[0]_LC_10 {PWM_NUM_RNIQ48Q[0]}
+ble_pack PORT_r_RNO_0_LC_1 {PORT_r_RNO_0}
+ble_pack cntr[6]_LC_34 {cntr[6], cntr_RNO[6]}
+clb_pack PLB_6 {PORT_r_LC_0, PWM_NUM_RNIDNV4[4]_LC_7, PWM_NUM_RNIKTNT2[0]_LC_9, cntr_esr_RNO_0[3]_LC_35, clk_div_RNIM1KP1[11]_LC_16, PWM_NUM_RNIQ48Q[0]_LC_10, PORT_r_RNO_0_LC_1, cntr[6]_LC_34}
+ble_pack PORT_r_RNO_1_LC_2 {PORT_r_RNO_1}
+ble_pack PWM_NUM[3]_LC_12 {PWM_NUM[3], PWM_NUM_RNO[3]}
+ble_pack PWM_NUM_RNIDRQK[3]_LC_8 {PWM_NUM_RNIDRQK[3]}
+ble_pack PWM_NUM[5]_LC_14 {PWM_NUM[5], PWM_NUM_RNO[5]}
+ble_pack PWM_NUM[4]_LC_13 {PWM_NUM[4], PWM_NUM_RNO[4]}
+ble_pack PWM_NUM[1]_LC_5 {PWM_NUM[1], PWM_NUM_10_2_0_.m3}
+ble_pack PWM_NUM_RNIQIR6[1]_LC_11 {PWM_NUM_RNIQIR6[1]}
+ble_pack PWM_NUM[2]_LC_6 {PWM_NUM[2], PWM_NUM_10_2_0_.m5}
+clb_pack PLB_7 {PORT_r_RNO_1_LC_2, PWM_NUM[3]_LC_12, PWM_NUM_RNIDRQK[3]_LC_8, PWM_NUM[5]_LC_14, PWM_NUM[4]_LC_13, PWM_NUM[1]_LC_5, PWM_NUM_RNIQIR6[1]_LC_11, PWM_NUM[2]_LC_6}
+ble_pack cntr_RNIB8QE[2]_LC_28 {cntr_RNIB8QE[2]}
+ble_pack cntr[2]_LC_31 {cntr[2], cntr_RNO[2]}
+ble_pack cntr[4]_LC_32 {cntr[4], cntr_RNO[4]}
+ble_pack cntr[5]_LC_33 {cntr[5], cntr_RNO[5]}
+ble_pack cntr[1]_LC_30 {cntr[1], cntr_RNO[1]}
+ble_pack cntr[0]_LC_29 {cntr[0], cntr_RNO[0]}
+ble_pack PORT_r_RNO_2_LC_3 {PORT_r_RNO_2}
+ble_pack delay_RNI2HGB1[0]_LC_37 {delay_RNI2HGB1[0]}
+clb_pack PLB_8 {cntr_RNIB8QE[2]_LC_28, cntr[2]_LC_31, cntr[4]_LC_32, cntr[5]_LC_33, cntr[1]_LC_30, cntr[0]_LC_29, PORT_r_RNO_2_LC_3, delay_RNI2HGB1[0]_LC_37}
+ble_pack delay_RNI55JF4[10]_LC_38 {delay_RNI55JF4[10]}
+ble_pack delay_RNIKNK01[4]_LC_41 {delay_RNIKNK01[4]}
+ble_pack delay_RNIABQR[14]_LC_40 {delay_RNIABQR[14]}
+ble_pack delay_RNI5HJ71[10]_LC_39 {delay_RNI5HJ71[10]}
+ble_pack shift2_0[1]_LC_72 {shift2_0[1], shift2_0_1_THRU_LUT4_0}
+ble_pack shift2_ret_1_LC_65 {shift2_ret_1, shift2_ret_1_RNO}
+ble_pack shift2_ret_1_RNITCI51_LC_64 {shift2_ret_1_RNITCI51}
+ble_pack shift2_0[2]_LC_73 {shift2_0[2], shift2_0_2_THRU_LUT4_0}
+clb_pack PLB_9 {delay_RNI55JF4[10]_LC_38, delay_RNIKNK01[4]_LC_41, delay_RNIABQR[14]_LC_40, delay_RNI5HJ71[10]_LC_39, shift2_0[1]_LC_72, shift2_ret_1_LC_65, shift2_ret_1_RNITCI51_LC_64, shift2_0[2]_LC_73}
+ble_pack how_RNO_0[2]_LC_61 {how_RNO_0[2]}
+ble_pack how[1]_LC_62 {how[1], how_RNO[1]}
+ble_pack how[0]_LC_60 {how[0], how_RNO[0]}
+ble_pack PWM_NUM[0]_LC_4 {PWM_NUM[0], PWM_NUM_10_2_0_.N_46_i}
+ble_pack how[2]_LC_63 {how[2], how_RNO[2]}
+ble_pack shift_ret_1_RNI69IQ_LC_66 {shift_ret_1_RNI69IQ}
+clb_pack PLB_10 {how_RNO_0[2]_LC_61, how[1]_LC_62, how[0]_LC_60, PWM_NUM[0]_LC_4, how[2]_LC_63, shift_ret_1_RNI69IQ_LC_66}
+ble_pack cntr_esr[3]_LC_36 {cntr_esr[3], cntr_esr_RNO[3]}
+clb_pack PLB_11 {cntr_esr[3]_LC_36}
+ble_pack down_e[0]_LC_59 {down_e[0], down_e_RNO[0]}
+clb_pack PLB_12 {down_e[0]_LC_59}
+ble_pack shift_ret_1_LC_67 {shift_ret_1, shift_ret_1_RNO}
+ble_pack shift_0[1]_LC_74 {shift_0[1], shift_0_1_THRU_LUT4_0}
+ble_pack shift_0[2]_LC_75 {shift_0[2], shift_0_2_THRU_LUT4_0}
+clb_pack PLB_13 {shift_ret_1_LC_67, shift_0[1]_LC_74, shift_0[2]_LC_75}
+ble_pack up_e[0]_LC_70 {up_e[0], up_e_RNO[0]}
+clb_pack PLB_14 {up_e[0]_LC_70}
+ble_pack down[2]_LC_58 {down[2], down_RNO[2]}
+ble_pack down[1]_LC_57 {down[1], down_RNO[1]}
+clb_pack PLB_15 {down[2]_LC_58, down[1]_LC_57}
+ble_pack up[2]_LC_69 {up[2], up_RNO[2]}
+ble_pack up[1]_LC_68 {up[1], up_RNO[1]}
+clb_pack PLB_16 {up[2]_LC_69, up[1]_LC_68}
+ble_pack clk_div[1]_LC_18 {clk_div[1], clk_div_RNO[1]}
+ble_pack clk_div[0]_LC_17 {clk_div[0], clk_div_RNO[0]}
+ble_pack clk_div[11]_LC_71 {clk_div[11], clk_div_11_THRU_LUT4_0}
+clb_pack PLB_17 {clk_div[1]_LC_18, clk_div[0]_LC_17, clk_div[11]_LC_71}

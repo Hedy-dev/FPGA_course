@@ -1,0 +1,2547 @@
+
+IO_Tile_1_17
+
+ (3 6)  (45 279)  (45 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (45 281)  (45 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_2_17
+
+ (3 6)  (99 279)  (99 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (99 281)  (99 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_3_17
+
+ (3 6)  (153 279)  (153 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (153 281)  (153 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_4_17
+
+ (3 6)  (195 279)  (195 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (195 281)  (195 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_5_17
+
+ (3 6)  (249 279)  (249 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (249 281)  (249 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_6_17
+
+ (3 6)  (303 279)  (303 279)  IO control bit: GIOUP1_IE_1
+
+ (3 9)  (303 281)  (303 281)  IO control bit: GIOUP1_IE_0
+
+
+
+IO_Tile_7_17
+
+ (3 6)  (361 279)  (361 279)  IO control bit: GIOUP0_IE_1
+
+ (3 9)  (361 281)  (361 281)  IO control bit: GIOUP0_IE_0
+
+
+
+IO_Tile_8_17
+
+ (3 6)  (415 279)  (415 279)  IO control bit: BIOUP_IE_1
+
+ (3 9)  (415 281)  (415 281)  IO control bit: BIOUP_IE_0
+
+
+
+IO_Tile_9_17
+
+ (3 6)  (469 279)  (469 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (469 281)  (469 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_10_17
+
+ (3 6)  (523 279)  (523 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (523 281)  (523 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_11_17
+
+ (3 6)  (565 279)  (565 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (565 281)  (565 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_12_17
+
+ (3 6)  (619 279)  (619 279)  IO control bit: IOUP_IE_1
+
+ (3 9)  (619 281)  (619 281)  IO control bit: IOUP_IE_0
+
+
+
+IO_Tile_0_16
+
+ (3 6)  (14 262)  (14 262)  IO control bit: IOLEFT_IE_1
+
+ (3 9)  (14 265)  (14 265)  IO control bit: IOLEFT_IE_0
+
+
+
+IO_Tile_13_16
+
+ (3 6)  (649 262)  (649 262)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 265)  (649 265)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_15
+
+ (3 6)  (14 246)  (14 246)  IO control bit: IOLEFT_IE_1
+
+ (3 9)  (14 249)  (14 249)  IO control bit: IOLEFT_IE_0
+
+
+
+RAM_Tile_3_15
+
+ (7 1)  (133 241)  (133 241)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+RAM_Tile_10_15
+
+ (7 1)  (503 241)  (503 241)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+IO_Tile_13_15
+
+ (3 6)  (649 246)  (649 246)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 249)  (649 249)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_14
+
+ (2 6)  (15 230)  (15 230)  IO control bit: BIOLEFT_REN_0
+
+ (3 6)  (14 230)  (14 230)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 233)  (14 233)  IO control bit: BIOLEFT_IE_0
+
+ (12 10)  (5 234)  (5 234)  routing T_0_14.lc_trk_g1_4 <X> T_0_14.wire_io_cluster/io_1/D_OUT_0
+ (13 10)  (4 234)  (4 234)  routing T_0_14.lc_trk_g1_4 <X> T_0_14.wire_io_cluster/io_1/D_OUT_0
+ (16 10)  (1 234)  (1 234)  IOB_1 IO Functioning bit
+ (13 11)  (4 235)  (4 235)  Enable bit of Mux _io_cluster/in_mux1_1 => lc_trk_g1_4 wire_io_cluster/io_1/D_OUT_0
+ (4 13)  (13 237)  (13 237)  routing T_0_14.span12_horz_20 <X> T_0_14.lc_trk_g1_4
+ (6 13)  (11 237)  (11 237)  routing T_0_14.span12_horz_20 <X> T_0_14.lc_trk_g1_4
+ (7 13)  (10 237)  (10 237)  Enable bit of Mux _local_links/g1_mux_4 => span12_horz_20 lc_trk_g1_4
+ (17 13)  (0 237)  (0 237)  IOB_1 IO Functioning bit
+ (16 14)  (1 238)  (1 238)  IOB_1 IO Functioning bit
+
+
+LogicTile_2_14
+
+ (3 3)  (75 227)  (75 227)  routing T_2_14.sp12_v_b_0 <X> T_2_14.sp12_h_l_23
+
+
+IO_Tile_13_14
+
+ (3 6)  (649 230)  (649 230)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 233)  (649 233)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_13
+
+ (3 6)  (14 214)  (14 214)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 217)  (14 217)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_13
+
+
+
+LogicTile_2_13
+
+
+
+RAM_Tile_3_13
+
+ (7 1)  (133 209)  (133 209)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+LogicTile_4_13
+
+
+
+LogicTile_5_13
+
+
+
+LogicTile_6_13
+
+
+
+LogicTile_7_13
+
+
+
+LogicTile_8_13
+
+
+
+LogicTile_9_13
+
+
+
+RAM_Tile_10_13
+
+ (7 1)  (503 209)  (503 209)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+LogicTile_11_13
+
+
+
+LogicTile_12_13
+
+
+
+IO_Tile_13_13
+
+ (3 6)  (649 214)  (649 214)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 217)  (649 217)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_12
+
+ (3 6)  (14 198)  (14 198)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 201)  (14 201)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_12
+
+
+
+LogicTile_2_12
+
+ (2 1)  (74 193)  (74 193)  Column buffer control bit: LH_colbuf_cntl_1
+
+
+
+RAM_Tile_3_12
+
+
+
+LogicTile_4_12
+
+
+
+LogicTile_5_12
+
+
+
+LogicTile_6_12
+
+
+
+LogicTile_7_12
+
+
+
+LogicTile_8_12
+
+
+
+LogicTile_9_12
+
+
+
+RAM_Tile_10_12
+
+
+
+LogicTile_11_12
+
+
+
+LogicTile_12_12
+
+
+
+IO_Tile_13_12
+
+
+
+IO_Tile_0_11
+
+ (3 6)  (14 182)  (14 182)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 185)  (14 185)  IO control bit: BIOLEFT_IE_0
+
+
+
+RAM_Tile_3_11
+
+ (7 1)  (133 177)  (133 177)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+RAM_Tile_10_11
+
+ (7 1)  (503 177)  (503 177)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+IO_Tile_13_11
+
+ (3 6)  (649 182)  (649 182)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 185)  (649 185)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_10
+
+ (3 6)  (14 166)  (14 166)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 169)  (14 169)  IO control bit: BIOLEFT_IE_0
+
+
+
+IO_Tile_13_10
+
+ (3 6)  (649 166)  (649 166)  IO control bit: BIORIGHT_IE_1
+
+ (3 9)  (649 169)  (649 169)  IO control bit: BIORIGHT_IE_0
+
+
+
+IO_Tile_0_9
+
+ (3 6)  (14 150)  (14 150)  IO control bit: GIOLEFT0_IE_1
+
+ (3 9)  (14 153)  (14 153)  IO control bit: GIOLEFT0_IE_0
+
+
+
+LogicTile_2_9
+
+ (27 0)  (99 144)  (99 144)  routing T_2_9.lc_trk_g3_0 <X> T_2_9.wire_logic_cluster/lc_0/in_1
+ (28 0)  (100 144)  (100 144)  routing T_2_9.lc_trk_g3_0 <X> T_2_9.wire_logic_cluster/lc_0/in_1
+ (29 0)  (101 144)  (101 144)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g3_0 wire_logic_cluster/lc_0/in_1
+ (32 0)  (104 144)  (104 144)  Enable bit of Mux _logic_cluster/lcb3_0 => wire_logic_cluster/carry_in_mux/cout wire_logic_cluster/lc_0/in_3
+ (36 0)  (108 144)  (108 144)  LC_0 Logic Functioning bit
+ (37 0)  (109 144)  (109 144)  LC_0 Logic Functioning bit
+ (38 0)  (110 144)  (110 144)  LC_0 Logic Functioning bit
+ (39 0)  (111 144)  (111 144)  LC_0 Logic Functioning bit
+ (44 0)  (116 144)  (116 144)  LC_0 Logic Functioning bit
+ (45 0)  (117 144)  (117 144)  LC_0 Logic Functioning bit
+ (40 1)  (112 145)  (112 145)  LC_0 Logic Functioning bit
+ (41 1)  (113 145)  (113 145)  LC_0 Logic Functioning bit
+ (42 1)  (114 145)  (114 145)  LC_0 Logic Functioning bit
+ (43 1)  (115 145)  (115 145)  LC_0 Logic Functioning bit
+ (49 1)  (121 145)  (121 145)  Carry_In_Mux bit 
+
+ (2 2)  (74 146)  (74 146)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (27 2)  (99 146)  (99 146)  routing T_2_9.lc_trk_g3_1 <X> T_2_9.wire_logic_cluster/lc_1/in_1
+ (28 2)  (100 146)  (100 146)  routing T_2_9.lc_trk_g3_1 <X> T_2_9.wire_logic_cluster/lc_1/in_1
+ (29 2)  (101 146)  (101 146)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g3_1 wire_logic_cluster/lc_1/in_1
+ (32 2)  (104 146)  (104 146)  Enable bit of Mux _logic_cluster/lcb3_1 => wire_logic_cluster/lc_0/cout wire_logic_cluster/lc_1/in_3
+ (37 2)  (109 146)  (109 146)  LC_1 Logic Functioning bit
+ (39 2)  (111 146)  (111 146)  LC_1 Logic Functioning bit
+ (41 2)  (113 146)  (113 146)  LC_1 Logic Functioning bit
+ (43 2)  (115 146)  (115 146)  LC_1 Logic Functioning bit
+ (45 2)  (117 146)  (117 146)  LC_1 Logic Functioning bit
+ (0 3)  (72 147)  (72 147)  routing T_2_9.glb_netwk_1 <X> T_2_9.wire_logic_cluster/lc_7/clk
+ (37 3)  (109 147)  (109 147)  LC_1 Logic Functioning bit
+ (39 3)  (111 147)  (111 147)  LC_1 Logic Functioning bit
+ (41 3)  (113 147)  (113 147)  LC_1 Logic Functioning bit
+ (43 3)  (115 147)  (115 147)  LC_1 Logic Functioning bit
+ (14 12)  (86 156)  (86 156)  routing T_2_9.wire_logic_cluster/lc_0/out <X> T_2_9.lc_trk_g3_0
+ (17 12)  (89 156)  (89 156)  Enable bit of Mux _local_links/g3_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g3_1
+ (18 12)  (90 156)  (90 156)  routing T_2_9.wire_logic_cluster/lc_1/out <X> T_2_9.lc_trk_g3_1
+ (17 13)  (89 157)  (89 157)  Enable bit of Mux _local_links/g3_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g3_0
+
+
+RAM_Tile_3_9
+
+ (7 1)  (133 145)  (133 145)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+RAM_Tile_10_9
+
+ (7 1)  (503 145)  (503 145)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+IO_Tile_13_9
+
+ (3 6)  (649 150)  (649 150)  IO control bit: GIORIGHT0_IE_1
+
+ (3 9)  (649 153)  (649 153)  IO control bit: GIORIGHT0_IE_0
+
+
+
+IO_Tile_0_8
+
+ (2 6)  (15 134)  (15 134)  IO control bit: GIOLEFT1_REN_0
+
+ (3 6)  (14 134)  (14 134)  IO control bit: GIOLEFT1_IE_1
+
+ (17 13)  (0 141)  (0 141)  IOB_1 IO Functioning bit
+
+
+LogicTile_1_8
+
+ (17 0)  (35 128)  (35 128)  Enable bit of Mux _local_links/g0_mux_1 => bnr_op_1 lc_trk_g0_1
+ (18 0)  (36 128)  (36 128)  routing T_1_8.bnr_op_1 <X> T_1_8.lc_trk_g0_1
+ (44 0)  (62 128)  (62 128)  LC_0 Logic Functioning bit
+ (18 1)  (36 129)  (36 129)  routing T_1_8.bnr_op_1 <X> T_1_8.lc_trk_g0_1
+ (32 1)  (50 129)  (50 129)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g2_0 input_2_0
+ (33 1)  (51 129)  (51 129)  routing T_1_8.lc_trk_g2_0 <X> T_1_8.input_2_0
+ (49 1)  (67 129)  (67 129)  Carry_In_Mux bit 
+
+ (2 2)  (20 130)  (20 130)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (21 2)  (39 130)  (39 130)  routing T_1_8.bnr_op_7 <X> T_1_8.lc_trk_g0_7
+ (22 2)  (40 130)  (40 130)  Enable bit of Mux _local_links/g0_mux_7 => bnr_op_7 lc_trk_g0_7
+ (27 2)  (45 130)  (45 130)  routing T_1_8.lc_trk_g3_1 <X> T_1_8.wire_logic_cluster/lc_1/in_1
+ (28 2)  (46 130)  (46 130)  routing T_1_8.lc_trk_g3_1 <X> T_1_8.wire_logic_cluster/lc_1/in_1
+ (29 2)  (47 130)  (47 130)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g3_1 wire_logic_cluster/lc_1/in_1
+ (44 2)  (62 130)  (62 130)  LC_1 Logic Functioning bit
+ (0 3)  (18 131)  (18 131)  routing T_1_8.glb_netwk_1 <X> T_1_8.wire_logic_cluster/lc_7/clk
+ (21 3)  (39 131)  (39 131)  routing T_1_8.bnr_op_7 <X> T_1_8.lc_trk_g0_7
+ (29 4)  (47 132)  (47 132)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g0_7 wire_logic_cluster/lc_2/in_1
+ (30 4)  (48 132)  (48 132)  routing T_1_8.lc_trk_g0_7 <X> T_1_8.wire_logic_cluster/lc_2/in_1
+ (32 4)  (50 132)  (50 132)  Enable bit of Mux _logic_cluster/lcb3_2 => wire_logic_cluster/lc_1/cout wire_logic_cluster/lc_2/in_3
+ (37 4)  (55 132)  (55 132)  LC_2 Logic Functioning bit
+ (39 4)  (57 132)  (57 132)  LC_2 Logic Functioning bit
+ (41 4)  (59 132)  (59 132)  LC_2 Logic Functioning bit
+ (43 4)  (61 132)  (61 132)  LC_2 Logic Functioning bit
+ (53 4)  (71 132)  (71 132)  Enable bit of Mux _out_links/OutMuxa_2 => wire_logic_cluster/lc_2/out sp4_r_v_b_21
+ (30 5)  (48 133)  (48 133)  routing T_1_8.lc_trk_g0_7 <X> T_1_8.wire_logic_cluster/lc_2/in_1
+ (37 5)  (55 133)  (55 133)  LC_2 Logic Functioning bit
+ (39 5)  (57 133)  (57 133)  LC_2 Logic Functioning bit
+ (41 5)  (59 133)  (59 133)  LC_2 Logic Functioning bit
+ (43 5)  (61 133)  (61 133)  LC_2 Logic Functioning bit
+ (14 6)  (32 134)  (32 134)  routing T_1_8.wire_logic_cluster/lc_4/out <X> T_1_8.lc_trk_g1_4
+ (17 7)  (35 135)  (35 135)  Enable bit of Mux _local_links/g1_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g1_4
+ (29 8)  (47 136)  (47 136)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g0_1 wire_logic_cluster/lc_4/in_1
+ (31 8)  (49 136)  (49 136)  routing T_1_8.lc_trk_g1_4 <X> T_1_8.wire_logic_cluster/lc_4/in_3
+ (32 8)  (50 136)  (50 136)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g1_4 wire_logic_cluster/lc_4/in_3
+ (34 8)  (52 136)  (52 136)  routing T_1_8.lc_trk_g1_4 <X> T_1_8.wire_logic_cluster/lc_4/in_3
+ (36 8)  (54 136)  (54 136)  LC_4 Logic Functioning bit
+ (39 8)  (57 136)  (57 136)  LC_4 Logic Functioning bit
+ (41 8)  (59 136)  (59 136)  LC_4 Logic Functioning bit
+ (42 8)  (60 136)  (60 136)  LC_4 Logic Functioning bit
+ (45 8)  (63 136)  (63 136)  LC_4 Logic Functioning bit
+ (15 9)  (33 137)  (33 137)  routing T_1_8.tnr_op_0 <X> T_1_8.lc_trk_g2_0
+ (17 9)  (35 137)  (35 137)  Enable bit of Mux _local_links/g2_mux_0 => tnr_op_0 lc_trk_g2_0
+ (36 9)  (54 137)  (54 137)  LC_4 Logic Functioning bit
+ (39 9)  (57 137)  (57 137)  LC_4 Logic Functioning bit
+ (41 9)  (59 137)  (59 137)  LC_4 Logic Functioning bit
+ (42 9)  (60 137)  (60 137)  LC_4 Logic Functioning bit
+ (15 12)  (33 140)  (33 140)  routing T_1_8.tnr_op_1 <X> T_1_8.lc_trk_g3_1
+ (17 12)  (35 140)  (35 140)  Enable bit of Mux _local_links/g3_mux_1 => tnr_op_1 lc_trk_g3_1
+
+
+LogicTile_2_8
+
+ (27 0)  (99 128)  (99 128)  routing T_2_8.lc_trk_g1_4 <X> T_2_8.wire_logic_cluster/lc_0/in_1
+ (29 0)  (101 128)  (101 128)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_4 wire_logic_cluster/lc_0/in_1
+ (30 0)  (102 128)  (102 128)  routing T_2_8.lc_trk_g1_4 <X> T_2_8.wire_logic_cluster/lc_0/in_1
+ (44 0)  (116 128)  (116 128)  LC_0 Logic Functioning bit
+ (32 1)  (104 129)  (104 129)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g1_1 input_2_0
+ (34 1)  (106 129)  (106 129)  routing T_2_8.lc_trk_g1_1 <X> T_2_8.input_2_0
+ (2 2)  (74 130)  (74 130)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (27 2)  (99 130)  (99 130)  routing T_2_8.lc_trk_g3_1 <X> T_2_8.wire_logic_cluster/lc_1/in_1
+ (28 2)  (100 130)  (100 130)  routing T_2_8.lc_trk_g3_1 <X> T_2_8.wire_logic_cluster/lc_1/in_1
+ (29 2)  (101 130)  (101 130)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g3_1 wire_logic_cluster/lc_1/in_1
+ (32 2)  (104 130)  (104 130)  Enable bit of Mux _logic_cluster/lcb3_1 => wire_logic_cluster/lc_0/cout wire_logic_cluster/lc_1/in_3
+ (36 2)  (108 130)  (108 130)  LC_1 Logic Functioning bit
+ (37 2)  (109 130)  (109 130)  LC_1 Logic Functioning bit
+ (38 2)  (110 130)  (110 130)  LC_1 Logic Functioning bit
+ (39 2)  (111 130)  (111 130)  LC_1 Logic Functioning bit
+ (44 2)  (116 130)  (116 130)  LC_1 Logic Functioning bit
+ (45 2)  (117 130)  (117 130)  LC_1 Logic Functioning bit
+ (0 3)  (72 131)  (72 131)  routing T_2_8.glb_netwk_1 <X> T_2_8.wire_logic_cluster/lc_7/clk
+ (40 3)  (112 131)  (112 131)  LC_1 Logic Functioning bit
+ (41 3)  (113 131)  (113 131)  LC_1 Logic Functioning bit
+ (42 3)  (114 131)  (114 131)  LC_1 Logic Functioning bit
+ (43 3)  (115 131)  (115 131)  LC_1 Logic Functioning bit
+ (15 4)  (87 132)  (87 132)  routing T_2_8.bot_op_1 <X> T_2_8.lc_trk_g1_1
+ (17 4)  (89 132)  (89 132)  Enable bit of Mux _local_links/g1_mux_1 => bot_op_1 lc_trk_g1_1
+ (21 4)  (93 132)  (93 132)  routing T_2_8.wire_logic_cluster/lc_3/out <X> T_2_8.lc_trk_g1_3
+ (22 4)  (94 132)  (94 132)  Enable bit of Mux _local_links/g1_mux_3 => wire_logic_cluster/lc_3/out lc_trk_g1_3
+ (25 4)  (97 132)  (97 132)  routing T_2_8.wire_logic_cluster/lc_2/out <X> T_2_8.lc_trk_g1_2
+ (27 4)  (99 132)  (99 132)  routing T_2_8.lc_trk_g1_2 <X> T_2_8.wire_logic_cluster/lc_2/in_1
+ (29 4)  (101 132)  (101 132)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g1_2 wire_logic_cluster/lc_2/in_1
+ (32 4)  (104 132)  (104 132)  Enable bit of Mux _logic_cluster/lcb3_2 => wire_logic_cluster/lc_1/cout wire_logic_cluster/lc_2/in_3
+ (36 4)  (108 132)  (108 132)  LC_2 Logic Functioning bit
+ (37 4)  (109 132)  (109 132)  LC_2 Logic Functioning bit
+ (38 4)  (110 132)  (110 132)  LC_2 Logic Functioning bit
+ (39 4)  (111 132)  (111 132)  LC_2 Logic Functioning bit
+ (44 4)  (116 132)  (116 132)  LC_2 Logic Functioning bit
+ (45 4)  (117 132)  (117 132)  LC_2 Logic Functioning bit
+ (22 5)  (94 133)  (94 133)  Enable bit of Mux _local_links/g1_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g1_2
+ (30 5)  (102 133)  (102 133)  routing T_2_8.lc_trk_g1_2 <X> T_2_8.wire_logic_cluster/lc_2/in_1
+ (40 5)  (112 133)  (112 133)  LC_2 Logic Functioning bit
+ (41 5)  (113 133)  (113 133)  LC_2 Logic Functioning bit
+ (42 5)  (114 133)  (114 133)  LC_2 Logic Functioning bit
+ (43 5)  (115 133)  (115 133)  LC_2 Logic Functioning bit
+ (14 6)  (86 134)  (86 134)  routing T_2_8.lft_op_4 <X> T_2_8.lc_trk_g1_4
+ (17 6)  (89 134)  (89 134)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (90 134)  (90 134)  routing T_2_8.wire_logic_cluster/lc_5/out <X> T_2_8.lc_trk_g1_5
+ (25 6)  (97 134)  (97 134)  routing T_2_8.wire_logic_cluster/lc_6/out <X> T_2_8.lc_trk_g1_6
+ (27 6)  (99 134)  (99 134)  routing T_2_8.lc_trk_g1_3 <X> T_2_8.wire_logic_cluster/lc_3/in_1
+ (29 6)  (101 134)  (101 134)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g1_3 wire_logic_cluster/lc_3/in_1
+ (32 6)  (104 134)  (104 134)  Enable bit of Mux _logic_cluster/lcb3_3 => wire_logic_cluster/lc_2/cout wire_logic_cluster/lc_3/in_3
+ (36 6)  (108 134)  (108 134)  LC_3 Logic Functioning bit
+ (37 6)  (109 134)  (109 134)  LC_3 Logic Functioning bit
+ (38 6)  (110 134)  (110 134)  LC_3 Logic Functioning bit
+ (39 6)  (111 134)  (111 134)  LC_3 Logic Functioning bit
+ (44 6)  (116 134)  (116 134)  LC_3 Logic Functioning bit
+ (45 6)  (117 134)  (117 134)  LC_3 Logic Functioning bit
+ (15 7)  (87 135)  (87 135)  routing T_2_8.lft_op_4 <X> T_2_8.lc_trk_g1_4
+ (17 7)  (89 135)  (89 135)  Enable bit of Mux _local_links/g1_mux_4 => lft_op_4 lc_trk_g1_4
+ (22 7)  (94 135)  (94 135)  Enable bit of Mux _local_links/g1_mux_6 => wire_logic_cluster/lc_6/out lc_trk_g1_6
+ (30 7)  (102 135)  (102 135)  routing T_2_8.lc_trk_g1_3 <X> T_2_8.wire_logic_cluster/lc_3/in_1
+ (40 7)  (112 135)  (112 135)  LC_3 Logic Functioning bit
+ (41 7)  (113 135)  (113 135)  LC_3 Logic Functioning bit
+ (42 7)  (114 135)  (114 135)  LC_3 Logic Functioning bit
+ (43 7)  (115 135)  (115 135)  LC_3 Logic Functioning bit
+ (27 8)  (99 136)  (99 136)  routing T_2_8.lc_trk_g3_4 <X> T_2_8.wire_logic_cluster/lc_4/in_1
+ (28 8)  (100 136)  (100 136)  routing T_2_8.lc_trk_g3_4 <X> T_2_8.wire_logic_cluster/lc_4/in_1
+ (29 8)  (101 136)  (101 136)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g3_4 wire_logic_cluster/lc_4/in_1
+ (30 8)  (102 136)  (102 136)  routing T_2_8.lc_trk_g3_4 <X> T_2_8.wire_logic_cluster/lc_4/in_1
+ (32 8)  (104 136)  (104 136)  Enable bit of Mux _logic_cluster/lcb3_4 => wire_logic_cluster/lc_3/cout wire_logic_cluster/lc_4/in_3
+ (36 8)  (108 136)  (108 136)  LC_4 Logic Functioning bit
+ (37 8)  (109 136)  (109 136)  LC_4 Logic Functioning bit
+ (38 8)  (110 136)  (110 136)  LC_4 Logic Functioning bit
+ (39 8)  (111 136)  (111 136)  LC_4 Logic Functioning bit
+ (44 8)  (116 136)  (116 136)  LC_4 Logic Functioning bit
+ (45 8)  (117 136)  (117 136)  LC_4 Logic Functioning bit
+ (40 9)  (112 137)  (112 137)  LC_4 Logic Functioning bit
+ (41 9)  (113 137)  (113 137)  LC_4 Logic Functioning bit
+ (42 9)  (114 137)  (114 137)  LC_4 Logic Functioning bit
+ (43 9)  (115 137)  (115 137)  LC_4 Logic Functioning bit
+ (27 10)  (99 138)  (99 138)  routing T_2_8.lc_trk_g1_5 <X> T_2_8.wire_logic_cluster/lc_5/in_1
+ (29 10)  (101 138)  (101 138)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g1_5 wire_logic_cluster/lc_5/in_1
+ (30 10)  (102 138)  (102 138)  routing T_2_8.lc_trk_g1_5 <X> T_2_8.wire_logic_cluster/lc_5/in_1
+ (32 10)  (104 138)  (104 138)  Enable bit of Mux _logic_cluster/lcb3_5 => wire_logic_cluster/lc_4/cout wire_logic_cluster/lc_5/in_3
+ (36 10)  (108 138)  (108 138)  LC_5 Logic Functioning bit
+ (37 10)  (109 138)  (109 138)  LC_5 Logic Functioning bit
+ (38 10)  (110 138)  (110 138)  LC_5 Logic Functioning bit
+ (39 10)  (111 138)  (111 138)  LC_5 Logic Functioning bit
+ (44 10)  (116 138)  (116 138)  LC_5 Logic Functioning bit
+ (45 10)  (117 138)  (117 138)  LC_5 Logic Functioning bit
+ (40 11)  (112 139)  (112 139)  LC_5 Logic Functioning bit
+ (41 11)  (113 139)  (113 139)  LC_5 Logic Functioning bit
+ (42 11)  (114 139)  (114 139)  LC_5 Logic Functioning bit
+ (43 11)  (115 139)  (115 139)  LC_5 Logic Functioning bit
+ (17 12)  (89 140)  (89 140)  Enable bit of Mux _local_links/g3_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g3_1
+ (18 12)  (90 140)  (90 140)  routing T_2_8.wire_logic_cluster/lc_1/out <X> T_2_8.lc_trk_g3_1
+ (27 12)  (99 140)  (99 140)  routing T_2_8.lc_trk_g1_6 <X> T_2_8.wire_logic_cluster/lc_6/in_1
+ (29 12)  (101 140)  (101 140)  Enable bit of Mux _logic_cluster/lcb1_6 => lc_trk_g1_6 wire_logic_cluster/lc_6/in_1
+ (30 12)  (102 140)  (102 140)  routing T_2_8.lc_trk_g1_6 <X> T_2_8.wire_logic_cluster/lc_6/in_1
+ (32 12)  (104 140)  (104 140)  Enable bit of Mux _logic_cluster/lcb3_6 => wire_logic_cluster/lc_5/cout wire_logic_cluster/lc_6/in_3
+ (36 12)  (108 140)  (108 140)  LC_6 Logic Functioning bit
+ (37 12)  (109 140)  (109 140)  LC_6 Logic Functioning bit
+ (38 12)  (110 140)  (110 140)  LC_6 Logic Functioning bit
+ (39 12)  (111 140)  (111 140)  LC_6 Logic Functioning bit
+ (44 12)  (116 140)  (116 140)  LC_6 Logic Functioning bit
+ (45 12)  (117 140)  (117 140)  LC_6 Logic Functioning bit
+ (30 13)  (102 141)  (102 141)  routing T_2_8.lc_trk_g1_6 <X> T_2_8.wire_logic_cluster/lc_6/in_1
+ (40 13)  (112 141)  (112 141)  LC_6 Logic Functioning bit
+ (41 13)  (113 141)  (113 141)  LC_6 Logic Functioning bit
+ (42 13)  (114 141)  (114 141)  LC_6 Logic Functioning bit
+ (43 13)  (115 141)  (115 141)  LC_6 Logic Functioning bit
+ (14 14)  (86 142)  (86 142)  routing T_2_8.wire_logic_cluster/lc_4/out <X> T_2_8.lc_trk_g3_4
+ (21 14)  (93 142)  (93 142)  routing T_2_8.wire_logic_cluster/lc_7/out <X> T_2_8.lc_trk_g3_7
+ (22 14)  (94 142)  (94 142)  Enable bit of Mux _local_links/g3_mux_7 => wire_logic_cluster/lc_7/out lc_trk_g3_7
+ (27 14)  (99 142)  (99 142)  routing T_2_8.lc_trk_g3_7 <X> T_2_8.wire_logic_cluster/lc_7/in_1
+ (28 14)  (100 142)  (100 142)  routing T_2_8.lc_trk_g3_7 <X> T_2_8.wire_logic_cluster/lc_7/in_1
+ (29 14)  (101 142)  (101 142)  Enable bit of Mux _logic_cluster/lcb1_7 => lc_trk_g3_7 wire_logic_cluster/lc_7/in_1
+ (30 14)  (102 142)  (102 142)  routing T_2_8.lc_trk_g3_7 <X> T_2_8.wire_logic_cluster/lc_7/in_1
+ (32 14)  (104 142)  (104 142)  Enable bit of Mux _logic_cluster/lcb3_7 => wire_logic_cluster/lc_6/cout wire_logic_cluster/lc_7/in_3
+ (36 14)  (108 142)  (108 142)  LC_7 Logic Functioning bit
+ (37 14)  (109 142)  (109 142)  LC_7 Logic Functioning bit
+ (38 14)  (110 142)  (110 142)  LC_7 Logic Functioning bit
+ (39 14)  (111 142)  (111 142)  LC_7 Logic Functioning bit
+ (44 14)  (116 142)  (116 142)  LC_7 Logic Functioning bit
+ (45 14)  (117 142)  (117 142)  LC_7 Logic Functioning bit
+ (17 15)  (89 143)  (89 143)  Enable bit of Mux _local_links/g3_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g3_4
+ (30 15)  (102 143)  (102 143)  routing T_2_8.lc_trk_g3_7 <X> T_2_8.wire_logic_cluster/lc_7/in_1
+ (40 15)  (112 143)  (112 143)  LC_7 Logic Functioning bit
+ (41 15)  (113 143)  (113 143)  LC_7 Logic Functioning bit
+ (42 15)  (114 143)  (114 143)  LC_7 Logic Functioning bit
+ (43 15)  (115 143)  (115 143)  LC_7 Logic Functioning bit
+
+
+IO_Tile_13_8
+
+ (3 6)  (649 134)  (649 134)  IO control bit: GIORIGHT1_IE_1
+
+ (3 9)  (649 137)  (649 137)  IO control bit: GIORIGHT1_IE_0
+
+
+
+IO_Tile_0_7
+
+ (3 6)  (14 118)  (14 118)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 121)  (14 121)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_7
+
+ (27 0)  (45 112)  (45 112)  routing T_1_7.lc_trk_g1_4 <X> T_1_7.wire_logic_cluster/lc_0/in_1
+ (29 0)  (47 112)  (47 112)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_4 wire_logic_cluster/lc_0/in_1
+ (30 0)  (48 112)  (48 112)  routing T_1_7.lc_trk_g1_4 <X> T_1_7.wire_logic_cluster/lc_0/in_1
+ (44 0)  (62 112)  (62 112)  LC_0 Logic Functioning bit
+ (32 1)  (50 113)  (50 113)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g3_1 input_2_0
+ (33 1)  (51 113)  (51 113)  routing T_1_7.lc_trk_g3_1 <X> T_1_7.input_2_0
+ (34 1)  (52 113)  (52 113)  routing T_1_7.lc_trk_g3_1 <X> T_1_7.input_2_0
+ (44 2)  (62 114)  (62 114)  LC_1 Logic Functioning bit
+ (32 3)  (50 115)  (50 115)  Enable bit of Mux _logic_cluster/lcb2_1 => lc_trk_g2_1 input_2_1
+ (33 3)  (51 115)  (51 115)  routing T_1_7.lc_trk_g2_1 <X> T_1_7.input_2_1
+ (44 4)  (62 116)  (62 116)  LC_2 Logic Functioning bit
+ (32 5)  (50 117)  (50 117)  Enable bit of Mux _logic_cluster/lcb2_2 => lc_trk_g2_2 input_2_2
+ (33 5)  (51 117)  (51 117)  routing T_1_7.lc_trk_g2_2 <X> T_1_7.input_2_2
+ (35 5)  (53 117)  (53 117)  routing T_1_7.lc_trk_g2_2 <X> T_1_7.input_2_2
+ (44 6)  (62 118)  (62 118)  LC_3 Logic Functioning bit
+ (14 7)  (32 119)  (32 119)  routing T_1_7.top_op_4 <X> T_1_7.lc_trk_g1_4
+ (15 7)  (33 119)  (33 119)  routing T_1_7.top_op_4 <X> T_1_7.lc_trk_g1_4
+ (17 7)  (35 119)  (35 119)  Enable bit of Mux _local_links/g1_mux_4 => top_op_4 lc_trk_g1_4
+ (32 7)  (50 119)  (50 119)  Enable bit of Mux _logic_cluster/lcb2_3 => lc_trk_g2_3 input_2_3
+ (33 7)  (51 119)  (51 119)  routing T_1_7.lc_trk_g2_3 <X> T_1_7.input_2_3
+ (35 7)  (53 119)  (53 119)  routing T_1_7.lc_trk_g2_3 <X> T_1_7.input_2_3
+ (15 8)  (33 120)  (33 120)  routing T_1_7.tnr_op_1 <X> T_1_7.lc_trk_g2_1
+ (17 8)  (35 120)  (35 120)  Enable bit of Mux _local_links/g2_mux_1 => tnr_op_1 lc_trk_g2_1
+ (22 8)  (40 120)  (40 120)  Enable bit of Mux _local_links/g2_mux_3 => tnr_op_3 lc_trk_g2_3
+ (24 8)  (42 120)  (42 120)  routing T_1_7.tnr_op_3 <X> T_1_7.lc_trk_g2_3
+ (35 8)  (53 120)  (53 120)  routing T_1_7.lc_trk_g2_4 <X> T_1_7.input_2_4
+ (44 8)  (62 120)  (62 120)  LC_4 Logic Functioning bit
+ (22 9)  (40 121)  (40 121)  Enable bit of Mux _local_links/g2_mux_2 => tnr_op_2 lc_trk_g2_2
+ (24 9)  (42 121)  (42 121)  routing T_1_7.tnr_op_2 <X> T_1_7.lc_trk_g2_2
+ (32 9)  (50 121)  (50 121)  Enable bit of Mux _logic_cluster/lcb2_4 => lc_trk_g2_4 input_2_4
+ (33 9)  (51 121)  (51 121)  routing T_1_7.lc_trk_g2_4 <X> T_1_7.input_2_4
+ (15 10)  (33 122)  (33 122)  routing T_1_7.tnr_op_5 <X> T_1_7.lc_trk_g2_5
+ (17 10)  (35 122)  (35 122)  Enable bit of Mux _local_links/g2_mux_5 => tnr_op_5 lc_trk_g2_5
+ (22 10)  (40 122)  (40 122)  Enable bit of Mux _local_links/g2_mux_7 => tnr_op_7 lc_trk_g2_7
+ (24 10)  (42 122)  (42 122)  routing T_1_7.tnr_op_7 <X> T_1_7.lc_trk_g2_7
+ (35 10)  (53 122)  (53 122)  routing T_1_7.lc_trk_g2_5 <X> T_1_7.input_2_5
+ (44 10)  (62 122)  (62 122)  LC_5 Logic Functioning bit
+ (15 11)  (33 123)  (33 123)  routing T_1_7.tnr_op_4 <X> T_1_7.lc_trk_g2_4
+ (17 11)  (35 123)  (35 123)  Enable bit of Mux _local_links/g2_mux_4 => tnr_op_4 lc_trk_g2_4
+ (22 11)  (40 123)  (40 123)  Enable bit of Mux _local_links/g2_mux_6 => tnr_op_6 lc_trk_g2_6
+ (24 11)  (42 123)  (42 123)  routing T_1_7.tnr_op_6 <X> T_1_7.lc_trk_g2_6
+ (32 11)  (50 123)  (50 123)  Enable bit of Mux _logic_cluster/lcb2_5 => lc_trk_g2_5 input_2_5
+ (33 11)  (51 123)  (51 123)  routing T_1_7.lc_trk_g2_5 <X> T_1_7.input_2_5
+ (15 12)  (33 124)  (33 124)  routing T_1_7.rgt_op_1 <X> T_1_7.lc_trk_g3_1
+ (17 12)  (35 124)  (35 124)  Enable bit of Mux _local_links/g3_mux_1 => rgt_op_1 lc_trk_g3_1
+ (18 12)  (36 124)  (36 124)  routing T_1_7.rgt_op_1 <X> T_1_7.lc_trk_g3_1
+ (35 12)  (53 124)  (53 124)  routing T_1_7.lc_trk_g2_6 <X> T_1_7.input_2_6
+ (44 12)  (62 124)  (62 124)  LC_6 Logic Functioning bit
+ (32 13)  (50 125)  (50 125)  Enable bit of Mux _logic_cluster/lcb2_6 => lc_trk_g2_6 input_2_6
+ (33 13)  (51 125)  (51 125)  routing T_1_7.lc_trk_g2_6 <X> T_1_7.input_2_6
+ (35 13)  (53 125)  (53 125)  routing T_1_7.lc_trk_g2_6 <X> T_1_7.input_2_6
+ (35 14)  (53 126)  (53 126)  routing T_1_7.lc_trk_g2_7 <X> T_1_7.input_2_7
+ (44 14)  (62 126)  (62 126)  LC_7 Logic Functioning bit
+ (32 15)  (50 127)  (50 127)  Enable bit of Mux _logic_cluster/lcb2_7 => lc_trk_g2_7 input_2_7
+ (33 15)  (51 127)  (51 127)  routing T_1_7.lc_trk_g2_7 <X> T_1_7.input_2_7
+ (35 15)  (53 127)  (53 127)  routing T_1_7.lc_trk_g2_7 <X> T_1_7.input_2_7
+
+
+LogicTile_2_7
+
+ (27 0)  (99 112)  (99 112)  routing T_2_7.lc_trk_g3_0 <X> T_2_7.wire_logic_cluster/lc_0/in_1
+ (28 0)  (100 112)  (100 112)  routing T_2_7.lc_trk_g3_0 <X> T_2_7.wire_logic_cluster/lc_0/in_1
+ (29 0)  (101 112)  (101 112)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g3_0 wire_logic_cluster/lc_0/in_1
+ (31 0)  (103 112)  (103 112)  routing T_2_7.lc_trk_g3_4 <X> T_2_7.wire_logic_cluster/lc_0/in_3
+ (32 0)  (104 112)  (104 112)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g3_4 wire_logic_cluster/lc_0/in_3
+ (33 0)  (105 112)  (105 112)  routing T_2_7.lc_trk_g3_4 <X> T_2_7.wire_logic_cluster/lc_0/in_3
+ (34 0)  (106 112)  (106 112)  routing T_2_7.lc_trk_g3_4 <X> T_2_7.wire_logic_cluster/lc_0/in_3
+ (35 0)  (107 112)  (107 112)  routing T_2_7.lc_trk_g3_5 <X> T_2_7.input_2_0
+ (36 0)  (108 112)  (108 112)  LC_0 Logic Functioning bit
+ (27 1)  (99 113)  (99 113)  routing T_2_7.lc_trk_g1_1 <X> T_2_7.wire_logic_cluster/lc_0/in_0
+ (29 1)  (101 113)  (101 113)  Enable bit of Mux _logic_cluster/lcb0_0 => lc_trk_g1_1 wire_logic_cluster/lc_0/in_0
+ (32 1)  (104 113)  (104 113)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g3_5 input_2_0
+ (33 1)  (105 113)  (105 113)  routing T_2_7.lc_trk_g3_5 <X> T_2_7.input_2_0
+ (34 1)  (106 113)  (106 113)  routing T_2_7.lc_trk_g3_5 <X> T_2_7.input_2_0
+ (2 2)  (74 114)  (74 114)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (32 2)  (104 114)  (104 114)  Enable bit of Mux _logic_cluster/lcb3_1 => lc_trk_g3_1 wire_logic_cluster/lc_1/in_3
+ (33 2)  (105 114)  (105 114)  routing T_2_7.lc_trk_g3_1 <X> T_2_7.wire_logic_cluster/lc_1/in_3
+ (34 2)  (106 114)  (106 114)  routing T_2_7.lc_trk_g3_1 <X> T_2_7.wire_logic_cluster/lc_1/in_3
+ (40 2)  (112 114)  (112 114)  LC_1 Logic Functioning bit
+ (41 2)  (113 114)  (113 114)  LC_1 Logic Functioning bit
+ (42 2)  (114 114)  (114 114)  LC_1 Logic Functioning bit
+ (43 2)  (115 114)  (115 114)  LC_1 Logic Functioning bit
+ (45 2)  (117 114)  (117 114)  LC_1 Logic Functioning bit
+ (0 3)  (72 115)  (72 115)  routing T_2_7.glb_netwk_1 <X> T_2_7.wire_logic_cluster/lc_7/clk
+ (40 3)  (112 115)  (112 115)  LC_1 Logic Functioning bit
+ (41 3)  (113 115)  (113 115)  LC_1 Logic Functioning bit
+ (42 3)  (114 115)  (114 115)  LC_1 Logic Functioning bit
+ (43 3)  (115 115)  (115 115)  LC_1 Logic Functioning bit
+ (16 4)  (88 116)  (88 116)  routing T_2_7.sp4_v_b_9 <X> T_2_7.lc_trk_g1_1
+ (17 4)  (89 116)  (89 116)  Enable bit of Mux _local_links/g1_mux_1 => sp4_v_b_9 lc_trk_g1_1
+ (18 4)  (90 116)  (90 116)  routing T_2_7.sp4_v_b_9 <X> T_2_7.lc_trk_g1_1
+ (21 4)  (93 116)  (93 116)  routing T_2_7.sp4_v_b_3 <X> T_2_7.lc_trk_g1_3
+ (22 4)  (94 116)  (94 116)  Enable bit of Mux _local_links/g1_mux_3 => sp4_v_b_3 lc_trk_g1_3
+ (23 4)  (95 116)  (95 116)  routing T_2_7.sp4_v_b_3 <X> T_2_7.lc_trk_g1_3
+ (15 5)  (87 117)  (87 117)  routing T_2_7.bot_op_0 <X> T_2_7.lc_trk_g1_0
+ (17 5)  (89 117)  (89 117)  Enable bit of Mux _local_links/g1_mux_0 => bot_op_0 lc_trk_g1_0
+ (18 5)  (90 117)  (90 117)  routing T_2_7.sp4_v_b_9 <X> T_2_7.lc_trk_g1_1
+ (22 6)  (94 118)  (94 118)  Enable bit of Mux _local_links/g1_mux_7 => bot_op_7 lc_trk_g1_7
+ (24 6)  (96 118)  (96 118)  routing T_2_7.bot_op_7 <X> T_2_7.lc_trk_g1_7
+ (25 6)  (97 118)  (97 118)  routing T_2_7.sp4_v_t_3 <X> T_2_7.lc_trk_g1_6
+ (27 6)  (99 118)  (99 118)  routing T_2_7.lc_trk_g3_5 <X> T_2_7.wire_logic_cluster/lc_3/in_1
+ (28 6)  (100 118)  (100 118)  routing T_2_7.lc_trk_g3_5 <X> T_2_7.wire_logic_cluster/lc_3/in_1
+ (29 6)  (101 118)  (101 118)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g3_5 wire_logic_cluster/lc_3/in_1
+ (30 6)  (102 118)  (102 118)  routing T_2_7.lc_trk_g3_5 <X> T_2_7.wire_logic_cluster/lc_3/in_1
+ (32 6)  (104 118)  (104 118)  Enable bit of Mux _logic_cluster/lcb3_3 => lc_trk_g1_3 wire_logic_cluster/lc_3/in_3
+ (34 6)  (106 118)  (106 118)  routing T_2_7.lc_trk_g1_3 <X> T_2_7.wire_logic_cluster/lc_3/in_3
+ (37 6)  (109 118)  (109 118)  LC_3 Logic Functioning bit
+ (39 6)  (111 118)  (111 118)  LC_3 Logic Functioning bit
+ (41 6)  (113 118)  (113 118)  LC_3 Logic Functioning bit
+ (43 6)  (115 118)  (115 118)  LC_3 Logic Functioning bit
+ (22 7)  (94 119)  (94 119)  Enable bit of Mux _local_links/g1_mux_6 => sp4_v_t_3 lc_trk_g1_6
+ (23 7)  (95 119)  (95 119)  routing T_2_7.sp4_v_t_3 <X> T_2_7.lc_trk_g1_6
+ (25 7)  (97 119)  (97 119)  routing T_2_7.sp4_v_t_3 <X> T_2_7.lc_trk_g1_6
+ (31 7)  (103 119)  (103 119)  routing T_2_7.lc_trk_g1_3 <X> T_2_7.wire_logic_cluster/lc_3/in_3
+ (37 7)  (109 119)  (109 119)  LC_3 Logic Functioning bit
+ (39 7)  (111 119)  (111 119)  LC_3 Logic Functioning bit
+ (41 7)  (113 119)  (113 119)  LC_3 Logic Functioning bit
+ (43 7)  (115 119)  (115 119)  LC_3 Logic Functioning bit
+ (27 8)  (99 120)  (99 120)  routing T_2_7.lc_trk_g1_6 <X> T_2_7.wire_logic_cluster/lc_4/in_1
+ (29 8)  (101 120)  (101 120)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g1_6 wire_logic_cluster/lc_4/in_1
+ (30 8)  (102 120)  (102 120)  routing T_2_7.lc_trk_g1_6 <X> T_2_7.wire_logic_cluster/lc_4/in_1
+ (32 8)  (104 120)  (104 120)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g1_0 wire_logic_cluster/lc_4/in_3
+ (34 8)  (106 120)  (106 120)  routing T_2_7.lc_trk_g1_0 <X> T_2_7.wire_logic_cluster/lc_4/in_3
+ (35 8)  (107 120)  (107 120)  routing T_2_7.lc_trk_g1_7 <X> T_2_7.input_2_4
+ (40 8)  (112 120)  (112 120)  LC_4 Logic Functioning bit
+ (41 8)  (113 120)  (113 120)  LC_4 Logic Functioning bit
+ (22 9)  (94 121)  (94 121)  Enable bit of Mux _local_links/g2_mux_2 => tnl_op_2 lc_trk_g2_2
+ (24 9)  (96 121)  (96 121)  routing T_2_7.tnl_op_2 <X> T_2_7.lc_trk_g2_2
+ (25 9)  (97 121)  (97 121)  routing T_2_7.tnl_op_2 <X> T_2_7.lc_trk_g2_2
+ (26 9)  (98 121)  (98 121)  routing T_2_7.lc_trk_g3_3 <X> T_2_7.wire_logic_cluster/lc_4/in_0
+ (27 9)  (99 121)  (99 121)  routing T_2_7.lc_trk_g3_3 <X> T_2_7.wire_logic_cluster/lc_4/in_0
+ (28 9)  (100 121)  (100 121)  routing T_2_7.lc_trk_g3_3 <X> T_2_7.wire_logic_cluster/lc_4/in_0
+ (29 9)  (101 121)  (101 121)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g3_3 wire_logic_cluster/lc_4/in_0
+ (30 9)  (102 121)  (102 121)  routing T_2_7.lc_trk_g1_6 <X> T_2_7.wire_logic_cluster/lc_4/in_1
+ (32 9)  (104 121)  (104 121)  Enable bit of Mux _logic_cluster/lcb2_4 => lc_trk_g1_7 input_2_4
+ (34 9)  (106 121)  (106 121)  routing T_2_7.lc_trk_g1_7 <X> T_2_7.input_2_4
+ (35 9)  (107 121)  (107 121)  routing T_2_7.lc_trk_g1_7 <X> T_2_7.input_2_4
+ (51 9)  (123 121)  (123 121)  Enable bit of Mux _out_links/OutMux1_4 => wire_logic_cluster/lc_4/out sp4_v_b_24
+ (14 12)  (86 124)  (86 124)  routing T_2_7.bnl_op_0 <X> T_2_7.lc_trk_g3_0
+ (17 12)  (89 124)  (89 124)  Enable bit of Mux _local_links/g3_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g3_1
+ (18 12)  (90 124)  (90 124)  routing T_2_7.wire_logic_cluster/lc_1/out <X> T_2_7.lc_trk_g3_1
+ (21 12)  (93 124)  (93 124)  routing T_2_7.bnl_op_3 <X> T_2_7.lc_trk_g3_3
+ (22 12)  (94 124)  (94 124)  Enable bit of Mux _local_links/g3_mux_3 => bnl_op_3 lc_trk_g3_3
+ (14 13)  (86 125)  (86 125)  routing T_2_7.bnl_op_0 <X> T_2_7.lc_trk_g3_0
+ (17 13)  (89 125)  (89 125)  Enable bit of Mux _local_links/g3_mux_0 => bnl_op_0 lc_trk_g3_0
+ (21 13)  (93 125)  (93 125)  routing T_2_7.bnl_op_3 <X> T_2_7.lc_trk_g3_3
+ (14 14)  (86 126)  (86 126)  routing T_2_7.bnl_op_4 <X> T_2_7.lc_trk_g3_4
+ (17 14)  (89 126)  (89 126)  Enable bit of Mux _local_links/g3_mux_5 => bnl_op_5 lc_trk_g3_5
+ (18 14)  (90 126)  (90 126)  routing T_2_7.bnl_op_5 <X> T_2_7.lc_trk_g3_5
+ (32 14)  (104 126)  (104 126)  Enable bit of Mux _logic_cluster/lcb3_7 => lc_trk_g2_2 wire_logic_cluster/lc_7/in_3
+ (33 14)  (105 126)  (105 126)  routing T_2_7.lc_trk_g2_2 <X> T_2_7.wire_logic_cluster/lc_7/in_3
+ (36 14)  (108 126)  (108 126)  LC_7 Logic Functioning bit
+ (37 14)  (109 126)  (109 126)  LC_7 Logic Functioning bit
+ (38 14)  (110 126)  (110 126)  LC_7 Logic Functioning bit
+ (39 14)  (111 126)  (111 126)  LC_7 Logic Functioning bit
+ (45 14)  (117 126)  (117 126)  LC_7 Logic Functioning bit
+ (14 15)  (86 127)  (86 127)  routing T_2_7.bnl_op_4 <X> T_2_7.lc_trk_g3_4
+ (17 15)  (89 127)  (89 127)  Enable bit of Mux _local_links/g3_mux_4 => bnl_op_4 lc_trk_g3_4
+ (18 15)  (90 127)  (90 127)  routing T_2_7.bnl_op_5 <X> T_2_7.lc_trk_g3_5
+ (31 15)  (103 127)  (103 127)  routing T_2_7.lc_trk_g2_2 <X> T_2_7.wire_logic_cluster/lc_7/in_3
+ (36 15)  (108 127)  (108 127)  LC_7 Logic Functioning bit
+ (37 15)  (109 127)  (109 127)  LC_7 Logic Functioning bit
+ (38 15)  (110 127)  (110 127)  LC_7 Logic Functioning bit
+ (39 15)  (111 127)  (111 127)  LC_7 Logic Functioning bit
+
+
+RAM_Tile_3_7
+
+ (7 1)  (133 113)  (133 113)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+RAM_Tile_10_7
+
+ (7 1)  (503 113)  (503 113)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+IO_Tile_13_7
+
+ (3 6)  (649 118)  (649 118)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 121)  (649 121)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_6
+
+ (3 6)  (14 102)  (14 102)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 105)  (14 105)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_6
+
+ (14 0)  (32 96)  (32 96)  routing T_1_6.wire_logic_cluster/lc_0/out <X> T_1_6.lc_trk_g0_0
+ (27 0)  (45 96)  (45 96)  routing T_1_6.lc_trk_g1_4 <X> T_1_6.wire_logic_cluster/lc_0/in_1
+ (29 0)  (47 96)  (47 96)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_4 wire_logic_cluster/lc_0/in_1
+ (30 0)  (48 96)  (48 96)  routing T_1_6.lc_trk_g1_4 <X> T_1_6.wire_logic_cluster/lc_0/in_1
+ (31 0)  (49 96)  (49 96)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_0/in_3
+ (32 0)  (50 96)  (50 96)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g3_4 wire_logic_cluster/lc_0/in_3
+ (33 0)  (51 96)  (51 96)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_0/in_3
+ (34 0)  (52 96)  (52 96)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_0/in_3
+ (35 0)  (53 96)  (53 96)  routing T_1_6.lc_trk_g1_5 <X> T_1_6.input_2_0
+ (38 0)  (56 96)  (56 96)  LC_0 Logic Functioning bit
+ (41 0)  (59 96)  (59 96)  LC_0 Logic Functioning bit
+ (43 0)  (61 96)  (61 96)  LC_0 Logic Functioning bit
+ (45 0)  (63 96)  (63 96)  LC_0 Logic Functioning bit
+ (17 1)  (35 97)  (35 97)  Enable bit of Mux _local_links/g0_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g0_0
+ (29 1)  (47 97)  (47 97)  Enable bit of Mux _logic_cluster/lcb0_0 => lc_trk_g0_0 wire_logic_cluster/lc_0/in_0
+ (32 1)  (50 97)  (50 97)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g1_5 input_2_0
+ (34 1)  (52 97)  (52 97)  routing T_1_6.lc_trk_g1_5 <X> T_1_6.input_2_0
+ (36 1)  (54 97)  (54 97)  LC_0 Logic Functioning bit
+ (37 1)  (55 97)  (55 97)  LC_0 Logic Functioning bit
+ (39 1)  (57 97)  (57 97)  LC_0 Logic Functioning bit
+ (40 1)  (58 97)  (58 97)  LC_0 Logic Functioning bit
+ (42 1)  (60 97)  (60 97)  LC_0 Logic Functioning bit
+ (2 2)  (20 98)  (20 98)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (26 2)  (44 98)  (44 98)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_1/in_0
+ (28 2)  (46 98)  (46 98)  routing T_1_6.lc_trk_g2_0 <X> T_1_6.wire_logic_cluster/lc_1/in_1
+ (29 2)  (47 98)  (47 98)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g2_0 wire_logic_cluster/lc_1/in_1
+ (37 2)  (55 98)  (55 98)  LC_1 Logic Functioning bit
+ (38 2)  (56 98)  (56 98)  LC_1 Logic Functioning bit
+ (41 2)  (59 98)  (59 98)  LC_1 Logic Functioning bit
+ (42 2)  (60 98)  (60 98)  LC_1 Logic Functioning bit
+ (45 2)  (63 98)  (63 98)  LC_1 Logic Functioning bit
+ (0 3)  (18 99)  (18 99)  routing T_1_6.glb_netwk_1 <X> T_1_6.wire_logic_cluster/lc_7/clk
+ (27 3)  (45 99)  (45 99)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_1/in_0
+ (28 3)  (46 99)  (46 99)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_1/in_0
+ (29 3)  (47 99)  (47 99)  Enable bit of Mux _logic_cluster/lcb0_1 => lc_trk_g3_4 wire_logic_cluster/lc_1/in_0
+ (32 3)  (50 99)  (50 99)  Enable bit of Mux _logic_cluster/lcb2_1 => lc_trk_g2_1 input_2_1
+ (33 3)  (51 99)  (51 99)  routing T_1_6.lc_trk_g2_1 <X> T_1_6.input_2_1
+ (36 3)  (54 99)  (54 99)  LC_1 Logic Functioning bit
+ (37 3)  (55 99)  (55 99)  LC_1 Logic Functioning bit
+ (42 3)  (60 99)  (60 99)  LC_1 Logic Functioning bit
+ (43 3)  (61 99)  (61 99)  LC_1 Logic Functioning bit
+ (21 4)  (39 100)  (39 100)  routing T_1_6.wire_logic_cluster/lc_3/out <X> T_1_6.lc_trk_g1_3
+ (22 4)  (40 100)  (40 100)  Enable bit of Mux _local_links/g1_mux_3 => wire_logic_cluster/lc_3/out lc_trk_g1_3
+ (14 6)  (32 102)  (32 102)  routing T_1_6.wire_logic_cluster/lc_4/out <X> T_1_6.lc_trk_g1_4
+ (17 6)  (35 102)  (35 102)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (36 102)  (36 102)  routing T_1_6.wire_logic_cluster/lc_5/out <X> T_1_6.lc_trk_g1_5
+ (26 6)  (44 102)  (44 102)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_3/in_0
+ (27 6)  (45 102)  (45 102)  routing T_1_6.lc_trk_g1_3 <X> T_1_6.wire_logic_cluster/lc_3/in_1
+ (29 6)  (47 102)  (47 102)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g1_3 wire_logic_cluster/lc_3/in_1
+ (32 6)  (50 102)  (50 102)  Enable bit of Mux _logic_cluster/lcb3_3 => lc_trk_g2_0 wire_logic_cluster/lc_3/in_3
+ (33 6)  (51 102)  (51 102)  routing T_1_6.lc_trk_g2_0 <X> T_1_6.wire_logic_cluster/lc_3/in_3
+ (38 6)  (56 102)  (56 102)  LC_3 Logic Functioning bit
+ (41 6)  (59 102)  (59 102)  LC_3 Logic Functioning bit
+ (43 6)  (61 102)  (61 102)  LC_3 Logic Functioning bit
+ (45 6)  (63 102)  (63 102)  LC_3 Logic Functioning bit
+ (17 7)  (35 103)  (35 103)  Enable bit of Mux _local_links/g1_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g1_4
+ (27 7)  (45 103)  (45 103)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_3/in_0
+ (28 7)  (46 103)  (46 103)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_3/in_0
+ (29 7)  (47 103)  (47 103)  Enable bit of Mux _logic_cluster/lcb0_3 => lc_trk_g3_4 wire_logic_cluster/lc_3/in_0
+ (30 7)  (48 103)  (48 103)  routing T_1_6.lc_trk_g1_3 <X> T_1_6.wire_logic_cluster/lc_3/in_1
+ (32 7)  (50 103)  (50 103)  Enable bit of Mux _logic_cluster/lcb2_3 => lc_trk_g2_1 input_2_3
+ (33 7)  (51 103)  (51 103)  routing T_1_6.lc_trk_g2_1 <X> T_1_6.input_2_3
+ (36 7)  (54 103)  (54 103)  LC_3 Logic Functioning bit
+ (37 7)  (55 103)  (55 103)  LC_3 Logic Functioning bit
+ (38 7)  (56 103)  (56 103)  LC_3 Logic Functioning bit
+ (41 7)  (59 103)  (59 103)  LC_3 Logic Functioning bit
+ (43 7)  (61 103)  (61 103)  LC_3 Logic Functioning bit
+ (17 8)  (35 104)  (35 104)  Enable bit of Mux _local_links/g2_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g2_1
+ (18 8)  (36 104)  (36 104)  routing T_1_6.wire_logic_cluster/lc_1/out <X> T_1_6.lc_trk_g2_1
+ (26 8)  (44 104)  (44 104)  routing T_1_6.lc_trk_g1_5 <X> T_1_6.wire_logic_cluster/lc_4/in_0
+ (27 8)  (45 104)  (45 104)  routing T_1_6.lc_trk_g1_4 <X> T_1_6.wire_logic_cluster/lc_4/in_1
+ (29 8)  (47 104)  (47 104)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g1_4 wire_logic_cluster/lc_4/in_1
+ (30 8)  (48 104)  (48 104)  routing T_1_6.lc_trk_g1_4 <X> T_1_6.wire_logic_cluster/lc_4/in_1
+ (31 8)  (49 104)  (49 104)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_4/in_3
+ (32 8)  (50 104)  (50 104)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g3_4 wire_logic_cluster/lc_4/in_3
+ (33 8)  (51 104)  (51 104)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_4/in_3
+ (34 8)  (52 104)  (52 104)  routing T_1_6.lc_trk_g3_4 <X> T_1_6.wire_logic_cluster/lc_4/in_3
+ (41 8)  (59 104)  (59 104)  LC_4 Logic Functioning bit
+ (43 8)  (61 104)  (61 104)  LC_4 Logic Functioning bit
+ (45 8)  (63 104)  (63 104)  LC_4 Logic Functioning bit
+ (15 9)  (33 105)  (33 105)  routing T_1_6.tnr_op_0 <X> T_1_6.lc_trk_g2_0
+ (17 9)  (35 105)  (35 105)  Enable bit of Mux _local_links/g2_mux_0 => tnr_op_0 lc_trk_g2_0
+ (27 9)  (45 105)  (45 105)  routing T_1_6.lc_trk_g1_5 <X> T_1_6.wire_logic_cluster/lc_4/in_0
+ (29 9)  (47 105)  (47 105)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g1_5 wire_logic_cluster/lc_4/in_0
+ (36 9)  (54 105)  (54 105)  LC_4 Logic Functioning bit
+ (37 9)  (55 105)  (55 105)  LC_4 Logic Functioning bit
+ (38 9)  (56 105)  (56 105)  LC_4 Logic Functioning bit
+ (39 9)  (57 105)  (57 105)  LC_4 Logic Functioning bit
+ (41 9)  (59 105)  (59 105)  LC_4 Logic Functioning bit
+ (43 9)  (61 105)  (61 105)  LC_4 Logic Functioning bit
+ (17 10)  (35 106)  (35 106)  Enable bit of Mux _local_links/g2_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g2_5
+ (18 10)  (36 106)  (36 106)  routing T_1_6.wire_logic_cluster/lc_5/out <X> T_1_6.lc_trk_g2_5
+ (26 10)  (44 106)  (44 106)  routing T_1_6.lc_trk_g2_5 <X> T_1_6.wire_logic_cluster/lc_5/in_0
+ (27 10)  (45 106)  (45 106)  routing T_1_6.lc_trk_g3_7 <X> T_1_6.wire_logic_cluster/lc_5/in_1
+ (28 10)  (46 106)  (46 106)  routing T_1_6.lc_trk_g3_7 <X> T_1_6.wire_logic_cluster/lc_5/in_1
+ (29 10)  (47 106)  (47 106)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g3_7 wire_logic_cluster/lc_5/in_1
+ (30 10)  (48 106)  (48 106)  routing T_1_6.lc_trk_g3_7 <X> T_1_6.wire_logic_cluster/lc_5/in_1
+ (31 10)  (49 106)  (49 106)  routing T_1_6.lc_trk_g3_5 <X> T_1_6.wire_logic_cluster/lc_5/in_3
+ (32 10)  (50 106)  (50 106)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g3_5 wire_logic_cluster/lc_5/in_3
+ (33 10)  (51 106)  (51 106)  routing T_1_6.lc_trk_g3_5 <X> T_1_6.wire_logic_cluster/lc_5/in_3
+ (34 10)  (52 106)  (52 106)  routing T_1_6.lc_trk_g3_5 <X> T_1_6.wire_logic_cluster/lc_5/in_3
+ (36 10)  (54 106)  (54 106)  LC_5 Logic Functioning bit
+ (37 10)  (55 106)  (55 106)  LC_5 Logic Functioning bit
+ (38 10)  (56 106)  (56 106)  LC_5 Logic Functioning bit
+ (39 10)  (57 106)  (57 106)  LC_5 Logic Functioning bit
+ (41 10)  (59 106)  (59 106)  LC_5 Logic Functioning bit
+ (43 10)  (61 106)  (61 106)  LC_5 Logic Functioning bit
+ (45 10)  (63 106)  (63 106)  LC_5 Logic Functioning bit
+ (14 11)  (32 107)  (32 107)  routing T_1_6.sp4_r_v_b_36 <X> T_1_6.lc_trk_g2_4
+ (17 11)  (35 107)  (35 107)  Enable bit of Mux _local_links/g2_mux_4 => sp4_r_v_b_36 lc_trk_g2_4
+ (28 11)  (46 107)  (46 107)  routing T_1_6.lc_trk_g2_5 <X> T_1_6.wire_logic_cluster/lc_5/in_0
+ (29 11)  (47 107)  (47 107)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g2_5 wire_logic_cluster/lc_5/in_0
+ (30 11)  (48 107)  (48 107)  routing T_1_6.lc_trk_g3_7 <X> T_1_6.wire_logic_cluster/lc_5/in_1
+ (40 11)  (58 107)  (58 107)  LC_5 Logic Functioning bit
+ (42 11)  (60 107)  (60 107)  LC_5 Logic Functioning bit
+ (0 14)  (18 110)  (18 110)  routing T_1_6.lc_trk_g2_4 <X> T_1_6.wire_logic_cluster/lc_7/s_r
+ (1 14)  (19 110)  (19 110)  Enable bit of Mux _global_links/set_rst_mux => lc_trk_g2_4 wire_logic_cluster/lc_7/s_r
+ (14 14)  (32 110)  (32 110)  routing T_1_6.rgt_op_4 <X> T_1_6.lc_trk_g3_4
+ (17 14)  (35 110)  (35 110)  Enable bit of Mux _local_links/g3_mux_5 => sp4_r_v_b_45 lc_trk_g3_5
+ (22 14)  (40 110)  (40 110)  Enable bit of Mux _local_links/g3_mux_7 => tnr_op_7 lc_trk_g3_7
+ (24 14)  (42 110)  (42 110)  routing T_1_6.tnr_op_7 <X> T_1_6.lc_trk_g3_7
+ (1 15)  (19 111)  (19 111)  routing T_1_6.lc_trk_g2_4 <X> T_1_6.wire_logic_cluster/lc_7/s_r
+ (15 15)  (33 111)  (33 111)  routing T_1_6.rgt_op_4 <X> T_1_6.lc_trk_g3_4
+ (17 15)  (35 111)  (35 111)  Enable bit of Mux _local_links/g3_mux_4 => rgt_op_4 lc_trk_g3_4
+ (18 15)  (36 111)  (36 111)  routing T_1_6.sp4_r_v_b_45 <X> T_1_6.lc_trk_g3_5
+
+
+LogicTile_2_6
+
+ (12 0)  (84 96)  (84 96)  routing T_2_6.sp4_v_b_8 <X> T_2_6.sp4_h_r_2
+ (15 0)  (87 96)  (87 96)  routing T_2_6.lft_op_1 <X> T_2_6.lc_trk_g0_1
+ (17 0)  (89 96)  (89 96)  Enable bit of Mux _local_links/g0_mux_1 => lft_op_1 lc_trk_g0_1
+ (18 0)  (90 96)  (90 96)  routing T_2_6.lft_op_1 <X> T_2_6.lc_trk_g0_1
+ (22 0)  (94 96)  (94 96)  Enable bit of Mux _local_links/g0_mux_3 => top_op_3 lc_trk_g0_3
+ (24 0)  (96 96)  (96 96)  routing T_2_6.top_op_3 <X> T_2_6.lc_trk_g0_3
+ (26 0)  (98 96)  (98 96)  routing T_2_6.lc_trk_g0_6 <X> T_2_6.wire_logic_cluster/lc_0/in_0
+ (27 0)  (99 96)  (99 96)  routing T_2_6.lc_trk_g1_0 <X> T_2_6.wire_logic_cluster/lc_0/in_1
+ (29 0)  (101 96)  (101 96)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_0 wire_logic_cluster/lc_0/in_1
+ (32 0)  (104 96)  (104 96)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g0_3 wire_logic_cluster/lc_0/in_3
+ (35 0)  (107 96)  (107 96)  routing T_2_6.lc_trk_g3_5 <X> T_2_6.input_2_0
+ (43 0)  (115 96)  (115 96)  LC_0 Logic Functioning bit
+ (45 0)  (117 96)  (117 96)  LC_0 Logic Functioning bit
+ (52 0)  (124 96)  (124 96)  Enable bit of Mux _out_links/OutMux4_0 => wire_logic_cluster/lc_0/out sp12_v_b_16
+ (11 1)  (83 97)  (83 97)  routing T_2_6.sp4_v_b_8 <X> T_2_6.sp4_h_r_2
+ (13 1)  (85 97)  (85 97)  routing T_2_6.sp4_v_b_8 <X> T_2_6.sp4_h_r_2
+ (14 1)  (86 97)  (86 97)  routing T_2_6.top_op_0 <X> T_2_6.lc_trk_g0_0
+ (15 1)  (87 97)  (87 97)  routing T_2_6.top_op_0 <X> T_2_6.lc_trk_g0_0
+ (17 1)  (89 97)  (89 97)  Enable bit of Mux _local_links/g0_mux_0 => top_op_0 lc_trk_g0_0
+ (21 1)  (93 97)  (93 97)  routing T_2_6.top_op_3 <X> T_2_6.lc_trk_g0_3
+ (22 1)  (94 97)  (94 97)  Enable bit of Mux _local_links/g0_mux_2 => sp4_h_r_2 lc_trk_g0_2
+ (23 1)  (95 97)  (95 97)  routing T_2_6.sp4_h_r_2 <X> T_2_6.lc_trk_g0_2
+ (24 1)  (96 97)  (96 97)  routing T_2_6.sp4_h_r_2 <X> T_2_6.lc_trk_g0_2
+ (25 1)  (97 97)  (97 97)  routing T_2_6.sp4_h_r_2 <X> T_2_6.lc_trk_g0_2
+ (26 1)  (98 97)  (98 97)  routing T_2_6.lc_trk_g0_6 <X> T_2_6.wire_logic_cluster/lc_0/in_0
+ (29 1)  (101 97)  (101 97)  Enable bit of Mux _logic_cluster/lcb0_0 => lc_trk_g0_6 wire_logic_cluster/lc_0/in_0
+ (31 1)  (103 97)  (103 97)  routing T_2_6.lc_trk_g0_3 <X> T_2_6.wire_logic_cluster/lc_0/in_3
+ (32 1)  (104 97)  (104 97)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g3_5 input_2_0
+ (33 1)  (105 97)  (105 97)  routing T_2_6.lc_trk_g3_5 <X> T_2_6.input_2_0
+ (34 1)  (106 97)  (106 97)  routing T_2_6.lc_trk_g3_5 <X> T_2_6.input_2_0
+ (2 2)  (74 98)  (74 98)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (14 2)  (86 98)  (86 98)  routing T_2_6.wire_logic_cluster/lc_4/out <X> T_2_6.lc_trk_g0_4
+ (15 2)  (87 98)  (87 98)  routing T_2_6.lft_op_5 <X> T_2_6.lc_trk_g0_5
+ (17 2)  (89 98)  (89 98)  Enable bit of Mux _local_links/g0_mux_5 => lft_op_5 lc_trk_g0_5
+ (18 2)  (90 98)  (90 98)  routing T_2_6.lft_op_5 <X> T_2_6.lc_trk_g0_5
+ (26 2)  (98 98)  (98 98)  routing T_2_6.lc_trk_g1_6 <X> T_2_6.wire_logic_cluster/lc_1/in_0
+ (27 2)  (99 98)  (99 98)  routing T_2_6.lc_trk_g1_7 <X> T_2_6.wire_logic_cluster/lc_1/in_1
+ (29 2)  (101 98)  (101 98)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g1_7 wire_logic_cluster/lc_1/in_1
+ (30 2)  (102 98)  (102 98)  routing T_2_6.lc_trk_g1_7 <X> T_2_6.wire_logic_cluster/lc_1/in_1
+ (31 2)  (103 98)  (103 98)  routing T_2_6.lc_trk_g0_6 <X> T_2_6.wire_logic_cluster/lc_1/in_3
+ (32 2)  (104 98)  (104 98)  Enable bit of Mux _logic_cluster/lcb3_1 => lc_trk_g0_6 wire_logic_cluster/lc_1/in_3
+ (35 2)  (107 98)  (107 98)  routing T_2_6.lc_trk_g0_5 <X> T_2_6.input_2_1
+ (39 2)  (111 98)  (111 98)  LC_1 Logic Functioning bit
+ (0 3)  (72 99)  (72 99)  routing T_2_6.glb_netwk_1 <X> T_2_6.wire_logic_cluster/lc_7/clk
+ (17 3)  (89 99)  (89 99)  Enable bit of Mux _local_links/g0_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g0_4
+ (22 3)  (94 99)  (94 99)  Enable bit of Mux _local_links/g0_mux_6 => bot_op_6 lc_trk_g0_6
+ (24 3)  (96 99)  (96 99)  routing T_2_6.bot_op_6 <X> T_2_6.lc_trk_g0_6
+ (26 3)  (98 99)  (98 99)  routing T_2_6.lc_trk_g1_6 <X> T_2_6.wire_logic_cluster/lc_1/in_0
+ (27 3)  (99 99)  (99 99)  routing T_2_6.lc_trk_g1_6 <X> T_2_6.wire_logic_cluster/lc_1/in_0
+ (29 3)  (101 99)  (101 99)  Enable bit of Mux _logic_cluster/lcb0_1 => lc_trk_g1_6 wire_logic_cluster/lc_1/in_0
+ (30 3)  (102 99)  (102 99)  routing T_2_6.lc_trk_g1_7 <X> T_2_6.wire_logic_cluster/lc_1/in_1
+ (31 3)  (103 99)  (103 99)  routing T_2_6.lc_trk_g0_6 <X> T_2_6.wire_logic_cluster/lc_1/in_3
+ (32 3)  (104 99)  (104 99)  Enable bit of Mux _logic_cluster/lcb2_1 => lc_trk_g0_5 input_2_1
+ (37 3)  (109 99)  (109 99)  LC_1 Logic Functioning bit
+ (1 4)  (73 100)  (73 100)  Enable bit of Mux _global_links/ce_mux => lc_trk_g0_2 wire_logic_cluster/lc_7/cen
+ (15 4)  (87 100)  (87 100)  routing T_2_6.lft_op_1 <X> T_2_6.lc_trk_g1_1
+ (17 4)  (89 100)  (89 100)  Enable bit of Mux _local_links/g1_mux_1 => lft_op_1 lc_trk_g1_1
+ (18 4)  (90 100)  (90 100)  routing T_2_6.lft_op_1 <X> T_2_6.lc_trk_g1_1
+ (21 4)  (93 100)  (93 100)  routing T_2_6.lft_op_3 <X> T_2_6.lc_trk_g1_3
+ (22 4)  (94 100)  (94 100)  Enable bit of Mux _local_links/g1_mux_3 => lft_op_3 lc_trk_g1_3
+ (24 4)  (96 100)  (96 100)  routing T_2_6.lft_op_3 <X> T_2_6.lc_trk_g1_3
+ (26 4)  (98 100)  (98 100)  routing T_2_6.lc_trk_g1_5 <X> T_2_6.wire_logic_cluster/lc_2/in_0
+ (27 4)  (99 100)  (99 100)  routing T_2_6.lc_trk_g1_2 <X> T_2_6.wire_logic_cluster/lc_2/in_1
+ (29 4)  (101 100)  (101 100)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g1_2 wire_logic_cluster/lc_2/in_1
+ (31 4)  (103 100)  (103 100)  routing T_2_6.lc_trk_g2_5 <X> T_2_6.wire_logic_cluster/lc_2/in_3
+ (32 4)  (104 100)  (104 100)  Enable bit of Mux _logic_cluster/lcb3_2 => lc_trk_g2_5 wire_logic_cluster/lc_2/in_3
+ (33 4)  (105 100)  (105 100)  routing T_2_6.lc_trk_g2_5 <X> T_2_6.wire_logic_cluster/lc_2/in_3
+ (36 4)  (108 100)  (108 100)  LC_2 Logic Functioning bit
+ (50 4)  (122 100)  (122 100)  Cascade bit: LH_LC02_inmux02_5
+
+ (1 5)  (73 101)  (73 101)  routing T_2_6.lc_trk_g0_2 <X> T_2_6.wire_logic_cluster/lc_7/cen
+ (15 5)  (87 101)  (87 101)  routing T_2_6.bot_op_0 <X> T_2_6.lc_trk_g1_0
+ (17 5)  (89 101)  (89 101)  Enable bit of Mux _local_links/g1_mux_0 => bot_op_0 lc_trk_g1_0
+ (22 5)  (94 101)  (94 101)  Enable bit of Mux _local_links/g1_mux_2 => bot_op_2 lc_trk_g1_2
+ (24 5)  (96 101)  (96 101)  routing T_2_6.bot_op_2 <X> T_2_6.lc_trk_g1_2
+ (27 5)  (99 101)  (99 101)  routing T_2_6.lc_trk_g1_5 <X> T_2_6.wire_logic_cluster/lc_2/in_0
+ (29 5)  (101 101)  (101 101)  Enable bit of Mux _logic_cluster/lcb0_2 => lc_trk_g1_5 wire_logic_cluster/lc_2/in_0
+ (30 5)  (102 101)  (102 101)  routing T_2_6.lc_trk_g1_2 <X> T_2_6.wire_logic_cluster/lc_2/in_1
+ (51 5)  (123 101)  (123 101)  Enable bit of Mux _out_links/OutMux2_2 => wire_logic_cluster/lc_2/out sp4_v_b_36
+ (17 6)  (89 102)  (89 102)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (90 102)  (90 102)  routing T_2_6.wire_logic_cluster/lc_5/out <X> T_2_6.lc_trk_g1_5
+ (22 6)  (94 102)  (94 102)  Enable bit of Mux _local_links/g1_mux_7 => top_op_7 lc_trk_g1_7
+ (24 6)  (96 102)  (96 102)  routing T_2_6.top_op_7 <X> T_2_6.lc_trk_g1_7
+ (25 6)  (97 102)  (97 102)  routing T_2_6.sp4_v_t_3 <X> T_2_6.lc_trk_g1_6
+ (31 6)  (103 102)  (103 102)  routing T_2_6.lc_trk_g0_4 <X> T_2_6.wire_logic_cluster/lc_3/in_3
+ (32 6)  (104 102)  (104 102)  Enable bit of Mux _logic_cluster/lcb3_3 => lc_trk_g0_4 wire_logic_cluster/lc_3/in_3
+ (36 6)  (108 102)  (108 102)  LC_3 Logic Functioning bit
+ (37 6)  (109 102)  (109 102)  LC_3 Logic Functioning bit
+ (38 6)  (110 102)  (110 102)  LC_3 Logic Functioning bit
+ (39 6)  (111 102)  (111 102)  LC_3 Logic Functioning bit
+ (42 6)  (114 102)  (114 102)  LC_3 Logic Functioning bit
+ (43 6)  (115 102)  (115 102)  LC_3 Logic Functioning bit
+ (50 6)  (122 102)  (122 102)  Cascade bit: LH_LC03_inmux02_5
+
+ (15 7)  (87 103)  (87 103)  routing T_2_6.bot_op_4 <X> T_2_6.lc_trk_g1_4
+ (17 7)  (89 103)  (89 103)  Enable bit of Mux _local_links/g1_mux_4 => bot_op_4 lc_trk_g1_4
+ (21 7)  (93 103)  (93 103)  routing T_2_6.top_op_7 <X> T_2_6.lc_trk_g1_7
+ (22 7)  (94 103)  (94 103)  Enable bit of Mux _local_links/g1_mux_6 => sp4_v_t_3 lc_trk_g1_6
+ (23 7)  (95 103)  (95 103)  routing T_2_6.sp4_v_t_3 <X> T_2_6.lc_trk_g1_6
+ (25 7)  (97 103)  (97 103)  routing T_2_6.sp4_v_t_3 <X> T_2_6.lc_trk_g1_6
+ (36 7)  (108 103)  (108 103)  LC_3 Logic Functioning bit
+ (37 7)  (109 103)  (109 103)  LC_3 Logic Functioning bit
+ (38 7)  (110 103)  (110 103)  LC_3 Logic Functioning bit
+ (39 7)  (111 103)  (111 103)  LC_3 Logic Functioning bit
+ (42 7)  (114 103)  (114 103)  LC_3 Logic Functioning bit
+ (43 7)  (115 103)  (115 103)  LC_3 Logic Functioning bit
+ (14 8)  (86 104)  (86 104)  routing T_2_6.wire_logic_cluster/lc_0/out <X> T_2_6.lc_trk_g2_0
+ (26 8)  (98 104)  (98 104)  routing T_2_6.lc_trk_g1_7 <X> T_2_6.wire_logic_cluster/lc_4/in_0
+ (31 8)  (103 104)  (103 104)  routing T_2_6.lc_trk_g2_5 <X> T_2_6.wire_logic_cluster/lc_4/in_3
+ (32 8)  (104 104)  (104 104)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g2_5 wire_logic_cluster/lc_4/in_3
+ (33 8)  (105 104)  (105 104)  routing T_2_6.lc_trk_g2_5 <X> T_2_6.wire_logic_cluster/lc_4/in_3
+ (37 8)  (109 104)  (109 104)  LC_4 Logic Functioning bit
+ (39 8)  (111 104)  (111 104)  LC_4 Logic Functioning bit
+ (10 9)  (82 105)  (82 105)  routing T_2_6.sp4_h_r_2 <X> T_2_6.sp4_v_b_7
+ (17 9)  (89 105)  (89 105)  Enable bit of Mux _local_links/g2_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g2_0
+ (26 9)  (98 105)  (98 105)  routing T_2_6.lc_trk_g1_7 <X> T_2_6.wire_logic_cluster/lc_4/in_0
+ (27 9)  (99 105)  (99 105)  routing T_2_6.lc_trk_g1_7 <X> T_2_6.wire_logic_cluster/lc_4/in_0
+ (29 9)  (101 105)  (101 105)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g1_7 wire_logic_cluster/lc_4/in_0
+ (36 9)  (108 105)  (108 105)  LC_4 Logic Functioning bit
+ (38 9)  (110 105)  (110 105)  LC_4 Logic Functioning bit
+ (48 9)  (120 105)  (120 105)  Enable bit of Mux _out_links/OutMux0_4 => wire_logic_cluster/lc_4/out sp4_v_b_8
+ (52 9)  (124 105)  (124 105)  Enable bit of Mux _out_links/OutMux9_4 => wire_logic_cluster/lc_4/out sp4_r_v_b_9
+ (15 10)  (87 106)  (87 106)  routing T_2_6.sp4_v_t_32 <X> T_2_6.lc_trk_g2_5
+ (16 10)  (88 106)  (88 106)  routing T_2_6.sp4_v_t_32 <X> T_2_6.lc_trk_g2_5
+ (17 10)  (89 106)  (89 106)  Enable bit of Mux _local_links/g2_mux_5 => sp4_v_t_32 lc_trk_g2_5
+ (21 10)  (93 106)  (93 106)  routing T_2_6.wire_logic_cluster/lc_7/out <X> T_2_6.lc_trk_g2_7
+ (22 10)  (94 106)  (94 106)  Enable bit of Mux _local_links/g2_mux_7 => wire_logic_cluster/lc_7/out lc_trk_g2_7
+ (26 10)  (98 106)  (98 106)  routing T_2_6.lc_trk_g1_4 <X> T_2_6.wire_logic_cluster/lc_5/in_0
+ (27 10)  (99 106)  (99 106)  routing T_2_6.lc_trk_g1_1 <X> T_2_6.wire_logic_cluster/lc_5/in_1
+ (29 10)  (101 106)  (101 106)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g1_1 wire_logic_cluster/lc_5/in_1
+ (32 10)  (104 106)  (104 106)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g2_0 wire_logic_cluster/lc_5/in_3
+ (33 10)  (105 106)  (105 106)  routing T_2_6.lc_trk_g2_0 <X> T_2_6.wire_logic_cluster/lc_5/in_3
+ (35 10)  (107 106)  (107 106)  routing T_2_6.lc_trk_g2_7 <X> T_2_6.input_2_5
+ (40 10)  (112 106)  (112 106)  LC_5 Logic Functioning bit
+ (41 10)  (113 106)  (113 106)  LC_5 Logic Functioning bit
+ (27 11)  (99 107)  (99 107)  routing T_2_6.lc_trk_g1_4 <X> T_2_6.wire_logic_cluster/lc_5/in_0
+ (29 11)  (101 107)  (101 107)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g1_4 wire_logic_cluster/lc_5/in_0
+ (32 11)  (104 107)  (104 107)  Enable bit of Mux _logic_cluster/lcb2_5 => lc_trk_g2_7 input_2_5
+ (33 11)  (105 107)  (105 107)  routing T_2_6.lc_trk_g2_7 <X> T_2_6.input_2_5
+ (35 11)  (107 107)  (107 107)  routing T_2_6.lc_trk_g2_7 <X> T_2_6.input_2_5
+ (16 14)  (88 110)  (88 110)  routing T_2_6.sp4_v_b_37 <X> T_2_6.lc_trk_g3_5
+ (17 14)  (89 110)  (89 110)  Enable bit of Mux _local_links/g3_mux_5 => sp4_v_b_37 lc_trk_g3_5
+ (18 14)  (90 110)  (90 110)  routing T_2_6.sp4_v_b_37 <X> T_2_6.lc_trk_g3_5
+ (26 14)  (98 110)  (98 110)  routing T_2_6.lc_trk_g2_7 <X> T_2_6.wire_logic_cluster/lc_7/in_0
+ (29 14)  (101 110)  (101 110)  Enable bit of Mux _logic_cluster/lcb1_7 => lc_trk_g0_0 wire_logic_cluster/lc_7/in_1
+ (32 14)  (104 110)  (104 110)  Enable bit of Mux _logic_cluster/lcb3_7 => lc_trk_g1_3 wire_logic_cluster/lc_7/in_3
+ (34 14)  (106 110)  (106 110)  routing T_2_6.lc_trk_g1_3 <X> T_2_6.wire_logic_cluster/lc_7/in_3
+ (38 14)  (110 110)  (110 110)  LC_7 Logic Functioning bit
+ (41 14)  (113 110)  (113 110)  LC_7 Logic Functioning bit
+ (43 14)  (115 110)  (115 110)  LC_7 Logic Functioning bit
+ (45 14)  (117 110)  (117 110)  LC_7 Logic Functioning bit
+ (18 15)  (90 111)  (90 111)  routing T_2_6.sp4_v_b_37 <X> T_2_6.lc_trk_g3_5
+ (26 15)  (98 111)  (98 111)  routing T_2_6.lc_trk_g2_7 <X> T_2_6.wire_logic_cluster/lc_7/in_0
+ (28 15)  (100 111)  (100 111)  routing T_2_6.lc_trk_g2_7 <X> T_2_6.wire_logic_cluster/lc_7/in_0
+ (29 15)  (101 111)  (101 111)  Enable bit of Mux _logic_cluster/lcb0_7 => lc_trk_g2_7 wire_logic_cluster/lc_7/in_0
+ (31 15)  (103 111)  (103 111)  routing T_2_6.lc_trk_g1_3 <X> T_2_6.wire_logic_cluster/lc_7/in_3
+ (32 15)  (104 111)  (104 111)  Enable bit of Mux _logic_cluster/lcb2_7 => lc_trk_g0_1 input_2_7
+ (36 15)  (108 111)  (108 111)  LC_7 Logic Functioning bit
+ (37 15)  (109 111)  (109 111)  LC_7 Logic Functioning bit
+ (39 15)  (111 111)  (111 111)  LC_7 Logic Functioning bit
+ (40 15)  (112 111)  (112 111)  LC_7 Logic Functioning bit
+ (42 15)  (114 111)  (114 111)  LC_7 Logic Functioning bit
+
+
+IO_Tile_13_6
+
+ (3 6)  (649 102)  (649 102)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 105)  (649 105)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_5
+
+ (3 6)  (14 86)  (14 86)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 89)  (14 89)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_5
+
+ (14 0)  (32 80)  (32 80)  routing T_1_5.wire_logic_cluster/lc_0/out <X> T_1_5.lc_trk_g0_0
+ (27 0)  (45 80)  (45 80)  routing T_1_5.lc_trk_g1_0 <X> T_1_5.wire_logic_cluster/lc_0/in_1
+ (29 0)  (47 80)  (47 80)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_0 wire_logic_cluster/lc_0/in_1
+ (31 0)  (49 80)  (49 80)  routing T_1_5.lc_trk_g1_4 <X> T_1_5.wire_logic_cluster/lc_0/in_3
+ (32 0)  (50 80)  (50 80)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g1_4 wire_logic_cluster/lc_0/in_3
+ (34 0)  (52 80)  (52 80)  routing T_1_5.lc_trk_g1_4 <X> T_1_5.wire_logic_cluster/lc_0/in_3
+ (35 0)  (53 80)  (53 80)  routing T_1_5.lc_trk_g1_5 <X> T_1_5.input_2_0
+ (38 0)  (56 80)  (56 80)  LC_0 Logic Functioning bit
+ (41 0)  (59 80)  (59 80)  LC_0 Logic Functioning bit
+ (43 0)  (61 80)  (61 80)  LC_0 Logic Functioning bit
+ (45 0)  (63 80)  (63 80)  LC_0 Logic Functioning bit
+ (2 1)  (20 81)  (20 81)  Column buffer control bit: LH_colbuf_cntl_1
+
+ (17 1)  (35 81)  (35 81)  Enable bit of Mux _local_links/g0_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g0_0
+ (29 1)  (47 81)  (47 81)  Enable bit of Mux _logic_cluster/lcb0_0 => lc_trk_g0_0 wire_logic_cluster/lc_0/in_0
+ (32 1)  (50 81)  (50 81)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g1_5 input_2_0
+ (34 1)  (52 81)  (52 81)  routing T_1_5.lc_trk_g1_5 <X> T_1_5.input_2_0
+ (36 1)  (54 81)  (54 81)  LC_0 Logic Functioning bit
+ (37 1)  (55 81)  (55 81)  LC_0 Logic Functioning bit
+ (39 1)  (57 81)  (57 81)  LC_0 Logic Functioning bit
+ (40 1)  (58 81)  (58 81)  LC_0 Logic Functioning bit
+ (42 1)  (60 81)  (60 81)  LC_0 Logic Functioning bit
+ (53 1)  (71 81)  (71 81)  Enable bit of Mux _out_links/OutMuxb_0 => wire_logic_cluster/lc_0/out sp4_r_v_b_33
+ (2 2)  (20 82)  (20 82)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (0 3)  (18 83)  (18 83)  routing T_1_5.glb_netwk_1 <X> T_1_5.wire_logic_cluster/lc_7/clk
+ (0 4)  (18 84)  (18 84)  routing T_1_5.lc_trk_g3_3 <X> T_1_5.wire_logic_cluster/lc_7/cen
+ (1 4)  (19 84)  (19 84)  Enable bit of Mux _global_links/ce_mux => lc_trk_g3_3 wire_logic_cluster/lc_7/cen
+ (0 5)  (18 85)  (18 85)  routing T_1_5.lc_trk_g3_3 <X> T_1_5.wire_logic_cluster/lc_7/cen
+ (1 5)  (19 85)  (19 85)  routing T_1_5.lc_trk_g3_3 <X> T_1_5.wire_logic_cluster/lc_7/cen
+ (14 5)  (32 85)  (32 85)  routing T_1_5.top_op_0 <X> T_1_5.lc_trk_g1_0
+ (15 5)  (33 85)  (33 85)  routing T_1_5.top_op_0 <X> T_1_5.lc_trk_g1_0
+ (17 5)  (35 85)  (35 85)  Enable bit of Mux _local_links/g1_mux_0 => top_op_0 lc_trk_g1_0
+ (15 6)  (33 86)  (33 86)  routing T_1_5.top_op_5 <X> T_1_5.lc_trk_g1_5
+ (17 6)  (35 86)  (35 86)  Enable bit of Mux _local_links/g1_mux_5 => top_op_5 lc_trk_g1_5
+ (14 7)  (32 87)  (32 87)  routing T_1_5.top_op_4 <X> T_1_5.lc_trk_g1_4
+ (15 7)  (33 87)  (33 87)  routing T_1_5.top_op_4 <X> T_1_5.lc_trk_g1_4
+ (17 7)  (35 87)  (35 87)  Enable bit of Mux _local_links/g1_mux_4 => top_op_4 lc_trk_g1_4
+ (18 7)  (36 87)  (36 87)  routing T_1_5.top_op_5 <X> T_1_5.lc_trk_g1_5
+ (14 10)  (32 90)  (32 90)  routing T_1_5.sp4_h_r_36 <X> T_1_5.lc_trk_g2_4
+ (15 11)  (33 91)  (33 91)  routing T_1_5.sp4_h_r_36 <X> T_1_5.lc_trk_g2_4
+ (16 11)  (34 91)  (34 91)  routing T_1_5.sp4_h_r_36 <X> T_1_5.lc_trk_g2_4
+ (17 11)  (35 91)  (35 91)  Enable bit of Mux _local_links/g2_mux_4 => sp4_h_r_36 lc_trk_g2_4
+ (22 12)  (40 92)  (40 92)  Enable bit of Mux _local_links/g3_mux_3 => tnr_op_3 lc_trk_g3_3
+ (24 12)  (42 92)  (42 92)  routing T_1_5.tnr_op_3 <X> T_1_5.lc_trk_g3_3
+ (0 14)  (18 94)  (18 94)  routing T_1_5.lc_trk_g2_4 <X> T_1_5.wire_logic_cluster/lc_7/s_r
+ (1 14)  (19 94)  (19 94)  Enable bit of Mux _global_links/set_rst_mux => lc_trk_g2_4 wire_logic_cluster/lc_7/s_r
+ (1 15)  (19 95)  (19 95)  routing T_1_5.lc_trk_g2_4 <X> T_1_5.wire_logic_cluster/lc_7/s_r
+
+
+LogicTile_2_5
+
+ (14 0)  (86 80)  (86 80)  routing T_2_5.lft_op_0 <X> T_2_5.lc_trk_g0_0
+ (15 0)  (87 80)  (87 80)  routing T_2_5.bot_op_1 <X> T_2_5.lc_trk_g0_1
+ (17 0)  (89 80)  (89 80)  Enable bit of Mux _local_links/g0_mux_1 => bot_op_1 lc_trk_g0_1
+ (21 0)  (93 80)  (93 80)  routing T_2_5.wire_logic_cluster/lc_3/out <X> T_2_5.lc_trk_g0_3
+ (22 0)  (94 80)  (94 80)  Enable bit of Mux _local_links/g0_mux_3 => wire_logic_cluster/lc_3/out lc_trk_g0_3
+ (27 0)  (99 80)  (99 80)  routing T_2_5.lc_trk_g1_4 <X> T_2_5.wire_logic_cluster/lc_0/in_1
+ (29 0)  (101 80)  (101 80)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_4 wire_logic_cluster/lc_0/in_1
+ (30 0)  (102 80)  (102 80)  routing T_2_5.lc_trk_g1_4 <X> T_2_5.wire_logic_cluster/lc_0/in_1
+ (32 0)  (104 80)  (104 80)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g2_1 wire_logic_cluster/lc_0/in_3
+ (33 0)  (105 80)  (105 80)  routing T_2_5.lc_trk_g2_1 <X> T_2_5.wire_logic_cluster/lc_0/in_3
+ (36 0)  (108 80)  (108 80)  LC_0 Logic Functioning bit
+ (40 0)  (112 80)  (112 80)  LC_0 Logic Functioning bit
+ (2 1)  (74 81)  (74 81)  Column buffer control bit: LH_colbuf_cntl_1
+
+ (15 1)  (87 81)  (87 81)  routing T_2_5.lft_op_0 <X> T_2_5.lc_trk_g0_0
+ (17 1)  (89 81)  (89 81)  Enable bit of Mux _local_links/g0_mux_0 => lft_op_0 lc_trk_g0_0
+ (22 1)  (94 81)  (94 81)  Enable bit of Mux _local_links/g0_mux_2 => sp4_v_b_18 lc_trk_g0_2
+ (23 1)  (95 81)  (95 81)  routing T_2_5.sp4_v_b_18 <X> T_2_5.lc_trk_g0_2
+ (24 1)  (96 81)  (96 81)  routing T_2_5.sp4_v_b_18 <X> T_2_5.lc_trk_g0_2
+ (29 1)  (101 81)  (101 81)  Enable bit of Mux _logic_cluster/lcb0_0 => lc_trk_g0_0 wire_logic_cluster/lc_0/in_0
+ (32 1)  (104 81)  (104 81)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g3_1 input_2_0
+ (33 1)  (105 81)  (105 81)  routing T_2_5.lc_trk_g3_1 <X> T_2_5.input_2_0
+ (34 1)  (106 81)  (106 81)  routing T_2_5.lc_trk_g3_1 <X> T_2_5.input_2_0
+ (39 1)  (111 81)  (111 81)  LC_0 Logic Functioning bit
+ (43 1)  (115 81)  (115 81)  LC_0 Logic Functioning bit
+ (2 2)  (74 82)  (74 82)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (8 2)  (80 82)  (80 82)  routing T_2_5.sp4_v_t_36 <X> T_2_5.sp4_h_l_36
+ (9 2)  (81 82)  (81 82)  routing T_2_5.sp4_v_t_36 <X> T_2_5.sp4_h_l_36
+ (29 2)  (101 82)  (101 82)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g0_4 wire_logic_cluster/lc_1/in_1
+ (30 2)  (102 82)  (102 82)  routing T_2_5.lc_trk_g0_4 <X> T_2_5.wire_logic_cluster/lc_1/in_1
+ (32 2)  (104 82)  (104 82)  Enable bit of Mux _logic_cluster/lcb3_1 => lc_trk_g1_1 wire_logic_cluster/lc_1/in_3
+ (34 2)  (106 82)  (106 82)  routing T_2_5.lc_trk_g1_1 <X> T_2_5.wire_logic_cluster/lc_1/in_3
+ (41 2)  (113 82)  (113 82)  LC_1 Logic Functioning bit
+ (43 2)  (115 82)  (115 82)  LC_1 Logic Functioning bit
+ (45 2)  (117 82)  (117 82)  LC_1 Logic Functioning bit
+ (0 3)  (72 83)  (72 83)  routing T_2_5.glb_netwk_1 <X> T_2_5.wire_logic_cluster/lc_7/clk
+ (15 3)  (87 83)  (87 83)  routing T_2_5.bot_op_4 <X> T_2_5.lc_trk_g0_4
+ (17 3)  (89 83)  (89 83)  Enable bit of Mux _local_links/g0_mux_4 => bot_op_4 lc_trk_g0_4
+ (26 3)  (98 83)  (98 83)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_1/in_0
+ (27 3)  (99 83)  (99 83)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_1/in_0
+ (29 3)  (101 83)  (101 83)  Enable bit of Mux _logic_cluster/lcb0_1 => lc_trk_g1_2 wire_logic_cluster/lc_1/in_0
+ (1 4)  (73 84)  (73 84)  Enable bit of Mux _global_links/ce_mux => lc_trk_g0_2 wire_logic_cluster/lc_7/cen
+ (15 4)  (87 84)  (87 84)  routing T_2_5.bot_op_1 <X> T_2_5.lc_trk_g1_1
+ (17 4)  (89 84)  (89 84)  Enable bit of Mux _local_links/g1_mux_1 => bot_op_1 lc_trk_g1_1
+ (29 4)  (101 84)  (101 84)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g0_3 wire_logic_cluster/lc_2/in_1
+ (32 4)  (104 84)  (104 84)  Enable bit of Mux _logic_cluster/lcb3_2 => lc_trk_g2_1 wire_logic_cluster/lc_2/in_3
+ (33 4)  (105 84)  (105 84)  routing T_2_5.lc_trk_g2_1 <X> T_2_5.wire_logic_cluster/lc_2/in_3
+ (36 4)  (108 84)  (108 84)  LC_2 Logic Functioning bit
+ (40 4)  (112 84)  (112 84)  LC_2 Logic Functioning bit
+ (1 5)  (73 85)  (73 85)  routing T_2_5.lc_trk_g0_2 <X> T_2_5.wire_logic_cluster/lc_7/cen
+ (22 5)  (94 85)  (94 85)  Enable bit of Mux _local_links/g1_mux_2 => bot_op_2 lc_trk_g1_2
+ (24 5)  (96 85)  (96 85)  routing T_2_5.bot_op_2 <X> T_2_5.lc_trk_g1_2
+ (29 5)  (101 85)  (101 85)  Enable bit of Mux _logic_cluster/lcb0_2 => lc_trk_g0_0 wire_logic_cluster/lc_2/in_0
+ (30 5)  (102 85)  (102 85)  routing T_2_5.lc_trk_g0_3 <X> T_2_5.wire_logic_cluster/lc_2/in_1
+ (32 5)  (104 85)  (104 85)  Enable bit of Mux _logic_cluster/lcb2_2 => lc_trk_g3_3 input_2_2
+ (33 5)  (105 85)  (105 85)  routing T_2_5.lc_trk_g3_3 <X> T_2_5.input_2_2
+ (34 5)  (106 85)  (106 85)  routing T_2_5.lc_trk_g3_3 <X> T_2_5.input_2_2
+ (35 5)  (107 85)  (107 85)  routing T_2_5.lc_trk_g3_3 <X> T_2_5.input_2_2
+ (39 5)  (111 85)  (111 85)  LC_2 Logic Functioning bit
+ (43 5)  (115 85)  (115 85)  LC_2 Logic Functioning bit
+ (14 6)  (86 86)  (86 86)  routing T_2_5.wire_logic_cluster/lc_4/out <X> T_2_5.lc_trk_g1_4
+ (17 6)  (89 86)  (89 86)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (90 86)  (90 86)  routing T_2_5.wire_logic_cluster/lc_5/out <X> T_2_5.lc_trk_g1_5
+ (29 6)  (101 86)  (101 86)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g0_4 wire_logic_cluster/lc_3/in_1
+ (30 6)  (102 86)  (102 86)  routing T_2_5.lc_trk_g0_4 <X> T_2_5.wire_logic_cluster/lc_3/in_1
+ (32 6)  (104 86)  (104 86)  Enable bit of Mux _logic_cluster/lcb3_3 => lc_trk_g1_1 wire_logic_cluster/lc_3/in_3
+ (34 6)  (106 86)  (106 86)  routing T_2_5.lc_trk_g1_1 <X> T_2_5.wire_logic_cluster/lc_3/in_3
+ (36 6)  (108 86)  (108 86)  LC_3 Logic Functioning bit
+ (38 6)  (110 86)  (110 86)  LC_3 Logic Functioning bit
+ (45 6)  (117 86)  (117 86)  LC_3 Logic Functioning bit
+ (17 7)  (89 87)  (89 87)  Enable bit of Mux _local_links/g1_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g1_4
+ (26 7)  (98 87)  (98 87)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_3/in_0
+ (27 7)  (99 87)  (99 87)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_3/in_0
+ (29 7)  (101 87)  (101 87)  Enable bit of Mux _logic_cluster/lcb0_3 => lc_trk_g1_2 wire_logic_cluster/lc_3/in_0
+ (51 7)  (123 87)  (123 87)  Enable bit of Mux _out_links/OutMux2_3 => wire_logic_cluster/lc_3/out sp4_v_b_38
+ (17 8)  (89 88)  (89 88)  Enable bit of Mux _local_links/g2_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g2_1
+ (18 8)  (90 88)  (90 88)  routing T_2_5.wire_logic_cluster/lc_1/out <X> T_2_5.lc_trk_g2_1
+ (26 8)  (98 88)  (98 88)  routing T_2_5.lc_trk_g0_4 <X> T_2_5.wire_logic_cluster/lc_4/in_0
+ (29 8)  (101 88)  (101 88)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g0_1 wire_logic_cluster/lc_4/in_1
+ (36 8)  (108 88)  (108 88)  LC_4 Logic Functioning bit
+ (38 8)  (110 88)  (110 88)  LC_4 Logic Functioning bit
+ (41 8)  (113 88)  (113 88)  LC_4 Logic Functioning bit
+ (43 8)  (115 88)  (115 88)  LC_4 Logic Functioning bit
+ (45 8)  (117 88)  (117 88)  LC_4 Logic Functioning bit
+ (14 9)  (86 89)  (86 89)  routing T_2_5.tnl_op_0 <X> T_2_5.lc_trk_g2_0
+ (15 9)  (87 89)  (87 89)  routing T_2_5.tnl_op_0 <X> T_2_5.lc_trk_g2_0
+ (17 9)  (89 89)  (89 89)  Enable bit of Mux _local_links/g2_mux_0 => tnl_op_0 lc_trk_g2_0
+ (29 9)  (101 89)  (101 89)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g0_4 wire_logic_cluster/lc_4/in_0
+ (21 10)  (93 90)  (93 90)  routing T_2_5.wire_logic_cluster/lc_7/out <X> T_2_5.lc_trk_g2_7
+ (22 10)  (94 90)  (94 90)  Enable bit of Mux _local_links/g2_mux_7 => wire_logic_cluster/lc_7/out lc_trk_g2_7
+ (29 10)  (101 90)  (101 90)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g0_4 wire_logic_cluster/lc_5/in_1
+ (30 10)  (102 90)  (102 90)  routing T_2_5.lc_trk_g0_4 <X> T_2_5.wire_logic_cluster/lc_5/in_1
+ (32 10)  (104 90)  (104 90)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g1_1 wire_logic_cluster/lc_5/in_3
+ (34 10)  (106 90)  (106 90)  routing T_2_5.lc_trk_g1_1 <X> T_2_5.wire_logic_cluster/lc_5/in_3
+ (37 10)  (109 90)  (109 90)  LC_5 Logic Functioning bit
+ (39 10)  (111 90)  (111 90)  LC_5 Logic Functioning bit
+ (45 10)  (117 90)  (117 90)  LC_5 Logic Functioning bit
+ (26 11)  (98 91)  (98 91)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_5/in_0
+ (27 11)  (99 91)  (99 91)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_5/in_0
+ (29 11)  (101 91)  (101 91)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g1_2 wire_logic_cluster/lc_5/in_0
+ (40 11)  (112 91)  (112 91)  LC_5 Logic Functioning bit
+ (41 11)  (113 91)  (113 91)  LC_5 Logic Functioning bit
+ (42 11)  (114 91)  (114 91)  LC_5 Logic Functioning bit
+ (43 11)  (115 91)  (115 91)  LC_5 Logic Functioning bit
+ (15 12)  (87 92)  (87 92)  routing T_2_5.tnl_op_1 <X> T_2_5.lc_trk_g3_1
+ (17 12)  (89 92)  (89 92)  Enable bit of Mux _local_links/g3_mux_1 => tnl_op_1 lc_trk_g3_1
+ (22 12)  (94 92)  (94 92)  Enable bit of Mux _local_links/g3_mux_3 => tnl_op_3 lc_trk_g3_3
+ (24 12)  (96 92)  (96 92)  routing T_2_5.tnl_op_3 <X> T_2_5.lc_trk_g3_3
+ (27 12)  (99 92)  (99 92)  routing T_2_5.lc_trk_g3_4 <X> T_2_5.wire_logic_cluster/lc_6/in_1
+ (28 12)  (100 92)  (100 92)  routing T_2_5.lc_trk_g3_4 <X> T_2_5.wire_logic_cluster/lc_6/in_1
+ (29 12)  (101 92)  (101 92)  Enable bit of Mux _logic_cluster/lcb1_6 => lc_trk_g3_4 wire_logic_cluster/lc_6/in_1
+ (30 12)  (102 92)  (102 92)  routing T_2_5.lc_trk_g3_4 <X> T_2_5.wire_logic_cluster/lc_6/in_1
+ (31 12)  (103 92)  (103 92)  routing T_2_5.lc_trk_g2_7 <X> T_2_5.wire_logic_cluster/lc_6/in_3
+ (32 12)  (104 92)  (104 92)  Enable bit of Mux _logic_cluster/lcb3_6 => lc_trk_g2_7 wire_logic_cluster/lc_6/in_3
+ (33 12)  (105 92)  (105 92)  routing T_2_5.lc_trk_g2_7 <X> T_2_5.wire_logic_cluster/lc_6/in_3
+ (35 12)  (107 92)  (107 92)  routing T_2_5.lc_trk_g1_5 <X> T_2_5.input_2_6
+ (36 12)  (108 92)  (108 92)  LC_6 Logic Functioning bit
+ (40 12)  (112 92)  (112 92)  LC_6 Logic Functioning bit
+ (18 13)  (90 93)  (90 93)  routing T_2_5.tnl_op_1 <X> T_2_5.lc_trk_g3_1
+ (21 13)  (93 93)  (93 93)  routing T_2_5.tnl_op_3 <X> T_2_5.lc_trk_g3_3
+ (28 13)  (100 93)  (100 93)  routing T_2_5.lc_trk_g2_0 <X> T_2_5.wire_logic_cluster/lc_6/in_0
+ (29 13)  (101 93)  (101 93)  Enable bit of Mux _logic_cluster/lcb0_6 => lc_trk_g2_0 wire_logic_cluster/lc_6/in_0
+ (31 13)  (103 93)  (103 93)  routing T_2_5.lc_trk_g2_7 <X> T_2_5.wire_logic_cluster/lc_6/in_3
+ (32 13)  (104 93)  (104 93)  Enable bit of Mux _logic_cluster/lcb2_6 => lc_trk_g1_5 input_2_6
+ (34 13)  (106 93)  (106 93)  routing T_2_5.lc_trk_g1_5 <X> T_2_5.input_2_6
+ (39 13)  (111 93)  (111 93)  LC_6 Logic Functioning bit
+ (43 13)  (115 93)  (115 93)  LC_6 Logic Functioning bit
+ (29 14)  (101 94)  (101 94)  Enable bit of Mux _logic_cluster/lcb1_7 => lc_trk_g0_4 wire_logic_cluster/lc_7/in_1
+ (30 14)  (102 94)  (102 94)  routing T_2_5.lc_trk_g0_4 <X> T_2_5.wire_logic_cluster/lc_7/in_1
+ (32 14)  (104 94)  (104 94)  Enable bit of Mux _logic_cluster/lcb3_7 => lc_trk_g1_1 wire_logic_cluster/lc_7/in_3
+ (34 14)  (106 94)  (106 94)  routing T_2_5.lc_trk_g1_1 <X> T_2_5.wire_logic_cluster/lc_7/in_3
+ (45 14)  (117 94)  (117 94)  LC_7 Logic Functioning bit
+ (14 15)  (86 95)  (86 95)  routing T_2_5.tnl_op_4 <X> T_2_5.lc_trk_g3_4
+ (15 15)  (87 95)  (87 95)  routing T_2_5.tnl_op_4 <X> T_2_5.lc_trk_g3_4
+ (17 15)  (89 95)  (89 95)  Enable bit of Mux _local_links/g3_mux_4 => tnl_op_4 lc_trk_g3_4
+ (26 15)  (98 95)  (98 95)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_7/in_0
+ (27 15)  (99 95)  (99 95)  routing T_2_5.lc_trk_g1_2 <X> T_2_5.wire_logic_cluster/lc_7/in_0
+ (29 15)  (101 95)  (101 95)  Enable bit of Mux _logic_cluster/lcb0_7 => lc_trk_g1_2 wire_logic_cluster/lc_7/in_0
+ (36 15)  (108 95)  (108 95)  LC_7 Logic Functioning bit
+ (37 15)  (109 95)  (109 95)  LC_7 Logic Functioning bit
+ (38 15)  (110 95)  (110 95)  LC_7 Logic Functioning bit
+ (39 15)  (111 95)  (111 95)  LC_7 Logic Functioning bit
+ (41 15)  (113 95)  (113 95)  LC_7 Logic Functioning bit
+ (43 15)  (115 95)  (115 95)  LC_7 Logic Functioning bit
+
+
+RAM_Tile_3_5
+
+ (7 1)  (133 81)  (133 81)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+LogicTile_4_5
+
+
+
+LogicTile_5_5
+
+
+
+LogicTile_6_5
+
+ (19 7)  (295 87)  (295 87)  Enable bit of Mux _span_links/cross_mux_vert_6 => sp12_v_t_10 sp4_v_b_18
+
+
+LogicTile_7_5
+
+
+
+LogicTile_8_5
+
+
+
+LogicTile_9_5
+
+
+
+RAM_Tile_10_5
+
+ (7 1)  (503 81)  (503 81)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+LogicTile_11_5
+
+
+
+LogicTile_12_5
+
+
+
+IO_Tile_13_5
+
+ (3 6)  (649 86)  (649 86)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 89)  (649 89)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_4
+
+ (3 6)  (14 70)  (14 70)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 73)  (14 73)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_4
+
+ (2 1)  (20 65)  (20 65)  Column buffer control bit: LH_colbuf_cntl_1
+
+
+
+LogicTile_2_4
+
+ (2 1)  (74 65)  (74 65)  Column buffer control bit: LH_colbuf_cntl_1
+
+ (22 1)  (94 65)  (94 65)  Enable bit of Mux _local_links/g0_mux_2 => sp4_r_v_b_33 lc_trk_g0_2
+ (25 1)  (97 65)  (97 65)  routing T_2_4.sp4_r_v_b_33 <X> T_2_4.lc_trk_g0_2
+ (2 2)  (74 66)  (74 66)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (14 2)  (86 66)  (86 66)  routing T_2_4.wire_logic_cluster/lc_4/out <X> T_2_4.lc_trk_g0_4
+ (26 2)  (98 66)  (98 66)  routing T_2_4.lc_trk_g1_6 <X> T_2_4.wire_logic_cluster/lc_1/in_0
+ (27 2)  (99 66)  (99 66)  routing T_2_4.lc_trk_g3_7 <X> T_2_4.wire_logic_cluster/lc_1/in_1
+ (28 2)  (100 66)  (100 66)  routing T_2_4.lc_trk_g3_7 <X> T_2_4.wire_logic_cluster/lc_1/in_1
+ (29 2)  (101 66)  (101 66)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g3_7 wire_logic_cluster/lc_1/in_1
+ (30 2)  (102 66)  (102 66)  routing T_2_4.lc_trk_g3_7 <X> T_2_4.wire_logic_cluster/lc_1/in_1
+ (31 2)  (103 66)  (103 66)  routing T_2_4.lc_trk_g3_5 <X> T_2_4.wire_logic_cluster/lc_1/in_3
+ (32 2)  (104 66)  (104 66)  Enable bit of Mux _logic_cluster/lcb3_1 => lc_trk_g3_5 wire_logic_cluster/lc_1/in_3
+ (33 2)  (105 66)  (105 66)  routing T_2_4.lc_trk_g3_5 <X> T_2_4.wire_logic_cluster/lc_1/in_3
+ (34 2)  (106 66)  (106 66)  routing T_2_4.lc_trk_g3_5 <X> T_2_4.wire_logic_cluster/lc_1/in_3
+ (39 2)  (111 66)  (111 66)  LC_1 Logic Functioning bit
+ (41 2)  (113 66)  (113 66)  LC_1 Logic Functioning bit
+ (42 2)  (114 66)  (114 66)  LC_1 Logic Functioning bit
+ (43 2)  (115 66)  (115 66)  LC_1 Logic Functioning bit
+ (45 2)  (117 66)  (117 66)  LC_1 Logic Functioning bit
+ (0 3)  (72 67)  (72 67)  routing T_2_4.glb_netwk_1 <X> T_2_4.wire_logic_cluster/lc_7/clk
+ (17 3)  (89 67)  (89 67)  Enable bit of Mux _local_links/g0_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g0_4
+ (22 3)  (94 67)  (94 67)  Enable bit of Mux _local_links/g0_mux_6 => bot_op_6 lc_trk_g0_6
+ (24 3)  (96 67)  (96 67)  routing T_2_4.bot_op_6 <X> T_2_4.lc_trk_g0_6
+ (26 3)  (98 67)  (98 67)  routing T_2_4.lc_trk_g1_6 <X> T_2_4.wire_logic_cluster/lc_1/in_0
+ (27 3)  (99 67)  (99 67)  routing T_2_4.lc_trk_g1_6 <X> T_2_4.wire_logic_cluster/lc_1/in_0
+ (29 3)  (101 67)  (101 67)  Enable bit of Mux _logic_cluster/lcb0_1 => lc_trk_g1_6 wire_logic_cluster/lc_1/in_0
+ (30 3)  (102 67)  (102 67)  routing T_2_4.lc_trk_g3_7 <X> T_2_4.wire_logic_cluster/lc_1/in_1
+ (32 3)  (104 67)  (104 67)  Enable bit of Mux _logic_cluster/lcb2_1 => lc_trk_g3_0 input_2_1
+ (33 3)  (105 67)  (105 67)  routing T_2_4.lc_trk_g3_0 <X> T_2_4.input_2_1
+ (34 3)  (106 67)  (106 67)  routing T_2_4.lc_trk_g3_0 <X> T_2_4.input_2_1
+ (36 3)  (108 67)  (108 67)  LC_1 Logic Functioning bit
+ (37 3)  (109 67)  (109 67)  LC_1 Logic Functioning bit
+ (39 3)  (111 67)  (111 67)  LC_1 Logic Functioning bit
+ (41 3)  (113 67)  (113 67)  LC_1 Logic Functioning bit
+ (1 4)  (73 68)  (73 68)  Enable bit of Mux _global_links/ce_mux => lc_trk_g0_2 wire_logic_cluster/lc_7/cen
+ (8 4)  (80 68)  (80 68)  routing T_2_4.sp4_v_b_4 <X> T_2_4.sp4_h_r_4
+ (9 4)  (81 68)  (81 68)  routing T_2_4.sp4_v_b_4 <X> T_2_4.sp4_h_r_4
+ (27 4)  (99 68)  (99 68)  routing T_2_4.lc_trk_g1_6 <X> T_2_4.wire_logic_cluster/lc_2/in_1
+ (29 4)  (101 68)  (101 68)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g1_6 wire_logic_cluster/lc_2/in_1
+ (30 4)  (102 68)  (102 68)  routing T_2_4.lc_trk_g1_6 <X> T_2_4.wire_logic_cluster/lc_2/in_1
+ (32 4)  (104 68)  (104 68)  Enable bit of Mux _logic_cluster/lcb3_2 => lc_trk_g3_0 wire_logic_cluster/lc_2/in_3
+ (33 4)  (105 68)  (105 68)  routing T_2_4.lc_trk_g3_0 <X> T_2_4.wire_logic_cluster/lc_2/in_3
+ (34 4)  (106 68)  (106 68)  routing T_2_4.lc_trk_g3_0 <X> T_2_4.wire_logic_cluster/lc_2/in_3
+ (37 4)  (109 68)  (109 68)  LC_2 Logic Functioning bit
+ (39 4)  (111 68)  (111 68)  LC_2 Logic Functioning bit
+ (41 4)  (113 68)  (113 68)  LC_2 Logic Functioning bit
+ (43 4)  (115 68)  (115 68)  LC_2 Logic Functioning bit
+ (45 4)  (117 68)  (117 68)  LC_2 Logic Functioning bit
+ (1 5)  (73 69)  (73 69)  routing T_2_4.lc_trk_g0_2 <X> T_2_4.wire_logic_cluster/lc_7/cen
+ (30 5)  (102 69)  (102 69)  routing T_2_4.lc_trk_g1_6 <X> T_2_4.wire_logic_cluster/lc_2/in_1
+ (37 5)  (109 69)  (109 69)  LC_2 Logic Functioning bit
+ (39 5)  (111 69)  (111 69)  LC_2 Logic Functioning bit
+ (41 5)  (113 69)  (113 69)  LC_2 Logic Functioning bit
+ (43 5)  (115 69)  (115 69)  LC_2 Logic Functioning bit
+ (29 6)  (101 70)  (101 70)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g0_4 wire_logic_cluster/lc_3/in_1
+ (30 6)  (102 70)  (102 70)  routing T_2_4.lc_trk_g0_4 <X> T_2_4.wire_logic_cluster/lc_3/in_1
+ (32 6)  (104 70)  (104 70)  Enable bit of Mux _logic_cluster/lcb3_3 => lc_trk_g2_2 wire_logic_cluster/lc_3/in_3
+ (33 6)  (105 70)  (105 70)  routing T_2_4.lc_trk_g2_2 <X> T_2_4.wire_logic_cluster/lc_3/in_3
+ (36 6)  (108 70)  (108 70)  LC_3 Logic Functioning bit
+ (38 6)  (110 70)  (110 70)  LC_3 Logic Functioning bit
+ (40 6)  (112 70)  (112 70)  LC_3 Logic Functioning bit
+ (42 6)  (114 70)  (114 70)  LC_3 Logic Functioning bit
+ (45 6)  (117 70)  (117 70)  LC_3 Logic Functioning bit
+ (22 7)  (94 71)  (94 71)  Enable bit of Mux _local_links/g1_mux_6 => sp4_r_v_b_30 lc_trk_g1_6
+ (25 7)  (97 71)  (97 71)  routing T_2_4.sp4_r_v_b_30 <X> T_2_4.lc_trk_g1_6
+ (31 7)  (103 71)  (103 71)  routing T_2_4.lc_trk_g2_2 <X> T_2_4.wire_logic_cluster/lc_3/in_3
+ (36 7)  (108 71)  (108 71)  LC_3 Logic Functioning bit
+ (38 7)  (110 71)  (110 71)  LC_3 Logic Functioning bit
+ (40 7)  (112 71)  (112 71)  LC_3 Logic Functioning bit
+ (42 7)  (114 71)  (114 71)  LC_3 Logic Functioning bit
+ (51 7)  (123 71)  (123 71)  Enable bit of Mux _out_links/OutMux2_3 => wire_logic_cluster/lc_3/out sp4_v_b_38
+ (15 8)  (87 72)  (87 72)  routing T_2_4.sp4_h_r_33 <X> T_2_4.lc_trk_g2_1
+ (16 8)  (88 72)  (88 72)  routing T_2_4.sp4_h_r_33 <X> T_2_4.lc_trk_g2_1
+ (17 8)  (89 72)  (89 72)  Enable bit of Mux _local_links/g2_mux_1 => sp4_h_r_33 lc_trk_g2_1
+ (18 8)  (90 72)  (90 72)  routing T_2_4.sp4_h_r_33 <X> T_2_4.lc_trk_g2_1
+ (25 8)  (97 72)  (97 72)  routing T_2_4.wire_logic_cluster/lc_2/out <X> T_2_4.lc_trk_g2_2
+ (26 8)  (98 72)  (98 72)  routing T_2_4.lc_trk_g0_6 <X> T_2_4.wire_logic_cluster/lc_4/in_0
+ (28 8)  (100 72)  (100 72)  routing T_2_4.lc_trk_g2_1 <X> T_2_4.wire_logic_cluster/lc_4/in_1
+ (29 8)  (101 72)  (101 72)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g2_1 wire_logic_cluster/lc_4/in_1
+ (32 8)  (104 72)  (104 72)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g3_2 wire_logic_cluster/lc_4/in_3
+ (33 8)  (105 72)  (105 72)  routing T_2_4.lc_trk_g3_2 <X> T_2_4.wire_logic_cluster/lc_4/in_3
+ (34 8)  (106 72)  (106 72)  routing T_2_4.lc_trk_g3_2 <X> T_2_4.wire_logic_cluster/lc_4/in_3
+ (40 8)  (112 72)  (112 72)  LC_4 Logic Functioning bit
+ (41 8)  (113 72)  (113 72)  LC_4 Logic Functioning bit
+ (42 8)  (114 72)  (114 72)  LC_4 Logic Functioning bit
+ (43 8)  (115 72)  (115 72)  LC_4 Logic Functioning bit
+ (45 8)  (117 72)  (117 72)  LC_4 Logic Functioning bit
+ (22 9)  (94 73)  (94 73)  Enable bit of Mux _local_links/g2_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g2_2
+ (26 9)  (98 73)  (98 73)  routing T_2_4.lc_trk_g0_6 <X> T_2_4.wire_logic_cluster/lc_4/in_0
+ (29 9)  (101 73)  (101 73)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g0_6 wire_logic_cluster/lc_4/in_0
+ (31 9)  (103 73)  (103 73)  routing T_2_4.lc_trk_g3_2 <X> T_2_4.wire_logic_cluster/lc_4/in_3
+ (36 9)  (108 73)  (108 73)  LC_4 Logic Functioning bit
+ (37 9)  (109 73)  (109 73)  LC_4 Logic Functioning bit
+ (38 9)  (110 73)  (110 73)  LC_4 Logic Functioning bit
+ (39 9)  (111 73)  (111 73)  LC_4 Logic Functioning bit
+ (14 13)  (86 77)  (86 77)  routing T_2_4.sp4_r_v_b_40 <X> T_2_4.lc_trk_g3_0
+ (17 13)  (89 77)  (89 77)  Enable bit of Mux _local_links/g3_mux_0 => sp4_r_v_b_40 lc_trk_g3_0
+ (22 13)  (94 77)  (94 77)  Enable bit of Mux _local_links/g3_mux_2 => sp4_v_b_42 lc_trk_g3_2
+ (23 13)  (95 77)  (95 77)  routing T_2_4.sp4_v_b_42 <X> T_2_4.lc_trk_g3_2
+ (24 13)  (96 77)  (96 77)  routing T_2_4.sp4_v_b_42 <X> T_2_4.lc_trk_g3_2
+ (17 14)  (89 78)  (89 78)  Enable bit of Mux _local_links/g3_mux_5 => sp4_r_v_b_45 lc_trk_g3_5
+ (21 14)  (93 78)  (93 78)  routing T_2_4.sp4_v_t_26 <X> T_2_4.lc_trk_g3_7
+ (22 14)  (94 78)  (94 78)  Enable bit of Mux _local_links/g3_mux_7 => sp4_v_t_26 lc_trk_g3_7
+ (23 14)  (95 78)  (95 78)  routing T_2_4.sp4_v_t_26 <X> T_2_4.lc_trk_g3_7
+ (18 15)  (90 79)  (90 79)  routing T_2_4.sp4_r_v_b_45 <X> T_2_4.lc_trk_g3_5
+ (21 15)  (93 79)  (93 79)  routing T_2_4.sp4_v_t_26 <X> T_2_4.lc_trk_g3_7
+
+
+RAM_Tile_3_4
+
+
+
+LogicTile_4_4
+
+ (5 14)  (173 78)  (173 78)  routing T_4_4.sp4_v_b_9 <X> T_4_4.sp4_h_l_44
+
+
+LogicTile_5_4
+
+
+
+LogicTile_6_4
+
+ (8 5)  (284 69)  (284 69)  routing T_6_4.sp4_h_l_41 <X> T_6_4.sp4_v_b_4
+ (9 5)  (285 69)  (285 69)  routing T_6_4.sp4_h_l_41 <X> T_6_4.sp4_v_b_4
+
+
+LogicTile_7_4
+
+
+
+LogicTile_8_4
+
+
+
+LogicTile_9_4
+
+
+
+RAM_Tile_10_4
+
+
+
+LogicTile_11_4
+
+
+
+LogicTile_12_4
+
+
+
+IO_Tile_13_4
+
+ (3 6)  (649 70)  (649 70)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 73)  (649 73)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_3
+
+ (3 6)  (14 54)  (14 54)  IO control bit: IOLEFT_IE_1
+
+ (3 9)  (14 57)  (14 57)  IO control bit: IOLEFT_IE_0
+
+
+
+LogicTile_1_3
+
+ (27 0)  (45 48)  (45 48)  routing T_1_3.lc_trk_g3_0 <X> T_1_3.wire_logic_cluster/lc_0/in_1
+ (28 0)  (46 48)  (46 48)  routing T_1_3.lc_trk_g3_0 <X> T_1_3.wire_logic_cluster/lc_0/in_1
+ (29 0)  (47 48)  (47 48)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g3_0 wire_logic_cluster/lc_0/in_1
+ (32 0)  (50 48)  (50 48)  Enable bit of Mux _logic_cluster/lcb3_0 => wire_logic_cluster/carry_in_mux/cout wire_logic_cluster/lc_0/in_3
+ (36 0)  (54 48)  (54 48)  LC_0 Logic Functioning bit
+ (37 0)  (55 48)  (55 48)  LC_0 Logic Functioning bit
+ (38 0)  (56 48)  (56 48)  LC_0 Logic Functioning bit
+ (39 0)  (57 48)  (57 48)  LC_0 Logic Functioning bit
+ (44 0)  (62 48)  (62 48)  LC_0 Logic Functioning bit
+ (45 0)  (63 48)  (63 48)  LC_0 Logic Functioning bit
+ (40 1)  (58 49)  (58 49)  LC_0 Logic Functioning bit
+ (41 1)  (59 49)  (59 49)  LC_0 Logic Functioning bit
+ (42 1)  (60 49)  (60 49)  LC_0 Logic Functioning bit
+ (43 1)  (61 49)  (61 49)  LC_0 Logic Functioning bit
+ (49 1)  (67 49)  (67 49)  Carry_In_Mux bit 
+
+ (2 2)  (20 50)  (20 50)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (27 2)  (45 50)  (45 50)  routing T_1_3.lc_trk_g3_1 <X> T_1_3.wire_logic_cluster/lc_1/in_1
+ (28 2)  (46 50)  (46 50)  routing T_1_3.lc_trk_g3_1 <X> T_1_3.wire_logic_cluster/lc_1/in_1
+ (29 2)  (47 50)  (47 50)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g3_1 wire_logic_cluster/lc_1/in_1
+ (32 2)  (50 50)  (50 50)  Enable bit of Mux _logic_cluster/lcb3_1 => wire_logic_cluster/lc_0/cout wire_logic_cluster/lc_1/in_3
+ (36 2)  (54 50)  (54 50)  LC_1 Logic Functioning bit
+ (37 2)  (55 50)  (55 50)  LC_1 Logic Functioning bit
+ (38 2)  (56 50)  (56 50)  LC_1 Logic Functioning bit
+ (39 2)  (57 50)  (57 50)  LC_1 Logic Functioning bit
+ (44 2)  (62 50)  (62 50)  LC_1 Logic Functioning bit
+ (45 2)  (63 50)  (63 50)  LC_1 Logic Functioning bit
+ (0 3)  (18 51)  (18 51)  routing T_1_3.glb_netwk_1 <X> T_1_3.wire_logic_cluster/lc_7/clk
+ (40 3)  (58 51)  (58 51)  LC_1 Logic Functioning bit
+ (41 3)  (59 51)  (59 51)  LC_1 Logic Functioning bit
+ (42 3)  (60 51)  (60 51)  LC_1 Logic Functioning bit
+ (43 3)  (61 51)  (61 51)  LC_1 Logic Functioning bit
+ (21 4)  (39 52)  (39 52)  routing T_1_3.wire_logic_cluster/lc_3/out <X> T_1_3.lc_trk_g1_3
+ (22 4)  (40 52)  (40 52)  Enable bit of Mux _local_links/g1_mux_3 => wire_logic_cluster/lc_3/out lc_trk_g1_3
+ (25 4)  (43 52)  (43 52)  routing T_1_3.wire_logic_cluster/lc_2/out <X> T_1_3.lc_trk_g1_2
+ (27 4)  (45 52)  (45 52)  routing T_1_3.lc_trk_g1_2 <X> T_1_3.wire_logic_cluster/lc_2/in_1
+ (29 4)  (47 52)  (47 52)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g1_2 wire_logic_cluster/lc_2/in_1
+ (32 4)  (50 52)  (50 52)  Enable bit of Mux _logic_cluster/lcb3_2 => wire_logic_cluster/lc_1/cout wire_logic_cluster/lc_2/in_3
+ (36 4)  (54 52)  (54 52)  LC_2 Logic Functioning bit
+ (37 4)  (55 52)  (55 52)  LC_2 Logic Functioning bit
+ (38 4)  (56 52)  (56 52)  LC_2 Logic Functioning bit
+ (39 4)  (57 52)  (57 52)  LC_2 Logic Functioning bit
+ (44 4)  (62 52)  (62 52)  LC_2 Logic Functioning bit
+ (45 4)  (63 52)  (63 52)  LC_2 Logic Functioning bit
+ (22 5)  (40 53)  (40 53)  Enable bit of Mux _local_links/g1_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g1_2
+ (30 5)  (48 53)  (48 53)  routing T_1_3.lc_trk_g1_2 <X> T_1_3.wire_logic_cluster/lc_2/in_1
+ (40 5)  (58 53)  (58 53)  LC_2 Logic Functioning bit
+ (41 5)  (59 53)  (59 53)  LC_2 Logic Functioning bit
+ (42 5)  (60 53)  (60 53)  LC_2 Logic Functioning bit
+ (43 5)  (61 53)  (61 53)  LC_2 Logic Functioning bit
+ (17 6)  (35 54)  (35 54)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (36 54)  (36 54)  routing T_1_3.wire_logic_cluster/lc_5/out <X> T_1_3.lc_trk_g1_5
+ (27 6)  (45 54)  (45 54)  routing T_1_3.lc_trk_g1_3 <X> T_1_3.wire_logic_cluster/lc_3/in_1
+ (29 6)  (47 54)  (47 54)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g1_3 wire_logic_cluster/lc_3/in_1
+ (32 6)  (50 54)  (50 54)  Enable bit of Mux _logic_cluster/lcb3_3 => wire_logic_cluster/lc_2/cout wire_logic_cluster/lc_3/in_3
+ (36 6)  (54 54)  (54 54)  LC_3 Logic Functioning bit
+ (37 6)  (55 54)  (55 54)  LC_3 Logic Functioning bit
+ (38 6)  (56 54)  (56 54)  LC_3 Logic Functioning bit
+ (39 6)  (57 54)  (57 54)  LC_3 Logic Functioning bit
+ (44 6)  (62 54)  (62 54)  LC_3 Logic Functioning bit
+ (45 6)  (63 54)  (63 54)  LC_3 Logic Functioning bit
+ (30 7)  (48 55)  (48 55)  routing T_1_3.lc_trk_g1_3 <X> T_1_3.wire_logic_cluster/lc_3/in_1
+ (40 7)  (58 55)  (58 55)  LC_3 Logic Functioning bit
+ (41 7)  (59 55)  (59 55)  LC_3 Logic Functioning bit
+ (42 7)  (60 55)  (60 55)  LC_3 Logic Functioning bit
+ (43 7)  (61 55)  (61 55)  LC_3 Logic Functioning bit
+ (27 8)  (45 56)  (45 56)  routing T_1_3.lc_trk_g3_4 <X> T_1_3.wire_logic_cluster/lc_4/in_1
+ (28 8)  (46 56)  (46 56)  routing T_1_3.lc_trk_g3_4 <X> T_1_3.wire_logic_cluster/lc_4/in_1
+ (29 8)  (47 56)  (47 56)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g3_4 wire_logic_cluster/lc_4/in_1
+ (30 8)  (48 56)  (48 56)  routing T_1_3.lc_trk_g3_4 <X> T_1_3.wire_logic_cluster/lc_4/in_1
+ (32 8)  (50 56)  (50 56)  Enable bit of Mux _logic_cluster/lcb3_4 => wire_logic_cluster/lc_3/cout wire_logic_cluster/lc_4/in_3
+ (36 8)  (54 56)  (54 56)  LC_4 Logic Functioning bit
+ (37 8)  (55 56)  (55 56)  LC_4 Logic Functioning bit
+ (38 8)  (56 56)  (56 56)  LC_4 Logic Functioning bit
+ (39 8)  (57 56)  (57 56)  LC_4 Logic Functioning bit
+ (44 8)  (62 56)  (62 56)  LC_4 Logic Functioning bit
+ (45 8)  (63 56)  (63 56)  LC_4 Logic Functioning bit
+ (40 9)  (58 57)  (58 57)  LC_4 Logic Functioning bit
+ (41 9)  (59 57)  (59 57)  LC_4 Logic Functioning bit
+ (42 9)  (60 57)  (60 57)  LC_4 Logic Functioning bit
+ (43 9)  (61 57)  (61 57)  LC_4 Logic Functioning bit
+ (27 10)  (45 58)  (45 58)  routing T_1_3.lc_trk_g1_5 <X> T_1_3.wire_logic_cluster/lc_5/in_1
+ (29 10)  (47 58)  (47 58)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g1_5 wire_logic_cluster/lc_5/in_1
+ (30 10)  (48 58)  (48 58)  routing T_1_3.lc_trk_g1_5 <X> T_1_3.wire_logic_cluster/lc_5/in_1
+ (32 10)  (50 58)  (50 58)  Enable bit of Mux _logic_cluster/lcb3_5 => wire_logic_cluster/lc_4/cout wire_logic_cluster/lc_5/in_3
+ (36 10)  (54 58)  (54 58)  LC_5 Logic Functioning bit
+ (37 10)  (55 58)  (55 58)  LC_5 Logic Functioning bit
+ (38 10)  (56 58)  (56 58)  LC_5 Logic Functioning bit
+ (39 10)  (57 58)  (57 58)  LC_5 Logic Functioning bit
+ (44 10)  (62 58)  (62 58)  LC_5 Logic Functioning bit
+ (45 10)  (63 58)  (63 58)  LC_5 Logic Functioning bit
+ (40 11)  (58 59)  (58 59)  LC_5 Logic Functioning bit
+ (41 11)  (59 59)  (59 59)  LC_5 Logic Functioning bit
+ (42 11)  (60 59)  (60 59)  LC_5 Logic Functioning bit
+ (43 11)  (61 59)  (61 59)  LC_5 Logic Functioning bit
+ (14 12)  (32 60)  (32 60)  routing T_1_3.wire_logic_cluster/lc_0/out <X> T_1_3.lc_trk_g3_0
+ (17 12)  (35 60)  (35 60)  Enable bit of Mux _local_links/g3_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g3_1
+ (18 12)  (36 60)  (36 60)  routing T_1_3.wire_logic_cluster/lc_1/out <X> T_1_3.lc_trk_g3_1
+ (27 12)  (45 60)  (45 60)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_6/in_1
+ (28 12)  (46 60)  (46 60)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_6/in_1
+ (29 12)  (47 60)  (47 60)  Enable bit of Mux _logic_cluster/lcb1_6 => lc_trk_g3_6 wire_logic_cluster/lc_6/in_1
+ (30 12)  (48 60)  (48 60)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_6/in_1
+ (32 12)  (50 60)  (50 60)  Enable bit of Mux _logic_cluster/lcb3_6 => wire_logic_cluster/lc_5/cout wire_logic_cluster/lc_6/in_3
+ (37 12)  (55 60)  (55 60)  LC_6 Logic Functioning bit
+ (39 12)  (57 60)  (57 60)  LC_6 Logic Functioning bit
+ (41 12)  (59 60)  (59 60)  LC_6 Logic Functioning bit
+ (43 12)  (61 60)  (61 60)  LC_6 Logic Functioning bit
+ (45 12)  (63 60)  (63 60)  LC_6 Logic Functioning bit
+ (17 13)  (35 61)  (35 61)  Enable bit of Mux _local_links/g3_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g3_0
+ (30 13)  (48 61)  (48 61)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_6/in_1
+ (37 13)  (55 61)  (55 61)  LC_6 Logic Functioning bit
+ (39 13)  (57 61)  (57 61)  LC_6 Logic Functioning bit
+ (41 13)  (59 61)  (59 61)  LC_6 Logic Functioning bit
+ (43 13)  (61 61)  (61 61)  LC_6 Logic Functioning bit
+ (14 14)  (32 62)  (32 62)  routing T_1_3.wire_logic_cluster/lc_4/out <X> T_1_3.lc_trk_g3_4
+ (25 14)  (43 62)  (43 62)  routing T_1_3.wire_logic_cluster/lc_6/out <X> T_1_3.lc_trk_g3_6
+ (26 14)  (44 62)  (44 62)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_7/in_0
+ (27 14)  (45 62)  (45 62)  routing T_1_3.lc_trk_g1_5 <X> T_1_3.wire_logic_cluster/lc_7/in_1
+ (29 14)  (47 62)  (47 62)  Enable bit of Mux _logic_cluster/lcb1_7 => lc_trk_g1_5 wire_logic_cluster/lc_7/in_1
+ (30 14)  (48 62)  (48 62)  routing T_1_3.lc_trk_g1_5 <X> T_1_3.wire_logic_cluster/lc_7/in_1
+ (32 14)  (50 62)  (50 62)  Enable bit of Mux _logic_cluster/lcb3_7 => lc_trk_g1_3 wire_logic_cluster/lc_7/in_3
+ (34 14)  (52 62)  (52 62)  routing T_1_3.lc_trk_g1_3 <X> T_1_3.wire_logic_cluster/lc_7/in_3
+ (35 14)  (53 62)  (53 62)  routing T_1_3.lc_trk_g3_4 <X> T_1_3.input_2_7
+ (40 14)  (58 62)  (58 62)  LC_7 Logic Functioning bit
+ (17 15)  (35 63)  (35 63)  Enable bit of Mux _local_links/g3_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g3_4
+ (22 15)  (40 63)  (40 63)  Enable bit of Mux _local_links/g3_mux_6 => wire_logic_cluster/lc_6/out lc_trk_g3_6
+ (26 15)  (44 63)  (44 63)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_7/in_0
+ (27 15)  (45 63)  (45 63)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_7/in_0
+ (28 15)  (46 63)  (46 63)  routing T_1_3.lc_trk_g3_6 <X> T_1_3.wire_logic_cluster/lc_7/in_0
+ (29 15)  (47 63)  (47 63)  Enable bit of Mux _logic_cluster/lcb0_7 => lc_trk_g3_6 wire_logic_cluster/lc_7/in_0
+ (31 15)  (49 63)  (49 63)  routing T_1_3.lc_trk_g1_3 <X> T_1_3.wire_logic_cluster/lc_7/in_3
+ (32 15)  (50 63)  (50 63)  Enable bit of Mux _logic_cluster/lcb2_7 => lc_trk_g3_4 input_2_7
+ (33 15)  (51 63)  (51 63)  routing T_1_3.lc_trk_g3_4 <X> T_1_3.input_2_7
+ (34 15)  (52 63)  (52 63)  routing T_1_3.lc_trk_g3_4 <X> T_1_3.input_2_7
+
+
+LogicTile_2_3
+
+ (21 0)  (93 48)  (93 48)  routing T_2_3.sp12_h_r_3 <X> T_2_3.lc_trk_g0_3
+ (22 0)  (94 48)  (94 48)  Enable bit of Mux _local_links/g0_mux_3 => sp12_h_r_3 lc_trk_g0_3
+ (24 0)  (96 48)  (96 48)  routing T_2_3.sp12_h_r_3 <X> T_2_3.lc_trk_g0_3
+ (21 1)  (93 49)  (93 49)  routing T_2_3.sp12_h_r_3 <X> T_2_3.lc_trk_g0_3
+ (22 1)  (94 49)  (94 49)  Enable bit of Mux _local_links/g0_mux_2 => sp4_h_r_2 lc_trk_g0_2
+ (23 1)  (95 49)  (95 49)  routing T_2_3.sp4_h_r_2 <X> T_2_3.lc_trk_g0_2
+ (24 1)  (96 49)  (96 49)  routing T_2_3.sp4_h_r_2 <X> T_2_3.lc_trk_g0_2
+ (25 1)  (97 49)  (97 49)  routing T_2_3.sp4_h_r_2 <X> T_2_3.lc_trk_g0_2
+ (13 2)  (85 50)  (85 50)  routing T_2_3.sp4_h_r_2 <X> T_2_3.sp4_v_t_39
+ (12 3)  (84 51)  (84 51)  routing T_2_3.sp4_h_r_2 <X> T_2_3.sp4_v_t_39
+ (16 5)  (88 53)  (88 53)  routing T_2_3.sp12_h_r_8 <X> T_2_3.lc_trk_g1_0
+ (17 5)  (89 53)  (89 53)  Enable bit of Mux _local_links/g1_mux_0 => sp12_h_r_8 lc_trk_g1_0
+ (8 11)  (80 59)  (80 59)  routing T_2_3.sp4_h_r_1 <X> T_2_3.sp4_v_t_42
+ (9 11)  (81 59)  (81 59)  routing T_2_3.sp4_h_r_1 <X> T_2_3.sp4_v_t_42
+ (10 11)  (82 59)  (82 59)  routing T_2_3.sp4_h_r_1 <X> T_2_3.sp4_v_t_42
+ (22 12)  (94 60)  (94 60)  Enable bit of Mux _local_links/g3_mux_3 => sp4_r_v_b_43 lc_trk_g3_3
+ (29 12)  (101 60)  (101 60)  Enable bit of Mux _logic_cluster/lcb1_6 => lc_trk_g0_3 wire_logic_cluster/lc_6/in_1
+ (32 12)  (104 60)  (104 60)  Enable bit of Mux _logic_cluster/lcb3_6 => lc_trk_g1_0 wire_logic_cluster/lc_6/in_3
+ (34 12)  (106 60)  (106 60)  routing T_2_3.lc_trk_g1_0 <X> T_2_3.wire_logic_cluster/lc_6/in_3
+ (36 12)  (108 60)  (108 60)  LC_6 Logic Functioning bit
+ (37 12)  (109 60)  (109 60)  LC_6 Logic Functioning bit
+ (40 12)  (112 60)  (112 60)  LC_6 Logic Functioning bit
+ (41 12)  (113 60)  (113 60)  LC_6 Logic Functioning bit
+ (42 12)  (114 60)  (114 60)  LC_6 Logic Functioning bit
+ (43 12)  (115 60)  (115 60)  LC_6 Logic Functioning bit
+ (21 13)  (93 61)  (93 61)  routing T_2_3.sp4_r_v_b_43 <X> T_2_3.lc_trk_g3_3
+ (26 13)  (98 61)  (98 61)  routing T_2_3.lc_trk_g0_2 <X> T_2_3.wire_logic_cluster/lc_6/in_0
+ (29 13)  (101 61)  (101 61)  Enable bit of Mux _logic_cluster/lcb0_6 => lc_trk_g0_2 wire_logic_cluster/lc_6/in_0
+ (30 13)  (102 61)  (102 61)  routing T_2_3.lc_trk_g0_3 <X> T_2_3.wire_logic_cluster/lc_6/in_1
+ (32 13)  (104 61)  (104 61)  Enable bit of Mux _logic_cluster/lcb2_6 => lc_trk_g3_3 input_2_6
+ (33 13)  (105 61)  (105 61)  routing T_2_3.lc_trk_g3_3 <X> T_2_3.input_2_6
+ (34 13)  (106 61)  (106 61)  routing T_2_3.lc_trk_g3_3 <X> T_2_3.input_2_6
+ (35 13)  (107 61)  (107 61)  routing T_2_3.lc_trk_g3_3 <X> T_2_3.input_2_6
+ (37 13)  (109 61)  (109 61)  LC_6 Logic Functioning bit
+ (39 13)  (111 61)  (111 61)  LC_6 Logic Functioning bit
+ (40 13)  (112 61)  (112 61)  LC_6 Logic Functioning bit
+ (42 13)  (114 61)  (114 61)  LC_6 Logic Functioning bit
+
+
+RAM_Tile_3_3
+
+ (7 1)  (133 49)  (133 49)  Ram config bit: MEMB_Power_Up_Control
+
+ (13 6)  (139 54)  (139 54)  routing T_3_3.sp4_h_r_5 <X> T_3_3.sp4_v_t_40
+ (12 7)  (138 55)  (138 55)  routing T_3_3.sp4_h_r_5 <X> T_3_3.sp4_v_t_40
+ (13 10)  (139 58)  (139 58)  routing T_3_3.sp4_h_r_8 <X> T_3_3.sp4_v_t_45
+ (12 11)  (138 59)  (138 59)  routing T_3_3.sp4_h_r_8 <X> T_3_3.sp4_v_t_45
+
+
+LogicTile_4_3
+
+ (0 2)  (168 50)  (168 50)  routing T_4_3.lc_trk_g3_1 <X> T_4_3.wire_logic_cluster/lc_7/clk
+ (2 2)  (170 50)  (170 50)  Enable bit of Mux _global_links/clk_mux => lc_trk_g3_1 wire_logic_cluster/lc_7/clk
+ (0 3)  (168 51)  (168 51)  routing T_4_3.lc_trk_g3_1 <X> T_4_3.wire_logic_cluster/lc_7/clk
+ (2 3)  (170 51)  (170 51)  routing T_4_3.lc_trk_g3_1 <X> T_4_3.wire_logic_cluster/lc_7/clk
+ (0 4)  (168 52)  (168 52)  routing T_4_3.lc_trk_g3_3 <X> T_4_3.wire_logic_cluster/lc_7/cen
+ (1 4)  (169 52)  (169 52)  Enable bit of Mux _global_links/ce_mux => lc_trk_g3_3 wire_logic_cluster/lc_7/cen
+ (26 4)  (194 52)  (194 52)  routing T_4_3.lc_trk_g1_7 <X> T_4_3.wire_logic_cluster/lc_2/in_0
+ (27 4)  (195 52)  (195 52)  routing T_4_3.lc_trk_g3_2 <X> T_4_3.wire_logic_cluster/lc_2/in_1
+ (28 4)  (196 52)  (196 52)  routing T_4_3.lc_trk_g3_2 <X> T_4_3.wire_logic_cluster/lc_2/in_1
+ (29 4)  (197 52)  (197 52)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g3_2 wire_logic_cluster/lc_2/in_1
+ (31 4)  (199 52)  (199 52)  routing T_4_3.lc_trk_g2_5 <X> T_4_3.wire_logic_cluster/lc_2/in_3
+ (32 4)  (200 52)  (200 52)  Enable bit of Mux _logic_cluster/lcb3_2 => lc_trk_g2_5 wire_logic_cluster/lc_2/in_3
+ (33 4)  (201 52)  (201 52)  routing T_4_3.lc_trk_g2_5 <X> T_4_3.wire_logic_cluster/lc_2/in_3
+ (41 4)  (209 52)  (209 52)  LC_2 Logic Functioning bit
+ (43 4)  (211 52)  (211 52)  LC_2 Logic Functioning bit
+ (45 4)  (213 52)  (213 52)  LC_2 Logic Functioning bit
+ (0 5)  (168 53)  (168 53)  routing T_4_3.lc_trk_g3_3 <X> T_4_3.wire_logic_cluster/lc_7/cen
+ (1 5)  (169 53)  (169 53)  routing T_4_3.lc_trk_g3_3 <X> T_4_3.wire_logic_cluster/lc_7/cen
+ (26 5)  (194 53)  (194 53)  routing T_4_3.lc_trk_g1_7 <X> T_4_3.wire_logic_cluster/lc_2/in_0
+ (27 5)  (195 53)  (195 53)  routing T_4_3.lc_trk_g1_7 <X> T_4_3.wire_logic_cluster/lc_2/in_0
+ (29 5)  (197 53)  (197 53)  Enable bit of Mux _logic_cluster/lcb0_2 => lc_trk_g1_7 wire_logic_cluster/lc_2/in_0
+ (30 5)  (198 53)  (198 53)  routing T_4_3.lc_trk_g3_2 <X> T_4_3.wire_logic_cluster/lc_2/in_1
+ (36 5)  (204 53)  (204 53)  LC_2 Logic Functioning bit
+ (37 5)  (205 53)  (205 53)  LC_2 Logic Functioning bit
+ (38 5)  (206 53)  (206 53)  LC_2 Logic Functioning bit
+ (39 5)  (207 53)  (207 53)  LC_2 Logic Functioning bit
+ (41 5)  (209 53)  (209 53)  LC_2 Logic Functioning bit
+ (43 5)  (211 53)  (211 53)  LC_2 Logic Functioning bit
+ (48 5)  (216 53)  (216 53)  Enable bit of Mux _out_links/OutMux1_2 => wire_logic_cluster/lc_2/out sp4_v_t_9
+ (21 6)  (189 54)  (189 54)  routing T_4_3.bnr_op_7 <X> T_4_3.lc_trk_g1_7
+ (22 6)  (190 54)  (190 54)  Enable bit of Mux _local_links/g1_mux_7 => bnr_op_7 lc_trk_g1_7
+ (21 7)  (189 55)  (189 55)  routing T_4_3.bnr_op_7 <X> T_4_3.lc_trk_g1_7
+ (17 10)  (185 58)  (185 58)  Enable bit of Mux _local_links/g2_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g2_5
+ (18 10)  (186 58)  (186 58)  routing T_4_3.wire_logic_cluster/lc_5/out <X> T_4_3.lc_trk_g2_5
+ (26 10)  (194 58)  (194 58)  routing T_4_3.lc_trk_g2_5 <X> T_4_3.wire_logic_cluster/lc_5/in_0
+ (31 10)  (199 58)  (199 58)  routing T_4_3.lc_trk_g1_7 <X> T_4_3.wire_logic_cluster/lc_5/in_3
+ (32 10)  (200 58)  (200 58)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g1_7 wire_logic_cluster/lc_5/in_3
+ (34 10)  (202 58)  (202 58)  routing T_4_3.lc_trk_g1_7 <X> T_4_3.wire_logic_cluster/lc_5/in_3
+ (37 10)  (205 58)  (205 58)  LC_5 Logic Functioning bit
+ (39 10)  (207 58)  (207 58)  LC_5 Logic Functioning bit
+ (41 10)  (209 58)  (209 58)  LC_5 Logic Functioning bit
+ (43 10)  (211 58)  (211 58)  LC_5 Logic Functioning bit
+ (45 10)  (213 58)  (213 58)  LC_5 Logic Functioning bit
+ (46 10)  (214 58)  (214 58)  Enable bit of Mux _out_links/OutMux7_5 => wire_logic_cluster/lc_5/out sp4_h_l_15
+ (28 11)  (196 59)  (196 59)  routing T_4_3.lc_trk_g2_5 <X> T_4_3.wire_logic_cluster/lc_5/in_0
+ (29 11)  (197 59)  (197 59)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g2_5 wire_logic_cluster/lc_5/in_0
+ (31 11)  (199 59)  (199 59)  routing T_4_3.lc_trk_g1_7 <X> T_4_3.wire_logic_cluster/lc_5/in_3
+ (36 11)  (204 59)  (204 59)  LC_5 Logic Functioning bit
+ (38 11)  (206 59)  (206 59)  LC_5 Logic Functioning bit
+ (40 11)  (208 59)  (208 59)  LC_5 Logic Functioning bit
+ (42 11)  (210 59)  (210 59)  LC_5 Logic Functioning bit
+ (15 12)  (183 60)  (183 60)  routing T_4_3.sp4_v_t_28 <X> T_4_3.lc_trk_g3_1
+ (16 12)  (184 60)  (184 60)  routing T_4_3.sp4_v_t_28 <X> T_4_3.lc_trk_g3_1
+ (17 12)  (185 60)  (185 60)  Enable bit of Mux _local_links/g3_mux_1 => sp4_v_t_28 lc_trk_g3_1
+ (22 12)  (190 60)  (190 60)  Enable bit of Mux _local_links/g3_mux_3 => sp4_v_t_30 lc_trk_g3_3
+ (23 12)  (191 60)  (191 60)  routing T_4_3.sp4_v_t_30 <X> T_4_3.lc_trk_g3_3
+ (24 12)  (192 60)  (192 60)  routing T_4_3.sp4_v_t_30 <X> T_4_3.lc_trk_g3_3
+ (25 12)  (193 60)  (193 60)  routing T_4_3.wire_logic_cluster/lc_2/out <X> T_4_3.lc_trk_g3_2
+ (22 13)  (190 61)  (190 61)  Enable bit of Mux _local_links/g3_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g3_2
+
+
+LogicTile_5_3
+
+ (27 0)  (249 48)  (249 48)  routing T_5_3.lc_trk_g1_0 <X> T_5_3.wire_logic_cluster/lc_0/in_1
+ (29 0)  (251 48)  (251 48)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g1_0 wire_logic_cluster/lc_0/in_1
+ (31 0)  (253 48)  (253 48)  routing T_5_3.lc_trk_g3_4 <X> T_5_3.wire_logic_cluster/lc_0/in_3
+ (32 0)  (254 48)  (254 48)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g3_4 wire_logic_cluster/lc_0/in_3
+ (33 0)  (255 48)  (255 48)  routing T_5_3.lc_trk_g3_4 <X> T_5_3.wire_logic_cluster/lc_0/in_3
+ (34 0)  (256 48)  (256 48)  routing T_5_3.lc_trk_g3_4 <X> T_5_3.wire_logic_cluster/lc_0/in_3
+ (37 0)  (259 48)  (259 48)  LC_0 Logic Functioning bit
+ (39 0)  (261 48)  (261 48)  LC_0 Logic Functioning bit
+ (41 0)  (263 48)  (263 48)  LC_0 Logic Functioning bit
+ (43 0)  (265 48)  (265 48)  LC_0 Logic Functioning bit
+ (45 0)  (267 48)  (267 48)  LC_0 Logic Functioning bit
+ (47 0)  (269 48)  (269 48)  Enable bit of Mux _out_links/OutMux5_0 => wire_logic_cluster/lc_0/out sp12_h_r_8
+ (22 1)  (244 49)  (244 49)  Enable bit of Mux _local_links/g0_mux_2 => sp4_r_v_b_33 lc_trk_g0_2
+ (25 1)  (247 49)  (247 49)  routing T_5_3.sp4_r_v_b_33 <X> T_5_3.lc_trk_g0_2
+ (37 1)  (259 49)  (259 49)  LC_0 Logic Functioning bit
+ (39 1)  (261 49)  (261 49)  LC_0 Logic Functioning bit
+ (41 1)  (263 49)  (263 49)  LC_0 Logic Functioning bit
+ (43 1)  (265 49)  (265 49)  LC_0 Logic Functioning bit
+ (47 1)  (269 49)  (269 49)  Enable bit of Mux _out_links/OutMux8_0 => wire_logic_cluster/lc_0/out sp4_h_l_21
+ (0 2)  (222 50)  (222 50)  routing T_5_3.lc_trk_g3_1 <X> T_5_3.wire_logic_cluster/lc_7/clk
+ (2 2)  (224 50)  (224 50)  Enable bit of Mux _global_links/clk_mux => lc_trk_g3_1 wire_logic_cluster/lc_7/clk
+ (0 3)  (222 51)  (222 51)  routing T_5_3.lc_trk_g3_1 <X> T_5_3.wire_logic_cluster/lc_7/clk
+ (2 3)  (224 51)  (224 51)  routing T_5_3.lc_trk_g3_1 <X> T_5_3.wire_logic_cluster/lc_7/clk
+ (1 4)  (223 52)  (223 52)  Enable bit of Mux _global_links/ce_mux => lc_trk_g0_2 wire_logic_cluster/lc_7/cen
+ (14 4)  (236 52)  (236 52)  routing T_5_3.wire_logic_cluster/lc_0/out <X> T_5_3.lc_trk_g1_0
+ (27 4)  (249 52)  (249 52)  routing T_5_3.lc_trk_g1_0 <X> T_5_3.wire_logic_cluster/lc_2/in_1
+ (29 4)  (251 52)  (251 52)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g1_0 wire_logic_cluster/lc_2/in_1
+ (31 4)  (253 52)  (253 52)  routing T_5_3.lc_trk_g3_4 <X> T_5_3.wire_logic_cluster/lc_2/in_3
+ (32 4)  (254 52)  (254 52)  Enable bit of Mux _logic_cluster/lcb3_2 => lc_trk_g3_4 wire_logic_cluster/lc_2/in_3
+ (33 4)  (255 52)  (255 52)  routing T_5_3.lc_trk_g3_4 <X> T_5_3.wire_logic_cluster/lc_2/in_3
+ (34 4)  (256 52)  (256 52)  routing T_5_3.lc_trk_g3_4 <X> T_5_3.wire_logic_cluster/lc_2/in_3
+ (41 4)  (263 52)  (263 52)  LC_2 Logic Functioning bit
+ (43 4)  (265 52)  (265 52)  LC_2 Logic Functioning bit
+ (45 4)  (267 52)  (267 52)  LC_2 Logic Functioning bit
+ (1 5)  (223 53)  (223 53)  routing T_5_3.lc_trk_g0_2 <X> T_5_3.wire_logic_cluster/lc_7/cen
+ (17 5)  (239 53)  (239 53)  Enable bit of Mux _local_links/g1_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g1_0
+ (26 5)  (248 53)  (248 53)  routing T_5_3.lc_trk_g2_2 <X> T_5_3.wire_logic_cluster/lc_2/in_0
+ (28 5)  (250 53)  (250 53)  routing T_5_3.lc_trk_g2_2 <X> T_5_3.wire_logic_cluster/lc_2/in_0
+ (29 5)  (251 53)  (251 53)  Enable bit of Mux _logic_cluster/lcb0_2 => lc_trk_g2_2 wire_logic_cluster/lc_2/in_0
+ (36 5)  (258 53)  (258 53)  LC_2 Logic Functioning bit
+ (37 5)  (259 53)  (259 53)  LC_2 Logic Functioning bit
+ (38 5)  (260 53)  (260 53)  LC_2 Logic Functioning bit
+ (39 5)  (261 53)  (261 53)  LC_2 Logic Functioning bit
+ (40 5)  (262 53)  (262 53)  LC_2 Logic Functioning bit
+ (42 5)  (264 53)  (264 53)  LC_2 Logic Functioning bit
+ (47 5)  (269 53)  (269 53)  Enable bit of Mux _out_links/OutMux8_2 => wire_logic_cluster/lc_2/out sp4_h_r_36
+ (25 8)  (247 56)  (247 56)  routing T_5_3.wire_logic_cluster/lc_2/out <X> T_5_3.lc_trk_g2_2
+ (22 9)  (244 57)  (244 57)  Enable bit of Mux _local_links/g2_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g2_2
+ (15 12)  (237 60)  (237 60)  routing T_5_3.sp4_v_t_28 <X> T_5_3.lc_trk_g3_1
+ (16 12)  (238 60)  (238 60)  routing T_5_3.sp4_v_t_28 <X> T_5_3.lc_trk_g3_1
+ (17 12)  (239 60)  (239 60)  Enable bit of Mux _local_links/g3_mux_1 => sp4_v_t_28 lc_trk_g3_1
+ (14 14)  (236 62)  (236 62)  routing T_5_3.rgt_op_4 <X> T_5_3.lc_trk_g3_4
+ (15 15)  (237 63)  (237 63)  routing T_5_3.rgt_op_4 <X> T_5_3.lc_trk_g3_4
+ (17 15)  (239 63)  (239 63)  Enable bit of Mux _local_links/g3_mux_4 => rgt_op_4 lc_trk_g3_4
+
+
+LogicTile_6_3
+
+ (2 2)  (278 50)  (278 50)  Enable bit of Mux _global_links/clk_mux => lc_trk_g1_1 wire_logic_cluster/lc_7/clk
+ (14 2)  (290 50)  (290 50)  routing T_6_3.wire_logic_cluster/lc_4/out <X> T_6_3.lc_trk_g0_4
+ (22 2)  (298 50)  (298 50)  Enable bit of Mux _local_links/g0_mux_7 => bot_op_7 lc_trk_g0_7
+ (24 2)  (300 50)  (300 50)  routing T_6_3.bot_op_7 <X> T_6_3.lc_trk_g0_7
+ (0 3)  (276 51)  (276 51)  routing T_6_3.lc_trk_g1_1 <X> T_6_3.wire_logic_cluster/lc_7/clk
+ (2 3)  (278 51)  (278 51)  routing T_6_3.lc_trk_g1_1 <X> T_6_3.wire_logic_cluster/lc_7/clk
+ (17 3)  (293 51)  (293 51)  Enable bit of Mux _local_links/g0_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g0_4
+ (0 4)  (276 52)  (276 52)  routing T_6_3.lc_trk_g2_2 <X> T_6_3.wire_logic_cluster/lc_7/cen
+ (1 4)  (277 52)  (277 52)  Enable bit of Mux _global_links/ce_mux => lc_trk_g2_2 wire_logic_cluster/lc_7/cen
+ (15 4)  (291 52)  (291 52)  routing T_6_3.sp4_v_b_17 <X> T_6_3.lc_trk_g1_1
+ (16 4)  (292 52)  (292 52)  routing T_6_3.sp4_v_b_17 <X> T_6_3.lc_trk_g1_1
+ (17 4)  (293 52)  (293 52)  Enable bit of Mux _local_links/g1_mux_1 => sp4_v_b_17 lc_trk_g1_1
+ (1 5)  (277 53)  (277 53)  routing T_6_3.lc_trk_g2_2 <X> T_6_3.wire_logic_cluster/lc_7/cen
+ (15 6)  (291 54)  (291 54)  routing T_6_3.bot_op_5 <X> T_6_3.lc_trk_g1_5
+ (17 6)  (293 54)  (293 54)  Enable bit of Mux _local_links/g1_mux_5 => bot_op_5 lc_trk_g1_5
+ (26 8)  (302 56)  (302 56)  routing T_6_3.lc_trk_g1_5 <X> T_6_3.wire_logic_cluster/lc_4/in_0
+ (29 8)  (305 56)  (305 56)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g0_7 wire_logic_cluster/lc_4/in_1
+ (30 8)  (306 56)  (306 56)  routing T_6_3.lc_trk_g0_7 <X> T_6_3.wire_logic_cluster/lc_4/in_1
+ (31 8)  (307 56)  (307 56)  routing T_6_3.lc_trk_g3_6 <X> T_6_3.wire_logic_cluster/lc_4/in_3
+ (32 8)  (308 56)  (308 56)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g3_6 wire_logic_cluster/lc_4/in_3
+ (33 8)  (309 56)  (309 56)  routing T_6_3.lc_trk_g3_6 <X> T_6_3.wire_logic_cluster/lc_4/in_3
+ (34 8)  (310 56)  (310 56)  routing T_6_3.lc_trk_g3_6 <X> T_6_3.wire_logic_cluster/lc_4/in_3
+ (35 8)  (311 56)  (311 56)  routing T_6_3.lc_trk_g0_4 <X> T_6_3.input_2_4
+ (36 8)  (312 56)  (312 56)  LC_4 Logic Functioning bit
+ (37 8)  (313 56)  (313 56)  LC_4 Logic Functioning bit
+ (42 8)  (318 56)  (318 56)  LC_4 Logic Functioning bit
+ (43 8)  (319 56)  (319 56)  LC_4 Logic Functioning bit
+ (45 8)  (321 56)  (321 56)  LC_4 Logic Functioning bit
+ (48 8)  (324 56)  (324 56)  Enable bit of Mux _out_links/OutMux5_4 => wire_logic_cluster/lc_4/out sp12_h_r_16
+ (22 9)  (298 57)  (298 57)  Enable bit of Mux _local_links/g2_mux_2 => sp4_v_b_42 lc_trk_g2_2
+ (23 9)  (299 57)  (299 57)  routing T_6_3.sp4_v_b_42 <X> T_6_3.lc_trk_g2_2
+ (24 9)  (300 57)  (300 57)  routing T_6_3.sp4_v_b_42 <X> T_6_3.lc_trk_g2_2
+ (27 9)  (303 57)  (303 57)  routing T_6_3.lc_trk_g1_5 <X> T_6_3.wire_logic_cluster/lc_4/in_0
+ (29 9)  (305 57)  (305 57)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g1_5 wire_logic_cluster/lc_4/in_0
+ (30 9)  (306 57)  (306 57)  routing T_6_3.lc_trk_g0_7 <X> T_6_3.wire_logic_cluster/lc_4/in_1
+ (31 9)  (307 57)  (307 57)  routing T_6_3.lc_trk_g3_6 <X> T_6_3.wire_logic_cluster/lc_4/in_3
+ (32 9)  (308 57)  (308 57)  Enable bit of Mux _logic_cluster/lcb2_4 => lc_trk_g0_4 input_2_4
+ (37 9)  (313 57)  (313 57)  LC_4 Logic Functioning bit
+ (38 9)  (314 57)  (314 57)  LC_4 Logic Functioning bit
+ (42 9)  (318 57)  (318 57)  LC_4 Logic Functioning bit
+ (43 9)  (319 57)  (319 57)  LC_4 Logic Functioning bit
+ (47 9)  (323 57)  (323 57)  Enable bit of Mux _out_links/OutMux8_4 => wire_logic_cluster/lc_4/out sp4_h_r_40
+ (25 14)  (301 62)  (301 62)  routing T_6_3.sp4_v_b_38 <X> T_6_3.lc_trk_g3_6
+ (22 15)  (298 63)  (298 63)  Enable bit of Mux _local_links/g3_mux_6 => sp4_v_b_38 lc_trk_g3_6
+ (23 15)  (299 63)  (299 63)  routing T_6_3.sp4_v_b_38 <X> T_6_3.lc_trk_g3_6
+ (25 15)  (301 63)  (301 63)  routing T_6_3.sp4_v_b_38 <X> T_6_3.lc_trk_g3_6
+
+
+RAM_Tile_10_3
+
+ (7 1)  (503 49)  (503 49)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+IO_Tile_13_3
+
+ (3 6)  (649 54)  (649 54)  IO control bit: IORIGHT_IE_1
+
+ (3 9)  (649 57)  (649 57)  IO control bit: IORIGHT_IE_0
+
+
+
+IO_Tile_0_2
+
+ (3 6)  (14 38)  (14 38)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 41)  (14 41)  IO control bit: BIOLEFT_IE_0
+
+
+
+LogicTile_1_2
+
+ (27 0)  (45 32)  (45 32)  routing T_1_2.lc_trk_g3_0 <X> T_1_2.wire_logic_cluster/lc_0/in_1
+ (28 0)  (46 32)  (46 32)  routing T_1_2.lc_trk_g3_0 <X> T_1_2.wire_logic_cluster/lc_0/in_1
+ (29 0)  (47 32)  (47 32)  Enable bit of Mux _logic_cluster/lcb1_0 => lc_trk_g3_0 wire_logic_cluster/lc_0/in_1
+ (32 0)  (50 32)  (50 32)  Enable bit of Mux _logic_cluster/lcb3_0 => wire_logic_cluster/carry_in_mux/cout wire_logic_cluster/lc_0/in_3
+ (36 0)  (54 32)  (54 32)  LC_0 Logic Functioning bit
+ (37 0)  (55 32)  (55 32)  LC_0 Logic Functioning bit
+ (38 0)  (56 32)  (56 32)  LC_0 Logic Functioning bit
+ (39 0)  (57 32)  (57 32)  LC_0 Logic Functioning bit
+ (44 0)  (62 32)  (62 32)  LC_0 Logic Functioning bit
+ (45 0)  (63 32)  (63 32)  LC_0 Logic Functioning bit
+ (40 1)  (58 33)  (58 33)  LC_0 Logic Functioning bit
+ (41 1)  (59 33)  (59 33)  LC_0 Logic Functioning bit
+ (42 1)  (60 33)  (60 33)  LC_0 Logic Functioning bit
+ (43 1)  (61 33)  (61 33)  LC_0 Logic Functioning bit
+ (50 1)  (68 33)  (68 33)  Carry_In_Mux bit 
+
+ (2 2)  (20 34)  (20 34)  Enable bit of Mux _global_links/clk_mux => glb_netwk_1 wire_logic_cluster/lc_7/clk
+ (27 2)  (45 34)  (45 34)  routing T_1_2.lc_trk_g3_1 <X> T_1_2.wire_logic_cluster/lc_1/in_1
+ (28 2)  (46 34)  (46 34)  routing T_1_2.lc_trk_g3_1 <X> T_1_2.wire_logic_cluster/lc_1/in_1
+ (29 2)  (47 34)  (47 34)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g3_1 wire_logic_cluster/lc_1/in_1
+ (32 2)  (50 34)  (50 34)  Enable bit of Mux _logic_cluster/lcb3_1 => wire_logic_cluster/lc_0/cout wire_logic_cluster/lc_1/in_3
+ (36 2)  (54 34)  (54 34)  LC_1 Logic Functioning bit
+ (37 2)  (55 34)  (55 34)  LC_1 Logic Functioning bit
+ (38 2)  (56 34)  (56 34)  LC_1 Logic Functioning bit
+ (39 2)  (57 34)  (57 34)  LC_1 Logic Functioning bit
+ (44 2)  (62 34)  (62 34)  LC_1 Logic Functioning bit
+ (45 2)  (63 34)  (63 34)  LC_1 Logic Functioning bit
+ (0 3)  (18 35)  (18 35)  routing T_1_2.glb_netwk_1 <X> T_1_2.wire_logic_cluster/lc_7/clk
+ (40 3)  (58 35)  (58 35)  LC_1 Logic Functioning bit
+ (41 3)  (59 35)  (59 35)  LC_1 Logic Functioning bit
+ (42 3)  (60 35)  (60 35)  LC_1 Logic Functioning bit
+ (43 3)  (61 35)  (61 35)  LC_1 Logic Functioning bit
+ (21 4)  (39 36)  (39 36)  routing T_1_2.wire_logic_cluster/lc_3/out <X> T_1_2.lc_trk_g1_3
+ (22 4)  (40 36)  (40 36)  Enable bit of Mux _local_links/g1_mux_3 => wire_logic_cluster/lc_3/out lc_trk_g1_3
+ (25 4)  (43 36)  (43 36)  routing T_1_2.wire_logic_cluster/lc_2/out <X> T_1_2.lc_trk_g1_2
+ (27 4)  (45 36)  (45 36)  routing T_1_2.lc_trk_g1_2 <X> T_1_2.wire_logic_cluster/lc_2/in_1
+ (29 4)  (47 36)  (47 36)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g1_2 wire_logic_cluster/lc_2/in_1
+ (32 4)  (50 36)  (50 36)  Enable bit of Mux _logic_cluster/lcb3_2 => wire_logic_cluster/lc_1/cout wire_logic_cluster/lc_2/in_3
+ (36 4)  (54 36)  (54 36)  LC_2 Logic Functioning bit
+ (37 4)  (55 36)  (55 36)  LC_2 Logic Functioning bit
+ (38 4)  (56 36)  (56 36)  LC_2 Logic Functioning bit
+ (39 4)  (57 36)  (57 36)  LC_2 Logic Functioning bit
+ (44 4)  (62 36)  (62 36)  LC_2 Logic Functioning bit
+ (45 4)  (63 36)  (63 36)  LC_2 Logic Functioning bit
+ (22 5)  (40 37)  (40 37)  Enable bit of Mux _local_links/g1_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g1_2
+ (30 5)  (48 37)  (48 37)  routing T_1_2.lc_trk_g1_2 <X> T_1_2.wire_logic_cluster/lc_2/in_1
+ (40 5)  (58 37)  (58 37)  LC_2 Logic Functioning bit
+ (41 5)  (59 37)  (59 37)  LC_2 Logic Functioning bit
+ (42 5)  (60 37)  (60 37)  LC_2 Logic Functioning bit
+ (43 5)  (61 37)  (61 37)  LC_2 Logic Functioning bit
+ (17 6)  (35 38)  (35 38)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (36 38)  (36 38)  routing T_1_2.wire_logic_cluster/lc_5/out <X> T_1_2.lc_trk_g1_5
+ (25 6)  (43 38)  (43 38)  routing T_1_2.wire_logic_cluster/lc_6/out <X> T_1_2.lc_trk_g1_6
+ (27 6)  (45 38)  (45 38)  routing T_1_2.lc_trk_g1_3 <X> T_1_2.wire_logic_cluster/lc_3/in_1
+ (29 6)  (47 38)  (47 38)  Enable bit of Mux _logic_cluster/lcb1_3 => lc_trk_g1_3 wire_logic_cluster/lc_3/in_1
+ (32 6)  (50 38)  (50 38)  Enable bit of Mux _logic_cluster/lcb3_3 => wire_logic_cluster/lc_2/cout wire_logic_cluster/lc_3/in_3
+ (36 6)  (54 38)  (54 38)  LC_3 Logic Functioning bit
+ (37 6)  (55 38)  (55 38)  LC_3 Logic Functioning bit
+ (38 6)  (56 38)  (56 38)  LC_3 Logic Functioning bit
+ (39 6)  (57 38)  (57 38)  LC_3 Logic Functioning bit
+ (44 6)  (62 38)  (62 38)  LC_3 Logic Functioning bit
+ (45 6)  (63 38)  (63 38)  LC_3 Logic Functioning bit
+ (22 7)  (40 39)  (40 39)  Enable bit of Mux _local_links/g1_mux_6 => wire_logic_cluster/lc_6/out lc_trk_g1_6
+ (30 7)  (48 39)  (48 39)  routing T_1_2.lc_trk_g1_3 <X> T_1_2.wire_logic_cluster/lc_3/in_1
+ (40 7)  (58 39)  (58 39)  LC_3 Logic Functioning bit
+ (41 7)  (59 39)  (59 39)  LC_3 Logic Functioning bit
+ (42 7)  (60 39)  (60 39)  LC_3 Logic Functioning bit
+ (43 7)  (61 39)  (61 39)  LC_3 Logic Functioning bit
+ (27 8)  (45 40)  (45 40)  routing T_1_2.lc_trk_g3_4 <X> T_1_2.wire_logic_cluster/lc_4/in_1
+ (28 8)  (46 40)  (46 40)  routing T_1_2.lc_trk_g3_4 <X> T_1_2.wire_logic_cluster/lc_4/in_1
+ (29 8)  (47 40)  (47 40)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g3_4 wire_logic_cluster/lc_4/in_1
+ (30 8)  (48 40)  (48 40)  routing T_1_2.lc_trk_g3_4 <X> T_1_2.wire_logic_cluster/lc_4/in_1
+ (32 8)  (50 40)  (50 40)  Enable bit of Mux _logic_cluster/lcb3_4 => wire_logic_cluster/lc_3/cout wire_logic_cluster/lc_4/in_3
+ (36 8)  (54 40)  (54 40)  LC_4 Logic Functioning bit
+ (37 8)  (55 40)  (55 40)  LC_4 Logic Functioning bit
+ (38 8)  (56 40)  (56 40)  LC_4 Logic Functioning bit
+ (39 8)  (57 40)  (57 40)  LC_4 Logic Functioning bit
+ (44 8)  (62 40)  (62 40)  LC_4 Logic Functioning bit
+ (45 8)  (63 40)  (63 40)  LC_4 Logic Functioning bit
+ (40 9)  (58 41)  (58 41)  LC_4 Logic Functioning bit
+ (41 9)  (59 41)  (59 41)  LC_4 Logic Functioning bit
+ (42 9)  (60 41)  (60 41)  LC_4 Logic Functioning bit
+ (43 9)  (61 41)  (61 41)  LC_4 Logic Functioning bit
+ (27 10)  (45 42)  (45 42)  routing T_1_2.lc_trk_g1_5 <X> T_1_2.wire_logic_cluster/lc_5/in_1
+ (29 10)  (47 42)  (47 42)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g1_5 wire_logic_cluster/lc_5/in_1
+ (30 10)  (48 42)  (48 42)  routing T_1_2.lc_trk_g1_5 <X> T_1_2.wire_logic_cluster/lc_5/in_1
+ (32 10)  (50 42)  (50 42)  Enable bit of Mux _logic_cluster/lcb3_5 => wire_logic_cluster/lc_4/cout wire_logic_cluster/lc_5/in_3
+ (36 10)  (54 42)  (54 42)  LC_5 Logic Functioning bit
+ (37 10)  (55 42)  (55 42)  LC_5 Logic Functioning bit
+ (38 10)  (56 42)  (56 42)  LC_5 Logic Functioning bit
+ (39 10)  (57 42)  (57 42)  LC_5 Logic Functioning bit
+ (44 10)  (62 42)  (62 42)  LC_5 Logic Functioning bit
+ (45 10)  (63 42)  (63 42)  LC_5 Logic Functioning bit
+ (40 11)  (58 43)  (58 43)  LC_5 Logic Functioning bit
+ (41 11)  (59 43)  (59 43)  LC_5 Logic Functioning bit
+ (42 11)  (60 43)  (60 43)  LC_5 Logic Functioning bit
+ (43 11)  (61 43)  (61 43)  LC_5 Logic Functioning bit
+ (14 12)  (32 44)  (32 44)  routing T_1_2.wire_logic_cluster/lc_0/out <X> T_1_2.lc_trk_g3_0
+ (17 12)  (35 44)  (35 44)  Enable bit of Mux _local_links/g3_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g3_1
+ (18 12)  (36 44)  (36 44)  routing T_1_2.wire_logic_cluster/lc_1/out <X> T_1_2.lc_trk_g3_1
+ (27 12)  (45 44)  (45 44)  routing T_1_2.lc_trk_g1_6 <X> T_1_2.wire_logic_cluster/lc_6/in_1
+ (29 12)  (47 44)  (47 44)  Enable bit of Mux _logic_cluster/lcb1_6 => lc_trk_g1_6 wire_logic_cluster/lc_6/in_1
+ (30 12)  (48 44)  (48 44)  routing T_1_2.lc_trk_g1_6 <X> T_1_2.wire_logic_cluster/lc_6/in_1
+ (32 12)  (50 44)  (50 44)  Enable bit of Mux _logic_cluster/lcb3_6 => wire_logic_cluster/lc_5/cout wire_logic_cluster/lc_6/in_3
+ (36 12)  (54 44)  (54 44)  LC_6 Logic Functioning bit
+ (37 12)  (55 44)  (55 44)  LC_6 Logic Functioning bit
+ (38 12)  (56 44)  (56 44)  LC_6 Logic Functioning bit
+ (39 12)  (57 44)  (57 44)  LC_6 Logic Functioning bit
+ (44 12)  (62 44)  (62 44)  LC_6 Logic Functioning bit
+ (45 12)  (63 44)  (63 44)  LC_6 Logic Functioning bit
+ (17 13)  (35 45)  (35 45)  Enable bit of Mux _local_links/g3_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g3_0
+ (30 13)  (48 45)  (48 45)  routing T_1_2.lc_trk_g1_6 <X> T_1_2.wire_logic_cluster/lc_6/in_1
+ (40 13)  (58 45)  (58 45)  LC_6 Logic Functioning bit
+ (41 13)  (59 45)  (59 45)  LC_6 Logic Functioning bit
+ (42 13)  (60 45)  (60 45)  LC_6 Logic Functioning bit
+ (43 13)  (61 45)  (61 45)  LC_6 Logic Functioning bit
+ (14 14)  (32 46)  (32 46)  routing T_1_2.wire_logic_cluster/lc_4/out <X> T_1_2.lc_trk_g3_4
+ (21 14)  (39 46)  (39 46)  routing T_1_2.wire_logic_cluster/lc_7/out <X> T_1_2.lc_trk_g3_7
+ (22 14)  (40 46)  (40 46)  Enable bit of Mux _local_links/g3_mux_7 => wire_logic_cluster/lc_7/out lc_trk_g3_7
+ (27 14)  (45 46)  (45 46)  routing T_1_2.lc_trk_g3_7 <X> T_1_2.wire_logic_cluster/lc_7/in_1
+ (28 14)  (46 46)  (46 46)  routing T_1_2.lc_trk_g3_7 <X> T_1_2.wire_logic_cluster/lc_7/in_1
+ (29 14)  (47 46)  (47 46)  Enable bit of Mux _logic_cluster/lcb1_7 => lc_trk_g3_7 wire_logic_cluster/lc_7/in_1
+ (30 14)  (48 46)  (48 46)  routing T_1_2.lc_trk_g3_7 <X> T_1_2.wire_logic_cluster/lc_7/in_1
+ (32 14)  (50 46)  (50 46)  Enable bit of Mux _logic_cluster/lcb3_7 => wire_logic_cluster/lc_6/cout wire_logic_cluster/lc_7/in_3
+ (36 14)  (54 46)  (54 46)  LC_7 Logic Functioning bit
+ (37 14)  (55 46)  (55 46)  LC_7 Logic Functioning bit
+ (38 14)  (56 46)  (56 46)  LC_7 Logic Functioning bit
+ (39 14)  (57 46)  (57 46)  LC_7 Logic Functioning bit
+ (44 14)  (62 46)  (62 46)  LC_7 Logic Functioning bit
+ (45 14)  (63 46)  (63 46)  LC_7 Logic Functioning bit
+ (17 15)  (35 47)  (35 47)  Enable bit of Mux _local_links/g3_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g3_4
+ (30 15)  (48 47)  (48 47)  routing T_1_2.lc_trk_g3_7 <X> T_1_2.wire_logic_cluster/lc_7/in_1
+ (40 15)  (58 47)  (58 47)  LC_7 Logic Functioning bit
+ (41 15)  (59 47)  (59 47)  LC_7 Logic Functioning bit
+ (42 15)  (60 47)  (60 47)  LC_7 Logic Functioning bit
+ (43 15)  (61 47)  (61 47)  LC_7 Logic Functioning bit
+
+
+LogicTile_2_2
+
+ (15 0)  (87 32)  (87 32)  routing T_2_2.lft_op_1 <X> T_2_2.lc_trk_g0_1
+ (17 0)  (89 32)  (89 32)  Enable bit of Mux _local_links/g0_mux_1 => lft_op_1 lc_trk_g0_1
+ (18 0)  (90 32)  (90 32)  routing T_2_2.lft_op_1 <X> T_2_2.lc_trk_g0_1
+ (25 0)  (97 32)  (97 32)  routing T_2_2.lft_op_2 <X> T_2_2.lc_trk_g0_2
+ (22 1)  (94 33)  (94 33)  Enable bit of Mux _local_links/g0_mux_2 => lft_op_2 lc_trk_g0_2
+ (24 1)  (96 33)  (96 33)  routing T_2_2.lft_op_2 <X> T_2_2.lc_trk_g0_2
+ (14 2)  (86 34)  (86 34)  routing T_2_2.lft_op_4 <X> T_2_2.lc_trk_g0_4
+ (26 2)  (98 34)  (98 34)  routing T_2_2.lc_trk_g1_6 <X> T_2_2.wire_logic_cluster/lc_1/in_0
+ (27 2)  (99 34)  (99 34)  routing T_2_2.lc_trk_g1_5 <X> T_2_2.wire_logic_cluster/lc_1/in_1
+ (29 2)  (101 34)  (101 34)  Enable bit of Mux _logic_cluster/lcb1_1 => lc_trk_g1_5 wire_logic_cluster/lc_1/in_1
+ (30 2)  (102 34)  (102 34)  routing T_2_2.lc_trk_g1_5 <X> T_2_2.wire_logic_cluster/lc_1/in_1
+ (31 2)  (103 34)  (103 34)  routing T_2_2.lc_trk_g0_4 <X> T_2_2.wire_logic_cluster/lc_1/in_3
+ (32 2)  (104 34)  (104 34)  Enable bit of Mux _logic_cluster/lcb3_1 => lc_trk_g0_4 wire_logic_cluster/lc_1/in_3
+ (40 2)  (112 34)  (112 34)  LC_1 Logic Functioning bit
+ (42 2)  (114 34)  (114 34)  LC_1 Logic Functioning bit
+ (15 3)  (87 35)  (87 35)  routing T_2_2.lft_op_4 <X> T_2_2.lc_trk_g0_4
+ (17 3)  (89 35)  (89 35)  Enable bit of Mux _local_links/g0_mux_4 => lft_op_4 lc_trk_g0_4
+ (26 3)  (98 35)  (98 35)  routing T_2_2.lc_trk_g1_6 <X> T_2_2.wire_logic_cluster/lc_1/in_0
+ (27 3)  (99 35)  (99 35)  routing T_2_2.lc_trk_g1_6 <X> T_2_2.wire_logic_cluster/lc_1/in_0
+ (29 3)  (101 35)  (101 35)  Enable bit of Mux _logic_cluster/lcb0_1 => lc_trk_g1_6 wire_logic_cluster/lc_1/in_0
+ (14 4)  (86 36)  (86 36)  routing T_2_2.lft_op_0 <X> T_2_2.lc_trk_g1_0
+ (21 4)  (93 36)  (93 36)  routing T_2_2.lft_op_3 <X> T_2_2.lc_trk_g1_3
+ (22 4)  (94 36)  (94 36)  Enable bit of Mux _local_links/g1_mux_3 => lft_op_3 lc_trk_g1_3
+ (24 4)  (96 36)  (96 36)  routing T_2_2.lft_op_3 <X> T_2_2.lc_trk_g1_3
+ (25 4)  (97 36)  (97 36)  routing T_2_2.wire_logic_cluster/lc_2/out <X> T_2_2.lc_trk_g1_2
+ (26 4)  (98 36)  (98 36)  routing T_2_2.lc_trk_g1_7 <X> T_2_2.wire_logic_cluster/lc_2/in_0
+ (27 4)  (99 36)  (99 36)  routing T_2_2.lc_trk_g3_2 <X> T_2_2.wire_logic_cluster/lc_2/in_1
+ (28 4)  (100 36)  (100 36)  routing T_2_2.lc_trk_g3_2 <X> T_2_2.wire_logic_cluster/lc_2/in_1
+ (29 4)  (101 36)  (101 36)  Enable bit of Mux _logic_cluster/lcb1_2 => lc_trk_g3_2 wire_logic_cluster/lc_2/in_1
+ (32 4)  (104 36)  (104 36)  Enable bit of Mux _logic_cluster/lcb3_2 => lc_trk_g2_1 wire_logic_cluster/lc_2/in_3
+ (33 4)  (105 36)  (105 36)  routing T_2_2.lc_trk_g2_1 <X> T_2_2.wire_logic_cluster/lc_2/in_3
+ (40 4)  (112 36)  (112 36)  LC_2 Logic Functioning bit
+ (15 5)  (87 37)  (87 37)  routing T_2_2.lft_op_0 <X> T_2_2.lc_trk_g1_0
+ (17 5)  (89 37)  (89 37)  Enable bit of Mux _local_links/g1_mux_0 => lft_op_0 lc_trk_g1_0
+ (22 5)  (94 37)  (94 37)  Enable bit of Mux _local_links/g1_mux_2 => wire_logic_cluster/lc_2/out lc_trk_g1_2
+ (26 5)  (98 37)  (98 37)  routing T_2_2.lc_trk_g1_7 <X> T_2_2.wire_logic_cluster/lc_2/in_0
+ (27 5)  (99 37)  (99 37)  routing T_2_2.lc_trk_g1_7 <X> T_2_2.wire_logic_cluster/lc_2/in_0
+ (29 5)  (101 37)  (101 37)  Enable bit of Mux _logic_cluster/lcb0_2 => lc_trk_g1_7 wire_logic_cluster/lc_2/in_0
+ (30 5)  (102 37)  (102 37)  routing T_2_2.lc_trk_g3_2 <X> T_2_2.wire_logic_cluster/lc_2/in_1
+ (32 5)  (104 37)  (104 37)  Enable bit of Mux _logic_cluster/lcb2_2 => lc_trk_g2_0 input_2_2
+ (33 5)  (105 37)  (105 37)  routing T_2_2.lc_trk_g2_0 <X> T_2_2.input_2_2
+ (15 6)  (87 38)  (87 38)  routing T_2_2.lft_op_5 <X> T_2_2.lc_trk_g1_5
+ (17 6)  (89 38)  (89 38)  Enable bit of Mux _local_links/g1_mux_5 => lft_op_5 lc_trk_g1_5
+ (18 6)  (90 38)  (90 38)  routing T_2_2.lft_op_5 <X> T_2_2.lc_trk_g1_5
+ (21 6)  (93 38)  (93 38)  routing T_2_2.lft_op_7 <X> T_2_2.lc_trk_g1_7
+ (22 6)  (94 38)  (94 38)  Enable bit of Mux _local_links/g1_mux_7 => lft_op_7 lc_trk_g1_7
+ (24 6)  (96 38)  (96 38)  routing T_2_2.lft_op_7 <X> T_2_2.lc_trk_g1_7
+ (25 6)  (97 38)  (97 38)  routing T_2_2.lft_op_6 <X> T_2_2.lc_trk_g1_6
+ (22 7)  (94 39)  (94 39)  Enable bit of Mux _local_links/g1_mux_6 => lft_op_6 lc_trk_g1_6
+ (24 7)  (96 39)  (96 39)  routing T_2_2.lft_op_6 <X> T_2_2.lc_trk_g1_6
+ (15 8)  (87 40)  (87 40)  routing T_2_2.tnl_op_1 <X> T_2_2.lc_trk_g2_1
+ (17 8)  (89 40)  (89 40)  Enable bit of Mux _local_links/g2_mux_1 => tnl_op_1 lc_trk_g2_1
+ (14 9)  (86 41)  (86 41)  routing T_2_2.tnl_op_0 <X> T_2_2.lc_trk_g2_0
+ (15 9)  (87 41)  (87 41)  routing T_2_2.tnl_op_0 <X> T_2_2.lc_trk_g2_0
+ (17 9)  (89 41)  (89 41)  Enable bit of Mux _local_links/g2_mux_0 => tnl_op_0 lc_trk_g2_0
+ (18 9)  (90 41)  (90 41)  routing T_2_2.tnl_op_1 <X> T_2_2.lc_trk_g2_1
+ (22 10)  (94 42)  (94 42)  Enable bit of Mux _local_links/g2_mux_7 => tnl_op_7 lc_trk_g2_7
+ (24 10)  (96 42)  (96 42)  routing T_2_2.tnl_op_7 <X> T_2_2.lc_trk_g2_7
+ (27 10)  (99 42)  (99 42)  routing T_2_2.lc_trk_g1_3 <X> T_2_2.wire_logic_cluster/lc_5/in_1
+ (29 10)  (101 42)  (101 42)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g1_3 wire_logic_cluster/lc_5/in_1
+ (32 10)  (104 42)  (104 42)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g0_2 wire_logic_cluster/lc_5/in_3
+ (40 10)  (112 42)  (112 42)  LC_5 Logic Functioning bit
+ (21 11)  (93 43)  (93 43)  routing T_2_2.tnl_op_7 <X> T_2_2.lc_trk_g2_7
+ (27 11)  (99 43)  (99 43)  routing T_2_2.lc_trk_g1_0 <X> T_2_2.wire_logic_cluster/lc_5/in_0
+ (29 11)  (101 43)  (101 43)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g1_0 wire_logic_cluster/lc_5/in_0
+ (30 11)  (102 43)  (102 43)  routing T_2_2.lc_trk_g1_3 <X> T_2_2.wire_logic_cluster/lc_5/in_1
+ (31 11)  (103 43)  (103 43)  routing T_2_2.lc_trk_g0_2 <X> T_2_2.wire_logic_cluster/lc_5/in_3
+ (32 11)  (104 43)  (104 43)  Enable bit of Mux _logic_cluster/lcb2_5 => lc_trk_g0_1 input_2_5
+ (17 12)  (89 44)  (89 44)  Enable bit of Mux _local_links/g3_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g3_1
+ (18 12)  (90 44)  (90 44)  routing T_2_2.wire_logic_cluster/lc_1/out <X> T_2_2.lc_trk_g3_1
+ (28 12)  (100 44)  (100 44)  routing T_2_2.lc_trk_g2_7 <X> T_2_2.wire_logic_cluster/lc_6/in_1
+ (29 12)  (101 44)  (101 44)  Enable bit of Mux _logic_cluster/lcb1_6 => lc_trk_g2_7 wire_logic_cluster/lc_6/in_1
+ (30 12)  (102 44)  (102 44)  routing T_2_2.lc_trk_g2_7 <X> T_2_2.wire_logic_cluster/lc_6/in_1
+ (32 12)  (104 44)  (104 44)  Enable bit of Mux _logic_cluster/lcb3_6 => lc_trk_g1_2 wire_logic_cluster/lc_6/in_3
+ (34 12)  (106 44)  (106 44)  routing T_2_2.lc_trk_g1_2 <X> T_2_2.wire_logic_cluster/lc_6/in_3
+ (36 12)  (108 44)  (108 44)  LC_6 Logic Functioning bit
+ (46 12)  (118 44)  (118 44)  Enable bit of Mux _out_links/OutMux7_6 => wire_logic_cluster/lc_6/out sp4_h_l_17
+ (47 12)  (119 44)  (119 44)  Enable bit of Mux _out_links/OutMux4_6 => wire_logic_cluster/lc_6/out sp12_h_l_3
+ (50 12)  (122 44)  (122 44)  Cascade bit: LH_LC06_inmux02_5
+
+ (22 13)  (94 45)  (94 45)  Enable bit of Mux _local_links/g3_mux_2 => tnl_op_2 lc_trk_g3_2
+ (24 13)  (96 45)  (96 45)  routing T_2_2.tnl_op_2 <X> T_2_2.lc_trk_g3_2
+ (25 13)  (97 45)  (97 45)  routing T_2_2.tnl_op_2 <X> T_2_2.lc_trk_g3_2
+ (27 13)  (99 45)  (99 45)  routing T_2_2.lc_trk_g3_1 <X> T_2_2.wire_logic_cluster/lc_6/in_0
+ (28 13)  (100 45)  (100 45)  routing T_2_2.lc_trk_g3_1 <X> T_2_2.wire_logic_cluster/lc_6/in_0
+ (29 13)  (101 45)  (101 45)  Enable bit of Mux _logic_cluster/lcb0_6 => lc_trk_g3_1 wire_logic_cluster/lc_6/in_0
+ (30 13)  (102 45)  (102 45)  routing T_2_2.lc_trk_g2_7 <X> T_2_2.wire_logic_cluster/lc_6/in_1
+ (31 13)  (103 45)  (103 45)  routing T_2_2.lc_trk_g1_2 <X> T_2_2.wire_logic_cluster/lc_6/in_3
+ (46 13)  (118 45)  (118 45)  Enable bit of Mux _out_links/OutMux6_6 => wire_logic_cluster/lc_6/out sp4_h_l_1
+ (51 13)  (123 45)  (123 45)  Enable bit of Mux _out_links/OutMux1_6 => wire_logic_cluster/lc_6/out sp4_v_t_17
+
+
+RAM_Tile_3_2
+
+ (4 10)  (130 42)  (130 42)  routing T_3_2.sp4_h_r_6 <X> T_3_2.sp4_v_t_43
+ (5 11)  (131 43)  (131 43)  routing T_3_2.sp4_h_r_6 <X> T_3_2.sp4_v_t_43
+
+
+LogicTile_4_2
+
+ (31 0)  (199 32)  (199 32)  routing T_4_2.lc_trk_g1_4 <X> T_4_2.wire_logic_cluster/lc_0/in_3
+ (32 0)  (200 32)  (200 32)  Enable bit of Mux _logic_cluster/lcb3_0 => lc_trk_g1_4 wire_logic_cluster/lc_0/in_3
+ (34 0)  (202 32)  (202 32)  routing T_4_2.lc_trk_g1_4 <X> T_4_2.wire_logic_cluster/lc_0/in_3
+ (35 0)  (203 32)  (203 32)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.input_2_0
+ (36 0)  (204 32)  (204 32)  LC_0 Logic Functioning bit
+ (45 0)  (213 32)  (213 32)  LC_0 Logic Functioning bit
+ (16 1)  (184 33)  (184 33)  routing T_4_2.sp12_h_r_8 <X> T_4_2.lc_trk_g0_0
+ (17 1)  (185 33)  (185 33)  Enable bit of Mux _local_links/g0_mux_0 => sp12_h_r_8 lc_trk_g0_0
+ (26 1)  (194 33)  (194 33)  routing T_4_2.lc_trk_g1_3 <X> T_4_2.wire_logic_cluster/lc_0/in_0
+ (27 1)  (195 33)  (195 33)  routing T_4_2.lc_trk_g1_3 <X> T_4_2.wire_logic_cluster/lc_0/in_0
+ (29 1)  (197 33)  (197 33)  Enable bit of Mux _logic_cluster/lcb0_0 => lc_trk_g1_3 wire_logic_cluster/lc_0/in_0
+ (32 1)  (200 33)  (200 33)  Enable bit of Mux _logic_cluster/lcb2_0 => lc_trk_g3_5 input_2_0
+ (33 1)  (201 33)  (201 33)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.input_2_0
+ (34 1)  (202 33)  (202 33)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.input_2_0
+ (37 1)  (205 33)  (205 33)  LC_0 Logic Functioning bit
+ (2 2)  (170 34)  (170 34)  Enable bit of Mux _global_links/clk_mux => lc_trk_g0_0 wire_logic_cluster/lc_7/clk
+ (2 3)  (170 35)  (170 35)  routing T_4_2.lc_trk_g0_0 <X> T_4_2.wire_logic_cluster/lc_7/clk
+ (14 4)  (182 36)  (182 36)  routing T_4_2.wire_logic_cluster/lc_0/out <X> T_4_2.lc_trk_g1_0
+ (21 4)  (189 36)  (189 36)  routing T_4_2.wire_logic_cluster/lc_3/out <X> T_4_2.lc_trk_g1_3
+ (22 4)  (190 36)  (190 36)  Enable bit of Mux _local_links/g1_mux_3 => wire_logic_cluster/lc_3/out lc_trk_g1_3
+ (17 5)  (185 37)  (185 37)  Enable bit of Mux _local_links/g1_mux_0 => wire_logic_cluster/lc_0/out lc_trk_g1_0
+ (14 6)  (182 38)  (182 38)  routing T_4_2.wire_logic_cluster/lc_4/out <X> T_4_2.lc_trk_g1_4
+ (31 6)  (199 38)  (199 38)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.wire_logic_cluster/lc_3/in_3
+ (32 6)  (200 38)  (200 38)  Enable bit of Mux _logic_cluster/lcb3_3 => lc_trk_g3_5 wire_logic_cluster/lc_3/in_3
+ (33 6)  (201 38)  (201 38)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.wire_logic_cluster/lc_3/in_3
+ (34 6)  (202 38)  (202 38)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.wire_logic_cluster/lc_3/in_3
+ (36 6)  (204 38)  (204 38)  LC_3 Logic Functioning bit
+ (37 6)  (205 38)  (205 38)  LC_3 Logic Functioning bit
+ (38 6)  (206 38)  (206 38)  LC_3 Logic Functioning bit
+ (39 6)  (207 38)  (207 38)  LC_3 Logic Functioning bit
+ (45 6)  (213 38)  (213 38)  LC_3 Logic Functioning bit
+ (8 7)  (176 39)  (176 39)  routing T_4_2.sp4_h_l_41 <X> T_4_2.sp4_v_t_41
+ (17 7)  (185 39)  (185 39)  Enable bit of Mux _local_links/g1_mux_4 => wire_logic_cluster/lc_4/out lc_trk_g1_4
+ (36 7)  (204 39)  (204 39)  LC_3 Logic Functioning bit
+ (37 7)  (205 39)  (205 39)  LC_3 Logic Functioning bit
+ (38 7)  (206 39)  (206 39)  LC_3 Logic Functioning bit
+ (39 7)  (207 39)  (207 39)  LC_3 Logic Functioning bit
+ (36 8)  (204 40)  (204 40)  LC_4 Logic Functioning bit
+ (38 8)  (206 40)  (206 40)  LC_4 Logic Functioning bit
+ (41 8)  (209 40)  (209 40)  LC_4 Logic Functioning bit
+ (43 8)  (211 40)  (211 40)  LC_4 Logic Functioning bit
+ (45 8)  (213 40)  (213 40)  LC_4 Logic Functioning bit
+ (26 9)  (194 41)  (194 41)  routing T_4_2.lc_trk_g1_3 <X> T_4_2.wire_logic_cluster/lc_4/in_0
+ (27 9)  (195 41)  (195 41)  routing T_4_2.lc_trk_g1_3 <X> T_4_2.wire_logic_cluster/lc_4/in_0
+ (29 9)  (197 41)  (197 41)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g1_3 wire_logic_cluster/lc_4/in_0
+ (37 9)  (205 41)  (205 41)  LC_4 Logic Functioning bit
+ (39 9)  (207 41)  (207 41)  LC_4 Logic Functioning bit
+ (40 9)  (208 41)  (208 41)  LC_4 Logic Functioning bit
+ (42 9)  (210 41)  (210 41)  LC_4 Logic Functioning bit
+ (4 10)  (172 42)  (172 42)  routing T_4_2.sp4_v_b_10 <X> T_4_2.sp4_v_t_43
+ (6 10)  (174 42)  (174 42)  routing T_4_2.sp4_v_b_10 <X> T_4_2.sp4_v_t_43
+ (26 10)  (194 42)  (194 42)  routing T_4_2.lc_trk_g1_4 <X> T_4_2.wire_logic_cluster/lc_5/in_0
+ (27 10)  (195 42)  (195 42)  routing T_4_2.lc_trk_g1_3 <X> T_4_2.wire_logic_cluster/lc_5/in_1
+ (29 10)  (197 42)  (197 42)  Enable bit of Mux _logic_cluster/lcb1_5 => lc_trk_g1_3 wire_logic_cluster/lc_5/in_1
+ (31 10)  (199 42)  (199 42)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.wire_logic_cluster/lc_5/in_3
+ (32 10)  (200 42)  (200 42)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g3_5 wire_logic_cluster/lc_5/in_3
+ (33 10)  (201 42)  (201 42)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.wire_logic_cluster/lc_5/in_3
+ (34 10)  (202 42)  (202 42)  routing T_4_2.lc_trk_g3_5 <X> T_4_2.wire_logic_cluster/lc_5/in_3
+ (38 10)  (206 42)  (206 42)  LC_5 Logic Functioning bit
+ (27 11)  (195 43)  (195 43)  routing T_4_2.lc_trk_g1_4 <X> T_4_2.wire_logic_cluster/lc_5/in_0
+ (29 11)  (197 43)  (197 43)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g1_4 wire_logic_cluster/lc_5/in_0
+ (30 11)  (198 43)  (198 43)  routing T_4_2.lc_trk_g1_3 <X> T_4_2.wire_logic_cluster/lc_5/in_1
+ (32 11)  (200 43)  (200 43)  Enable bit of Mux _logic_cluster/lcb2_5 => lc_trk_g1_0 input_2_5
+ (34 11)  (202 43)  (202 43)  routing T_4_2.lc_trk_g1_0 <X> T_4_2.input_2_5
+ (48 11)  (216 43)  (216 43)  Enable bit of Mux _out_links/OutMux0_5 => wire_logic_cluster/lc_5/out sp4_v_b_10
+ (15 14)  (183 46)  (183 46)  routing T_4_2.sp4_h_l_16 <X> T_4_2.lc_trk_g3_5
+ (16 14)  (184 46)  (184 46)  routing T_4_2.sp4_h_l_16 <X> T_4_2.lc_trk_g3_5
+ (17 14)  (185 46)  (185 46)  Enable bit of Mux _local_links/g3_mux_5 => sp4_h_l_16 lc_trk_g3_5
+ (18 15)  (186 47)  (186 47)  routing T_4_2.sp4_h_l_16 <X> T_4_2.lc_trk_g3_5
+
+
+LogicTile_5_2
+
+ (8 0)  (230 32)  (230 32)  routing T_5_2.sp4_h_l_36 <X> T_5_2.sp4_h_r_1
+ (2 2)  (224 34)  (224 34)  Enable bit of Mux _global_links/clk_mux => lc_trk_g1_1 wire_logic_cluster/lc_7/clk
+ (14 2)  (236 34)  (236 34)  routing T_5_2.lft_op_4 <X> T_5_2.lc_trk_g0_4
+ (0 3)  (222 35)  (222 35)  routing T_5_2.lc_trk_g1_1 <X> T_5_2.wire_logic_cluster/lc_7/clk
+ (2 3)  (224 35)  (224 35)  routing T_5_2.lc_trk_g1_1 <X> T_5_2.wire_logic_cluster/lc_7/clk
+ (15 3)  (237 35)  (237 35)  routing T_5_2.lft_op_4 <X> T_5_2.lc_trk_g0_4
+ (17 3)  (239 35)  (239 35)  Enable bit of Mux _local_links/g0_mux_4 => lft_op_4 lc_trk_g0_4
+ (1 4)  (223 36)  (223 36)  Enable bit of Mux _global_links/ce_mux => lc_trk_g1_3 wire_logic_cluster/lc_7/cen
+ (9 4)  (231 36)  (231 36)  routing T_5_2.sp4_h_l_36 <X> T_5_2.sp4_h_r_4
+ (10 4)  (232 36)  (232 36)  routing T_5_2.sp4_h_l_36 <X> T_5_2.sp4_h_r_4
+ (14 4)  (236 36)  (236 36)  routing T_5_2.lft_op_0 <X> T_5_2.lc_trk_g1_0
+ (15 4)  (237 36)  (237 36)  routing T_5_2.sp4_h_r_1 <X> T_5_2.lc_trk_g1_1
+ (16 4)  (238 36)  (238 36)  routing T_5_2.sp4_h_r_1 <X> T_5_2.lc_trk_g1_1
+ (17 4)  (239 36)  (239 36)  Enable bit of Mux _local_links/g1_mux_1 => sp4_h_r_1 lc_trk_g1_1
+ (21 4)  (243 36)  (243 36)  routing T_5_2.lft_op_3 <X> T_5_2.lc_trk_g1_3
+ (22 4)  (244 36)  (244 36)  Enable bit of Mux _local_links/g1_mux_3 => lft_op_3 lc_trk_g1_3
+ (24 4)  (246 36)  (246 36)  routing T_5_2.lft_op_3 <X> T_5_2.lc_trk_g1_3
+ (0 5)  (222 37)  (222 37)  routing T_5_2.lc_trk_g1_3 <X> T_5_2.wire_logic_cluster/lc_7/cen
+ (1 5)  (223 37)  (223 37)  routing T_5_2.lc_trk_g1_3 <X> T_5_2.wire_logic_cluster/lc_7/cen
+ (15 5)  (237 37)  (237 37)  routing T_5_2.lft_op_0 <X> T_5_2.lc_trk_g1_0
+ (17 5)  (239 37)  (239 37)  Enable bit of Mux _local_links/g1_mux_0 => lft_op_0 lc_trk_g1_0
+ (18 5)  (240 37)  (240 37)  routing T_5_2.sp4_h_r_1 <X> T_5_2.lc_trk_g1_1
+ (8 7)  (230 39)  (230 39)  routing T_5_2.sp4_h_r_4 <X> T_5_2.sp4_v_t_41
+ (9 7)  (231 39)  (231 39)  routing T_5_2.sp4_h_r_4 <X> T_5_2.sp4_v_t_41
+ (22 13)  (244 45)  (244 45)  Enable bit of Mux _local_links/g3_mux_2 => sp4_r_v_b_42 lc_trk_g3_2
+ (25 13)  (247 45)  (247 45)  routing T_5_2.sp4_r_v_b_42 <X> T_5_2.lc_trk_g3_2
+ (21 14)  (243 46)  (243 46)  routing T_5_2.wire_logic_cluster/lc_7/out <X> T_5_2.lc_trk_g3_7
+ (22 14)  (244 46)  (244 46)  Enable bit of Mux _local_links/g3_mux_7 => wire_logic_cluster/lc_7/out lc_trk_g3_7
+ (27 14)  (249 46)  (249 46)  routing T_5_2.lc_trk_g3_7 <X> T_5_2.wire_logic_cluster/lc_7/in_1
+ (28 14)  (250 46)  (250 46)  routing T_5_2.lc_trk_g3_7 <X> T_5_2.wire_logic_cluster/lc_7/in_1
+ (29 14)  (251 46)  (251 46)  Enable bit of Mux _logic_cluster/lcb1_7 => lc_trk_g3_7 wire_logic_cluster/lc_7/in_1
+ (30 14)  (252 46)  (252 46)  routing T_5_2.lc_trk_g3_7 <X> T_5_2.wire_logic_cluster/lc_7/in_1
+ (31 14)  (253 46)  (253 46)  routing T_5_2.lc_trk_g0_4 <X> T_5_2.wire_logic_cluster/lc_7/in_3
+ (32 14)  (254 46)  (254 46)  Enable bit of Mux _logic_cluster/lcb3_7 => lc_trk_g0_4 wire_logic_cluster/lc_7/in_3
+ (36 14)  (258 46)  (258 46)  LC_7 Logic Functioning bit
+ (41 14)  (263 46)  (263 46)  LC_7 Logic Functioning bit
+ (43 14)  (265 46)  (265 46)  LC_7 Logic Functioning bit
+ (45 14)  (267 46)  (267 46)  LC_7 Logic Functioning bit
+ (46 14)  (268 46)  (268 46)  Enable bit of Mux _out_links/OutMux7_7 => wire_logic_cluster/lc_7/out sp4_h_r_30
+ (26 15)  (248 47)  (248 47)  routing T_5_2.lc_trk_g3_2 <X> T_5_2.wire_logic_cluster/lc_7/in_0
+ (27 15)  (249 47)  (249 47)  routing T_5_2.lc_trk_g3_2 <X> T_5_2.wire_logic_cluster/lc_7/in_0
+ (28 15)  (250 47)  (250 47)  routing T_5_2.lc_trk_g3_2 <X> T_5_2.wire_logic_cluster/lc_7/in_0
+ (29 15)  (251 47)  (251 47)  Enable bit of Mux _logic_cluster/lcb0_7 => lc_trk_g3_2 wire_logic_cluster/lc_7/in_0
+ (30 15)  (252 47)  (252 47)  routing T_5_2.lc_trk_g3_7 <X> T_5_2.wire_logic_cluster/lc_7/in_1
+ (32 15)  (254 47)  (254 47)  Enable bit of Mux _logic_cluster/lcb2_7 => lc_trk_g1_0 input_2_7
+ (34 15)  (256 47)  (256 47)  routing T_5_2.lc_trk_g1_0 <X> T_5_2.input_2_7
+ (36 15)  (258 47)  (258 47)  LC_7 Logic Functioning bit
+ (38 15)  (260 47)  (260 47)  LC_7 Logic Functioning bit
+ (39 15)  (261 47)  (261 47)  LC_7 Logic Functioning bit
+ (41 15)  (263 47)  (263 47)  LC_7 Logic Functioning bit
+ (43 15)  (265 47)  (265 47)  LC_7 Logic Functioning bit
+
+
+LogicTile_6_2
+
+ (15 0)  (291 32)  (291 32)  routing T_6_2.sp4_h_r_9 <X> T_6_2.lc_trk_g0_1
+ (16 0)  (292 32)  (292 32)  routing T_6_2.sp4_h_r_9 <X> T_6_2.lc_trk_g0_1
+ (17 0)  (293 32)  (293 32)  Enable bit of Mux _local_links/g0_mux_1 => sp4_h_r_9 lc_trk_g0_1
+ (18 0)  (294 32)  (294 32)  routing T_6_2.sp4_h_r_9 <X> T_6_2.lc_trk_g0_1
+ (2 2)  (278 34)  (278 34)  Enable bit of Mux _global_links/clk_mux => lc_trk_g1_1 wire_logic_cluster/lc_7/clk
+ (36 2)  (312 34)  (312 34)  LC_1 Logic Functioning bit
+ (38 2)  (314 34)  (314 34)  LC_1 Logic Functioning bit
+ (41 2)  (317 34)  (317 34)  LC_1 Logic Functioning bit
+ (43 2)  (319 34)  (319 34)  LC_1 Logic Functioning bit
+ (45 2)  (321 34)  (321 34)  LC_1 Logic Functioning bit
+ (52 2)  (328 34)  (328 34)  Enable bit of Mux _out_links/OutMux4_1 => wire_logic_cluster/lc_1/out sp12_v_b_18
+ (0 3)  (276 35)  (276 35)  routing T_6_2.lc_trk_g1_1 <X> T_6_2.wire_logic_cluster/lc_7/clk
+ (2 3)  (278 35)  (278 35)  routing T_6_2.lc_trk_g1_1 <X> T_6_2.wire_logic_cluster/lc_7/clk
+ (29 3)  (305 35)  (305 35)  Enable bit of Mux _logic_cluster/lcb0_1 => lc_trk_g0_1 wire_logic_cluster/lc_1/in_0
+ (37 3)  (313 35)  (313 35)  LC_1 Logic Functioning bit
+ (39 3)  (315 35)  (315 35)  LC_1 Logic Functioning bit
+ (40 3)  (316 35)  (316 35)  LC_1 Logic Functioning bit
+ (42 3)  (318 35)  (318 35)  LC_1 Logic Functioning bit
+ (15 4)  (291 36)  (291 36)  routing T_6_2.sp4_h_l_4 <X> T_6_2.lc_trk_g1_1
+ (16 4)  (292 36)  (292 36)  routing T_6_2.sp4_h_l_4 <X> T_6_2.lc_trk_g1_1
+ (17 4)  (293 36)  (293 36)  Enable bit of Mux _local_links/g1_mux_1 => sp4_h_l_4 lc_trk_g1_1
+ (18 4)  (294 36)  (294 36)  routing T_6_2.sp4_h_l_4 <X> T_6_2.lc_trk_g1_1
+ (18 5)  (294 37)  (294 37)  routing T_6_2.sp4_h_l_4 <X> T_6_2.lc_trk_g1_1
+ (4 6)  (280 38)  (280 38)  routing T_6_2.sp4_h_r_9 <X> T_6_2.sp4_v_t_38
+ (6 6)  (282 38)  (282 38)  routing T_6_2.sp4_h_r_9 <X> T_6_2.sp4_v_t_38
+ (17 6)  (293 38)  (293 38)  Enable bit of Mux _local_links/g1_mux_5 => wire_logic_cluster/lc_5/out lc_trk_g1_5
+ (18 6)  (294 38)  (294 38)  routing T_6_2.wire_logic_cluster/lc_5/out <X> T_6_2.lc_trk_g1_5
+ (21 6)  (297 38)  (297 38)  routing T_6_2.wire_logic_cluster/lc_7/out <X> T_6_2.lc_trk_g1_7
+ (22 6)  (298 38)  (298 38)  Enable bit of Mux _local_links/g1_mux_7 => wire_logic_cluster/lc_7/out lc_trk_g1_7
+ (5 7)  (281 39)  (281 39)  routing T_6_2.sp4_h_r_9 <X> T_6_2.sp4_v_t_38
+ (11 7)  (287 39)  (287 39)  routing T_6_2.sp4_h_r_5 <X> T_6_2.sp4_h_l_40
+ (17 8)  (293 40)  (293 40)  Enable bit of Mux _local_links/g2_mux_1 => wire_logic_cluster/lc_1/out lc_trk_g2_1
+ (18 8)  (294 40)  (294 40)  routing T_6_2.wire_logic_cluster/lc_1/out <X> T_6_2.lc_trk_g2_1
+ (26 8)  (302 40)  (302 40)  routing T_6_2.lc_trk_g1_5 <X> T_6_2.wire_logic_cluster/lc_4/in_0
+ (29 8)  (305 40)  (305 40)  Enable bit of Mux _logic_cluster/lcb1_4 => lc_trk_g0_1 wire_logic_cluster/lc_4/in_1
+ (32 8)  (308 40)  (308 40)  Enable bit of Mux _logic_cluster/lcb3_4 => lc_trk_g2_1 wire_logic_cluster/lc_4/in_3
+ (33 8)  (309 40)  (309 40)  routing T_6_2.lc_trk_g2_1 <X> T_6_2.wire_logic_cluster/lc_4/in_3
+ (35 8)  (311 40)  (311 40)  routing T_6_2.lc_trk_g1_7 <X> T_6_2.input_2_4
+ (51 8)  (327 40)  (327 40)  Enable bit of Mux _out_links/OutMux2_4 => wire_logic_cluster/lc_4/out sp4_v_t_29
+ (27 9)  (303 41)  (303 41)  routing T_6_2.lc_trk_g1_5 <X> T_6_2.wire_logic_cluster/lc_4/in_0
+ (29 9)  (305 41)  (305 41)  Enable bit of Mux _logic_cluster/lcb0_4 => lc_trk_g1_5 wire_logic_cluster/lc_4/in_0
+ (32 9)  (308 41)  (308 41)  Enable bit of Mux _logic_cluster/lcb2_4 => lc_trk_g1_7 input_2_4
+ (34 9)  (310 41)  (310 41)  routing T_6_2.lc_trk_g1_7 <X> T_6_2.input_2_4
+ (35 9)  (311 41)  (311 41)  routing T_6_2.lc_trk_g1_7 <X> T_6_2.input_2_4
+ (36 9)  (312 41)  (312 41)  LC_4 Logic Functioning bit
+ (31 10)  (307 42)  (307 42)  routing T_6_2.lc_trk_g1_7 <X> T_6_2.wire_logic_cluster/lc_5/in_3
+ (32 10)  (308 42)  (308 42)  Enable bit of Mux _logic_cluster/lcb3_5 => lc_trk_g1_7 wire_logic_cluster/lc_5/in_3
+ (34 10)  (310 42)  (310 42)  routing T_6_2.lc_trk_g1_7 <X> T_6_2.wire_logic_cluster/lc_5/in_3
+ (36 10)  (312 42)  (312 42)  LC_5 Logic Functioning bit
+ (45 10)  (321 42)  (321 42)  LC_5 Logic Functioning bit
+ (28 11)  (304 43)  (304 43)  routing T_6_2.lc_trk_g2_1 <X> T_6_2.wire_logic_cluster/lc_5/in_0
+ (29 11)  (305 43)  (305 43)  Enable bit of Mux _logic_cluster/lcb0_5 => lc_trk_g2_1 wire_logic_cluster/lc_5/in_0
+ (31 11)  (307 43)  (307 43)  routing T_6_2.lc_trk_g1_7 <X> T_6_2.wire_logic_cluster/lc_5/in_3
+ (32 11)  (308 43)  (308 43)  Enable bit of Mux _logic_cluster/lcb2_5 => lc_trk_g0_1 input_2_5
+ (37 11)  (313 43)  (313 43)  LC_5 Logic Functioning bit
+ (36 14)  (312 46)  (312 46)  LC_7 Logic Functioning bit
+ (38 14)  (314 46)  (314 46)  LC_7 Logic Functioning bit
+ (41 14)  (317 46)  (317 46)  LC_7 Logic Functioning bit
+ (43 14)  (319 46)  (319 46)  LC_7 Logic Functioning bit
+ (45 14)  (321 46)  (321 46)  LC_7 Logic Functioning bit
+ (28 15)  (304 47)  (304 47)  routing T_6_2.lc_trk_g2_1 <X> T_6_2.wire_logic_cluster/lc_7/in_0
+ (29 15)  (305 47)  (305 47)  Enable bit of Mux _logic_cluster/lcb0_7 => lc_trk_g2_1 wire_logic_cluster/lc_7/in_0
+ (37 15)  (313 47)  (313 47)  LC_7 Logic Functioning bit
+ (39 15)  (315 47)  (315 47)  LC_7 Logic Functioning bit
+ (40 15)  (316 47)  (316 47)  LC_7 Logic Functioning bit
+ (42 15)  (318 47)  (318 47)  LC_7 Logic Functioning bit
+
+
+RAM_Tile_10_2
+
+ (12 6)  (508 38)  (508 38)  routing T_10_2.sp4_v_b_5 <X> T_10_2.sp4_h_l_40
+ (5 14)  (501 46)  (501 46)  routing T_10_2.sp4_v_b_9 <X> T_10_2.sp4_h_l_44
+
+
+IO_Tile_13_2
+
+ (3 6)  (649 38)  (649 38)  IO control bit: BIORIGHT_IE_1
+
+ (3 9)  (649 41)  (649 41)  IO control bit: BIORIGHT_IE_0
+
+
+
+IO_Tile_0_1
+
+ (3 6)  (14 22)  (14 22)  IO control bit: BIOLEFT_IE_1
+
+ (3 9)  (14 25)  (14 25)  IO control bit: BIOLEFT_IE_0
+
+
+
+RAM_Tile_3_1
+
+ (7 1)  (133 17)  (133 17)  Ram config bit: MEMB_Power_Up_Control
+
+
+
+LogicTile_6_1
+
+ (9 1)  (285 17)  (285 17)  routing T_6_1.sp4_v_t_40 <X> T_6_1.sp4_v_b_1
+ (10 1)  (286 17)  (286 17)  routing T_6_1.sp4_v_t_40 <X> T_6_1.sp4_v_b_1
+ (8 11)  (284 27)  (284 27)  routing T_6_1.sp4_h_r_1 <X> T_6_1.sp4_v_t_42
+ (9 11)  (285 27)  (285 27)  routing T_6_1.sp4_h_r_1 <X> T_6_1.sp4_v_t_42
+ (10 11)  (286 27)  (286 27)  routing T_6_1.sp4_h_r_1 <X> T_6_1.sp4_v_t_42
+ (4 14)  (280 30)  (280 30)  routing T_6_1.sp4_v_b_1 <X> T_6_1.sp4_v_t_44
+ (6 14)  (282 30)  (282 30)  routing T_6_1.sp4_v_b_1 <X> T_6_1.sp4_v_t_44
+
+
+RAM_Tile_10_1
+
+ (7 1)  (503 17)  (503 17)  Ram config bit: MEMB_Power_Up_Control
+
+ (10 2)  (506 18)  (506 18)  routing T_10_1.sp4_v_b_8 <X> T_10_1.sp4_h_l_36
+
+
+IO_Tile_13_1
+
+ (3 6)  (649 22)  (649 22)  IO control bit: BIORIGHT_IE_1
+
+ (3 9)  (649 25)  (649 25)  IO control bit: BIORIGHT_IE_0
+
+
+
+GlobalNetwork_0_0
+
+ (1 1)  (331 142)  (331 142)  routing T_0_0.padin_1 <X> T_0_0.glb_netwk_1
+
+
+IO_Tile_1_0
+
+ (3 6)  (45 8)  (45 8)  IO control bit: BIODOWN_IE_1
+
+ (3 9)  (45 6)  (45 6)  IO control bit: BIODOWN_IE_0
+
+
+
+IO_Tile_2_0
+
+ (3 6)  (99 8)  (99 8)  IO control bit: BIODOWN_IE_1
+
+ (3 9)  (99 6)  (99 6)  IO control bit: BIODOWN_IE_0
+
+
+
+IO_Tile_3_0
+
+ (3 6)  (153 8)  (153 8)  IO control bit: BIODOWN_IE_1
+
+ (3 9)  (153 6)  (153 6)  IO control bit: BIODOWN_IE_0
+
+
+
+IO_Tile_4_0
+
+ (3 6)  (195 8)  (195 8)  IO control bit: BIODOWN_IE_1
+
+ (3 9)  (195 6)  (195 6)  IO control bit: BIODOWN_IE_0
+
+
+
+IO_Tile_5_0
+
+ (3 6)  (249 8)  (249 8)  IO control bit: BIODOWN_IE_1
+
+ (3 9)  (249 6)  (249 6)  IO control bit: BIODOWN_IE_0
+
+
+
+IO_Tile_6_0
+
+ (3 6)  (303 8)  (303 8)  IO control bit: GIODOWN1_IE_1
+
+ (3 9)  (303 6)  (303 6)  IO control bit: GIODOWN1_IE_0
+
+
+
+IO_Tile_7_0
+
+ (3 6)  (361 8)  (361 8)  IO control bit: GIODOWN0_IE_1
+
+ (3 9)  (361 6)  (361 6)  IO control bit: GIODOWN0_IE_0
+
+
+
+IO_Tile_8_0
+
+ (3 6)  (415 8)  (415 8)  IO control bit: IODOWN_IE_1
+
+ (3 9)  (415 6)  (415 6)  IO control bit: IODOWN_IE_0
+
+
+
+IO_Tile_9_0
+
+ (3 6)  (469 8)  (469 8)  IO control bit: IODOWN_IE_1
+
+ (3 9)  (469 6)  (469 6)  IO control bit: IODOWN_IE_0
+
+
+
+IO_Tile_10_0
+
+ (0 0)  (519 15)  (519 15)  Enable bit of Mux _out_links/OutMux2_0 => wire_io_cluster/io_0/D_IN_0 span4_vert_16
+ (1 1)  (521 14)  (521 14)  Enable bit of Mux _out_links/OutMux1_0 => wire_io_cluster/io_0/D_IN_0 span4_vert_8
+ (3 1)  (523 14)  (523 14)  IO control bit: IODOWN_REN_1
+
+ (17 3)  (501 13)  (501 13)  IOB_0 IO Functioning bit
+ (2 6)  (522 8)  (522 8)  IO control bit: IODOWN_REN_0
+
+ (0 8)  (519 7)  (519 7)  Enable bit of Mux _out_links/OutMux2_2 => wire_io_cluster/io_1/D_IN_0 span4_vert_20
+ (17 13)  (501 2)  (501 2)  IOB_1 IO Functioning bit
+
+
+IO_Tile_11_0
+
+ (3 6)  (565 8)  (565 8)  IO control bit: IODOWN_IE_1
+
+ (3 9)  (565 6)  (565 6)  IO control bit: IODOWN_IE_0
+
+
+
+IO_Tile_12_0
+
+ (3 6)  (619 8)  (619 8)  IO control bit: BIODOWN_IE_1
+
+ (3 9)  (619 6)  (619 6)  IO control bit: BIODOWN_IE_0
+
+

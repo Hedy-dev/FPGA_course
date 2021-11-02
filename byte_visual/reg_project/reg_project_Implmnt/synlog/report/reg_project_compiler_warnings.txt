@@ -1,0 +1,7 @@
+@W: CG289 :"D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project.v":84:18:84:23|Specified digits overflow the number's size
+@W: CG532 :"D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project.v":57:0:57:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@W: CG133 :"D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project.v":31:8:31:13|Object BUT1_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project.v":32:8:32:13|Object BUT2_r is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project.v":33:16:33:19|Object flag is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL260 :"D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project.v":69:0:69:5|Pruning register bit 3 of how[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+

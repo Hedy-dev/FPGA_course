@@ -1,0 +1,20 @@
+set_io CLK 15
+set_io BUT1 41
+
+set_io SS 30
+set_io SCLK 12
+set_io MOSI 13
+set_io MISO 29
+
+set_io UART1_RX 9
+
+set_io LED2 51
+
+set_io LED8[7] 27
+set_io LED8[6] 18
+set_io LED8[5] 26
+set_io LED8[4] 19
+set_io LED8[3] 25
+set_io LED8[2] 20
+set_io LED8[1] 24
+set_io LED8[0] 21

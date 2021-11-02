@@ -1,0 +1,46 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    DESKTOP-MCV12E2
+Date:        Wed Jul 14 13:04:48 2021
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch Led8Test_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\projects\FPGA\ksenia\Led8Test\Led8Test_Implmnt\Led8Test.srr"
+Running: Led8Test_Implmnt in foreground
+
+Running Led8Test_syn|Led8Test_Implmnt
+
+Running: compile (Compile) on Led8Test_syn|Led8Test_Implmnt
+# Wed Jul 14 13:04:48 2021
+
+Running: compile_flow (Compile Process) on Led8Test_syn|Led8Test_Implmnt
+# Wed Jul 14 13:04:48 2021
+
+Running: compiler (Compile Input) on Led8Test_syn|Led8Test_Implmnt
+# Wed Jul 14 13:04:48 2021
+compiler exited with errors
+Job failed on: Led8Test_syn|Led8Test_Implmnt
+
+Job: "compiler" terminated with error status: 2
+See log file: "D:\projects\FPGA\ksenia\Led8Test\Led8Test_Implmnt\synlog\Led8Test_compiler.srr"
+# Wed Jul 14 13:04:48 2021
+
+Return Code: 2
+Run Time:00h:00m:00s
+Complete: Compile Process on Led8Test_syn|Led8Test_Implmnt
+Complete: Compile on Led8Test_syn|Led8Test_Implmnt
+Complete: Logic Synthesis on Led8Test_syn|Led8Test_Implmnt
+
+exit status=2
+
+exit status=2
+

@@ -1,0 +1,79 @@
+ble_pack BIT_1_LC_1_3_3 { BIT_RNO[1], BIT[1] }
+ble_pack BIT_7_LC_1_3_4 { BIT_RNO[7], BIT[7] }
+ble_pack BIT_3_LC_1_3_5 { BIT_RNO[3], BIT[3] }
+ble_pack BIT_5_LC_1_3_7 { BIT_RNO[5], BIT[5] }
+clb_pack LT_1_3 { BIT_1_LC_1_3_3, BIT_7_LC_1_3_4, BIT_3_LC_1_3_5, BIT_5_LC_1_3_7 }
+set_location LT_1_3 1 3
+ble_pack BIT_4_LC_2_1_0 { BIT_RNO[4], BIT[4] }
+ble_pack BIT_6_LC_2_1_5 { BIT_RNO[6], BIT[6] }
+ble_pack BIT_2_LC_2_1_6 { BIT_RNO[2], BIT[2] }
+ble_pack BIT_0_LC_2_1_7 { BIT_RNO[0], BIT[0] }
+clb_pack LT_2_1 { BIT_4_LC_2_1_0, BIT_6_LC_2_1_5, BIT_2_LC_2_1_6, BIT_0_LC_2_1_7 }
+set_location LT_2_1 2 1
+ble_pack how_RNO_0_2_LC_2_2_0 { how_RNO_0[2] }
+ble_pack how_2_LC_2_2_1 { how_RNO[2], how[2] }
+ble_pack how_0_LC_2_2_3 { how_RNO[0], how[0] }
+ble_pack how_1_LC_2_2_7 { how_RNO[1], how[1] }
+clb_pack LT_2_2 { how_RNO_0_2_LC_2_2_0, how_2_LC_2_2_1, how_0_LC_2_2_3, how_1_LC_2_2_7 }
+set_location LT_2_2 2 2
+ble_pack shift_0_2_LC_4_1_0 { shift_0_2_THRU_LUT4_0, shift_0[2] }
+ble_pack shift_0_1_LC_4_1_1 { shift_0_1_THRU_LUT4_0, shift_0[1] }
+ble_pack shift_ret_1_LC_4_1_2 { shift_0_RNIETMJ_1_shift_ret_1_REP_LUT4_0, shift_ret_1 }
+ble_pack shift_0_RNIETMJ_1_LC_4_1_3 { shift_0_RNIETMJ[1] }
+ble_pack up_1_LC_4_1_4 { up_RNO[1], up[1] }
+ble_pack up_RNO_0_2_LC_4_1_6 { up_RNO_0[2] }
+ble_pack up_2_LC_4_1_7 { up_RNO[2], up[2] }
+clb_pack LT_4_1 { shift_0_2_LC_4_1_0, shift_0_1_LC_4_1_1, shift_ret_1_LC_4_1_2, shift_0_RNIETMJ_1_LC_4_1_3, up_1_LC_4_1_4, up_RNO_0_2_LC_4_1_6, up_2_LC_4_1_7 }
+set_location LT_4_1 4 1
+ble_pack down_1_LC_4_2_0 { down_RNO[1], down[1] }
+ble_pack shift2_0_1_LC_4_2_1 { shift2_0_1_THRU_LUT4_0, shift2_0[1] }
+ble_pack shift2_0_2_LC_4_2_2 { shift2_0_2_THRU_LUT4_0, shift2_0[2] }
+ble_pack down_RNO_0_2_LC_4_2_3 { down_RNO_0[2] }
+ble_pack down_2_LC_4_2_4 { down_RNO[2], down[2] }
+ble_pack shift2_ret_1_LC_4_2_5 { shift2_0_RNIJLUP_1_shift2_ret_1_REP_LUT4_0, shift2_ret_1 }
+ble_pack shift2_0_RNIJLUP_1_LC_4_2_7 { shift2_0_RNIJLUP[1] }
+clb_pack LT_4_2 { down_1_LC_4_2_0, shift2_0_1_LC_4_2_1, shift2_0_2_LC_4_2_2, down_RNO_0_2_LC_4_2_3, down_2_LC_4_2_4, shift2_ret_1_LC_4_2_5, shift2_0_RNIJLUP_1_LC_4_2_7 }
+set_location LT_4_2 4 2
+ble_pack up_e_0_LC_5_1_1 { up_e_RNO[0], up_e[0] }
+clb_pack LT_5_1 { up_e_0_LC_5_1_1 }
+set_location LT_5_1 5 1
+ble_pack down_e_0_LC_5_2_3 { down_e_RNO[0], down_e[0] }
+clb_pack LT_5_2 { down_e_0_LC_5_2_3 }
+set_location LT_5_2 5 2
+ble_pack delay_0_LC_5_3_0 { delay_RNO[0], delay[0], delay_cry_c[0] }
+ble_pack delay_1_LC_5_3_1 { delay_RNO[1], delay[1], delay_cry_c[1] }
+ble_pack delay_2_LC_5_3_2 { delay_RNO[2], delay[2], delay_cry_c[2] }
+ble_pack delay_3_LC_5_3_3 { delay_RNO[3], delay[3], delay_cry_c[3] }
+ble_pack delay_4_LC_5_3_4 { delay_RNO[4], delay[4], delay_cry_c[4] }
+ble_pack delay_5_LC_5_3_5 { delay_RNO[5], delay[5], delay_cry_c[5] }
+ble_pack delay_6_LC_5_3_6 { delay_RNO[6], delay[6], delay_cry_c[6] }
+ble_pack delay_7_LC_5_3_7 { delay_RNO[7], delay[7], delay_cry_c[7] }
+clb_pack LT_5_3 { delay_0_LC_5_3_0, delay_1_LC_5_3_1, delay_2_LC_5_3_2, delay_3_LC_5_3_3, delay_4_LC_5_3_4, delay_5_LC_5_3_5, delay_6_LC_5_3_6, delay_7_LC_5_3_7 }
+set_location LT_5_3 5 3
+ble_pack delay_8_LC_5_4_0 { delay_RNO[8], delay[8], delay_cry_c[8] }
+ble_pack delay_9_LC_5_4_1 { delay_RNO[9], delay[9], delay_cry_c[9] }
+ble_pack delay_10_LC_5_4_2 { delay_RNO[10], delay[10], delay_cry_c[10] }
+ble_pack delay_11_LC_5_4_3 { delay_RNO[11], delay[11], delay_cry_c[11] }
+ble_pack delay_12_LC_5_4_4 { delay_RNO[12], delay[12], delay_cry_c[12] }
+ble_pack delay_13_LC_5_4_5 { delay_RNO[13], delay[13], delay_cry_c[13] }
+ble_pack delay_14_LC_5_4_6 { delay_RNO[14], delay[14] }
+ble_pack delay_RNIABQR_14_LC_5_4_7 { delay_RNIABQR[14] }
+clb_pack LT_5_4 { delay_8_LC_5_4_0, delay_9_LC_5_4_1, delay_10_LC_5_4_2, delay_11_LC_5_4_3, delay_12_LC_5_4_4, delay_13_LC_5_4_5, delay_14_LC_5_4_6, delay_RNIABQR_14_LC_5_4_7 }
+set_location LT_5_4 5 4
+ble_pack delay_RNI5HJ71_10_LC_6_3_0 { delay_RNI5HJ71[10] }
+ble_pack delay_RNI55JF4_10_LC_6_3_1 { delay_RNI55JF4[10] }
+ble_pack delay_RNIKNK01_4_LC_6_3_2 { delay_RNIKNK01[4] }
+ble_pack delay_RNI2HGB1_0_LC_6_3_4 { delay_RNI2HGB1[0] }
+clb_pack LT_6_3 { delay_RNI5HJ71_10_LC_6_3_0, delay_RNI55JF4_10_LC_6_3_1, delay_RNIKNK01_4_LC_6_3_2, delay_RNI2HGB1_0_LC_6_3_4 }
+set_location LT_6_3 6 3
+set_io LED5 12
+set_io LED1 9
+set_io BUT2 42
+set_io LED6 29
+set_io LED4 30
+set_io LED2 33
+set_io LED0 34
+set_io CLK 15
+set_io BUT1 41
+set_io LED7 13
+set_io LED3 10

@@ -1,0 +1,78 @@
+Running in Lattice mode
+
+
+Starting:    C:\lscc\iCEcube2.2020.12\synpbase\bin64\mbin\synbatch.exe
+Install:     C:\lscc\iCEcube2.2020.12\synpbase
+Hostname:    DESKTOP-MCV12E2
+Date:        Thu Jul 08 14:49:36 2021
+Version:     L-2016.09L+ice40
+
+Arguments:   -product synplify_pro -batch reg_project_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\reg_project.srr"
+Running: reg_project_Implmnt in foreground
+
+Running reg_project_syn|reg_project_Implmnt
+
+Running: compile (Compile) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:36 2021
+
+Running: compile_flow (Compile Process) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:36 2021
+
+Running: compiler (Compile Input) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:36 2021
+Copied D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\synwork\reg_project_comp.srs to D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\reg_project.srs
+
+compiler completed
+# Thu Jul 08 14:49:37 2021
+
+Return Code: 0
+Run Time:00h:00m:01s
+
+Running: multi_srs_gen (Multi-srs Generator) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:37 2021
+
+multi_srs_gen completed
+# Thu Jul 08 14:49:37 2021
+
+Return Code: 0
+Run Time:00h:00m:00s
+Copied D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\synwork\reg_project_mult.srs to D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\reg_project.srs
+Complete: Compile Process on reg_project_syn|reg_project_Implmnt
+
+Running: premap (Pre-mapping) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:37 2021
+
+premap completed with warnings
+# Thu Jul 08 14:49:37 2021
+
+Return Code: 1
+Run Time:00h:00m:00s
+Complete: Compile on reg_project_syn|reg_project_Implmnt
+
+Running: map (Map) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:37 2021
+License granted for 4 parallel jobs
+
+Running: fpga_mapper (Map & Optimize) on reg_project_syn|reg_project_Implmnt
+# Thu Jul 08 14:49:37 2021
+Copied D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\synwork\reg_project_m.srm to D:\projects\FPGA\ksenia\byte_visual\reg_project\reg_project_Implmnt\reg_project.srm
+
+fpga_mapper completed with warnings
+# Thu Jul 08 14:49:38 2021
+
+Return Code: 1
+Run Time:00h:00m:01s
+Complete: Map on reg_project_syn|reg_project_Implmnt
+Complete: Logic Synthesis on reg_project_syn|reg_project_Implmnt
+
+exit status=0
+
+exit status=0
+

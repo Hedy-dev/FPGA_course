@@ -1,0 +1,25 @@
+18:36:09 **** Incremental Build of configuration Debug for project SignalDataProvider ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../FATFS/App -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../FATFS/Target -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ "../Core/Src/mainpp.cpp" -mcpu=cortex-m4 -std=gnu++14 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F446xx -c -I../FATFS/App -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../FATFS/Target -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FatFs/src -O0 -ffunction-sections -fdata-sections -fno-exceptions -fno-rtti -fno-use-cxa-atexit -Wall -fstack-usage -MMD -MP -MF"Core/Src/mainpp.d" -MT"Core/Src/mainpp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/mainpp.o"
+arm-none-eabi-g++ -o "SignalDataProvider.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\projects\FPGA\Xenia\signal-gen-512hz\firmware\SignalDataProvider\STM32F446RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="SignalDataProvider.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: SignalDataProvider.elf
+ 
+arm-none-eabi-size   SignalDataProvider.elf 
+arm-none-eabi-objdump -h -S  SignalDataProvider.elf  > "SignalDataProvider.list"
+arm-none-eabi-objcopy  -O binary  SignalDataProvider.elf  "SignalDataProvider.bin"
+   text	   data	    bss	    dec	    hex	filename
+  45900	    128	  14664	  60692	   ed14	SignalDataProvider.elf
+Finished building: default.size.stdout
+ 
+Finished building: SignalDataProvider.bin
+ 
+Finished building: SignalDataProvider.list
+ 
+18:36:54 **** Incremental Build of configuration Debug for project SignalDataProvider ****
+make -j12 all 
+arm-none-eabi-size   SignalDataProvider.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45900	    128	  14664	  60692	   ed14	SignalDataProvider.elf
+Finished building: default.size.stdout
+ 

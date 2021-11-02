@@ -1,0 +1,10 @@
+18:36:54 **** Incremental Build of configuration Debug for project SignalDataProvider ****
+make -j12 all 
+arm-none-eabi-size   SignalDataProvider.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45900	    128	  14664	  60692	   ed14	SignalDataProvider.elf
+Finished building: default.size.stdout
+ 
+
+18:36:54 Build Finished. 0 errors, 0 warnings. (took 308ms)
+

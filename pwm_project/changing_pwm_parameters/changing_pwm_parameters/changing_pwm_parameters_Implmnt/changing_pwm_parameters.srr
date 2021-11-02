@@ -1,0 +1,887 @@
+#Build: Synplify Pro L-2016.09L+ice40, Build 077R, Dec  2 2016
+#install: C:\lscc\iCEcube2.2020.12\synpbase
+#OS: Windows 8 6.2
+#Hostname: DESKTOP-MCV12E2
+
+# Tue Jul 13 16:01:31 2021
+
+#Implementation: changing_pwm_parameters_Implmnt
+
+Synopsys HDL Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+Synopsys Verilog Compiler, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\generic\sb_ice40.v" (library work)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\hypermods.v" (library __hyper__lib__)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\umr_capim.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_objects.v" (library snps_haps)
+@I::"C:\lscc\iCEcube2.2020.12\synpbase\lib\vlog\scemi_pipes.svh" (library snps_haps)
+@I::"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v" (library work)
+Verilog syntax check successful!
+Selecting top level module top
+@N: CG364 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":1:7:1:9|Synthesizing module top in library work.
+
+@W: CG532 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":36:0:36:6|Within an initial block, only Verilog force statements and memory $readmemh/$readmemb initialization statements are recognized, and all other content is ignored.
+@N: CL189 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Register bit how[3] is always 0.
+@W: CL260 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Pruning register bit 3 of how[3:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@N: CL189 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Register bit PWM_NUM[6] is always 0.
+@W: CL260 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|Pruning register bit 6 of PWM_NUM[6:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+
+At c_ver Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 71MB peak: 74MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 13 16:01:31 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 13 16:01:31 2021
+
+###########################################################]
+@END
+
+At c_hdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 3MB peak: 4MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 13 16:01:31 2021
+
+###########################################################]
+Synopsys Netlist Linker, version comp2016q3p1, Build 141R, built Dec  5 2016
+@N|Running in 64-bit mode
+@N: NF107 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+@N: NF107 :"D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":1:7:1:9|Selected library: work cell: top view verilog as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+
+Process completed successfully.
+# Tue Jul 13 16:01:32 2021
+
+###########################################################]
+Pre-mapping Report
+
+# Tue Jul 13 16:01:32 2021
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 100MB)
+
+@A: MF827 |No constraint file specified.
+@L: D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters_scck.rpt 
+Printing clock  summary report in "D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 102MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 102MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 102MB peak: 104MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+syn_allowed_resources : blockrams=16  set on top level netlist top
+
+Finished netlist restructuring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+
+Clock Summary
+*****************
+
+Start                             Requested      Requested     Clock                      Clock                     Clock
+Clock                             Frequency      Period        Type                       Group                     Load 
+-------------------------------------------------------------------------------------------------------------------------
+top|CLK                           1.0 MHz        1000.000      inferred                   Autoconstr_clkgroup_0     27   
+top|clk_div_derived_clock[11]     1.0 MHz        1000.000      derived (from top|CLK)     Autoconstr_clkgroup_0     17   
+top|level2_inferred_clock         619.1 MHz      1.615         inferred                   Autoconstr_clkgroup_3     3    
+top|level_inferred_clock          605.6 MHz      1.651         inferred                   Autoconstr_clkgroup_2     3    
+top|un1_ten_ms_inferred_clock     1417.2 MHz     0.706         inferred                   Autoconstr_clkgroup_1     6    
+=========================================================================================================================
+
+@W: MT529 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":49:0:49:5|Found inferred clock top|CLK which controls 27 sequential elements including clk_div[11:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Found inferred clock top|un1_ten_ms_inferred_clock which controls 6 sequential elements including shift2[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":73:0:73:5|Found inferred clock top|level_inferred_clock which controls 3 sequential elements including up[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MT529 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":77:0:77:5|Found inferred clock top|level2_inferred_clock which controls 3 sequential elements including down[2:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.sap.
+
+Starting constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+None
+None
+
+Finished constraint checker (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 48MB peak: 134MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 13 16:01:32 2021
+
+###########################################################]
+Map & Optimize Report
+
+# Tue Jul 13 16:01:33 2021
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 1612R, Built Dec  5 2016 10:31:39
+Copyright (C) 1994-2016 Synopsys, Inc. All rights reserved. This Synopsys software and all associated documentation are proprietary to Synopsys, Inc. and may only be used pursuant to the terms and conditions of a written license agreement with Synopsys, Inc. All other use, reproduction, modification, or distribution of the Synopsys software or the associated documentation is strictly prohibited.
+Product Version L-2016.09L+ice40
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+@W: FX1039 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":82:0:82:5|User-specified initial value defined for instance PORT_r is being ignored. 
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MO231 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":49:0:49:5|Found counter in view:work.top(verilog) instance delay[14:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift2_ret[1] (in view: ScratchLib.cell46(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift2_ret[2] (in view: ScratchLib.cell46(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift_ret[1] (in view: ScratchLib.cell52(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift_ret[2] (in view: ScratchLib.cell52(netlist)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift[0] (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift[0] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift2[0] (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift2[0] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift[1] (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift[1] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift2[1] (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift2[1] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift[2] (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift[2] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift2[2] (in view: work.top(verilog)) because it does not drive other instances.
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Boundary register shift2[2] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.79ns		  76 /        56
+   2		0h:00m:00s		    -1.79ns		  76 /        56
+
+   3		0h:00m:00s		    -1.79ns		  79 /        56
+
+
+   4		0h:00m:00s		    -1.79ns		  81 /        56
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":77:0:77:5|Boundary register down[0] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@A: BN291 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":73:0:73:5|Boundary register up[0] (in view: work.top(verilog)) is packed into a complex cell. To disable register packing, set syn_keep=1 on the net between the register and the complex cell. 
+@N: FX1016 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":8:12:8:14|SB_GB_IO inserted on the port CLK.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 132MB peak: 134MB)
+
+@N: MT611 :|Automatically generated clock top|clk_div_derived_clock[11] is not used and is being removed
+@N: MT611 :|Automatically generated clock top|un1_ten_ms_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock top|level_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock top|level2_inferred_clock is not used and is being removed
+
+
+@S |Clock Optimization Summary
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 44 clock pin(s) of sequential element(s)
+1 gated/generated clock tree(s) driving 12 clock pin(s) of sequential element(s)
+17 instances converted, 12 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0002       CLK_ibuf_gb_io      SB_GB_IO               44         cntr_esr[3]    
+=======================================================================================
+================================================ Gated/Generated Clocks ================================================
+Clock Tree ID     Driving Element        Drive Element Type     Fanout     Sample Instance     Explanation              
+------------------------------------------------------------------------------------------------------------------------
+@K:CKID0001       delay_RNI55JF4[10]     SB_LUT4                12         down_e[0]           No clocks found on inputs
+========================================================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+
+Start Writing Netlists (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 108MB peak: 134MB)
+
+Writing Analyst data base D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\synwork\changing_pwm_parameters_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 131MB peak: 134MB)
+
+Writing EDIF Netlist and constraint files
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.edf
+L-2016.09L+ice40
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+@W: MT420 |Found inferred clock top|CLK with period 7.95ns. Please declare a user-defined clock on object "p:CLK"
+
+
+##### START OF TIMING REPORT #####[
+# Timing Report written on Tue Jul 13 16:01:33 2021
+#
+
+
+Top view:               top
+Requested Frequency:    125.8 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.403
+
+                   Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock     Frequency     Frequency     Period        Period        Slack      Type         Group                
+------------------------------------------------------------------------------------------------------------------------
+top|CLK            125.8 MHz     106.9 MHz     7.948         9.351         -1.403     inferred     Autoconstr_clkgroup_0
+System             280.1 MHz     238.1 MHz     3.570         4.200         -0.630     system       system_clkgroup      
+========================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks             |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+----------------------------------------------------------------------------------------------------------
+Starting  Ending   |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+----------------------------------------------------------------------------------------------------------
+System    System   |  3.570       -0.630  |  No paths    -      |  No paths    -      |  No paths    -    
+System    top|CLK  |  7.948       1.978   |  No paths    -      |  No paths    -      |  No paths    -    
+top|CLK   top|CLK  |  7.948       -1.403  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: top|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+               Starting                                          Arrival           
+Instance       Reference     Type         Pin     Net            Time        Slack 
+               Clock                                                               
+-----------------------------------------------------------------------------------
+PWM_NUM[1]     top|CLK       SB_DFFE      Q       PWM_NUM[1]     0.540       -1.403
+PWM_NUM[2]     top|CLK       SB_DFFE      Q       PWM_NUM[2]     0.540       -1.353
+cntr[1]        top|CLK       SB_DFFSR     Q       cntr[1]        0.540       -1.333
+cntr[2]        top|CLK       SB_DFFSR     Q       cntr[2]        0.540       -1.269
+clk_div[1]     top|CLK       SB_DFF       Q       clk_div[1]     0.540       -0.828
+clk_div[0]     top|CLK       SB_DFF       Q       clk_div[0]     0.540       -0.697
+clk_div[2]     top|CLK       SB_DFF       Q       clk_div[2]     0.540       -0.688
+clk_div[3]     top|CLK       SB_DFF       Q       clk_div[3]     0.540       -0.548
+clk_div[4]     top|CLK       SB_DFF       Q       clk_div[4]     0.540       -0.408
+clk_div[5]     top|CLK       SB_DFF       Q       clk_div[5]     0.540       -0.268
+===================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                Starting                                                    Required           
+Instance        Reference     Type          Pin     Net                     Time         Slack 
+                Clock                                                                          
+-----------------------------------------------------------------------------------------------
+cntr_esr[3]     top|CLK       SB_DFFESR     E       N_78_0                  7.948        -1.403
+cntr[1]         top|CLK       SB_DFFSR      D       cntr_en[1]              7.843        -0.828
+cntr[4]         top|CLK       SB_DFFSR      D       cntr_en[4]              7.843        -0.828
+cntr[2]         top|CLK       SB_DFFSR      D       cntr_en[2]              7.843        -0.765
+cntr[5]         top|CLK       SB_DFFSR      D       cntr_en[5]              7.843        -0.765
+cntr[0]         top|CLK       SB_DFFSR      R       PWM_NUM_RNIKTNT2[0]     7.843        0.242 
+cntr[1]         top|CLK       SB_DFFSR      R       PWM_NUM_RNIKTNT2[0]     7.843        0.242 
+cntr[2]         top|CLK       SB_DFFSR      R       PWM_NUM_RNIKTNT2[0]     7.843        0.242 
+cntr[4]         top|CLK       SB_DFFSR      R       PWM_NUM_RNIKTNT2[0]     7.843        0.242 
+cntr[5]         top|CLK       SB_DFFSR      R       PWM_NUM_RNIKTNT2[0]     7.843        0.242 
+===============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      7.948
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.948
+
+    - Propagation time:                      9.351
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.403
+
+    Number of logic level(s):                4
+    Starting point:                          PWM_NUM[1] / Q
+    Ending point:                            cntr_esr[3] / E
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                    Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+PWM_NUM[1]              SB_DFFE       Q        Out     0.540     0.540       -         
+PWM_NUM[1]              Net           -        -       1.599     -           1         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       I0       In      -         2.139       -         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       O        Out     0.449     2.588       -         
+PORT_r3_3               Net           -        -       1.371     -           2         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       I0       In      -         3.959       -         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       O        Out     0.449     4.408       -         
+g0_4                    Net           -        -       1.371     -           1         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       I3       In      -         5.779       -         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       O        Out     0.316     6.094       -         
+PWM_NUM_RNIKTNT2[0]     Net           -        -       1.371     -           7         
+cntr_esr_RNO_0[3]       SB_LUT4       I2       In      -         7.465       -         
+cntr_esr_RNO_0[3]       SB_LUT4       O        Out     0.379     7.844       -         
+N_78_0                  Net           -        -       1.507     -           1         
+cntr_esr[3]             SB_DFFESR     E        In      -         9.351       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 9.351 is 2.132(22.8%) logic and 7.219(77.2%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      7.948
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.948
+
+    - Propagation time:                      9.302
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.354
+
+    Number of logic level(s):                4
+    Starting point:                          PWM_NUM[2] / Q
+    Ending point:                            cntr_esr[3] / E
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                    Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+PWM_NUM[2]              SB_DFFE       Q        Out     0.540     0.540       -         
+PWM_NUM[2]              Net           -        -       1.599     -           1         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       I1       In      -         2.139       -         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       O        Out     0.400     2.539       -         
+PORT_r3_3               Net           -        -       1.371     -           2         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       I0       In      -         3.910       -         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       O        Out     0.449     4.359       -         
+g0_4                    Net           -        -       1.371     -           1         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       I3       In      -         5.729       -         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       O        Out     0.316     6.045       -         
+PWM_NUM_RNIKTNT2[0]     Net           -        -       1.371     -           7         
+cntr_esr_RNO_0[3]       SB_LUT4       I2       In      -         7.416       -         
+cntr_esr_RNO_0[3]       SB_LUT4       O        Out     0.379     7.795       -         
+N_78_0                  Net           -        -       1.507     -           1         
+cntr_esr[3]             SB_DFFESR     E        In      -         9.302       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 9.302 is 2.083(22.4%) logic and 7.219(77.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      7.948
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.948
+
+    - Propagation time:                      9.281
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.332
+
+    Number of logic level(s):                4
+    Starting point:                          cntr[1] / Q
+    Ending point:                            cntr_esr[3] / E
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                    Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+cntr[1]                 SB_DFFSR      Q        Out     0.540     0.540       -         
+cntr[1]                 Net           -        -       1.599     -           5         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       I2       In      -         2.139       -         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       O        Out     0.379     2.518       -         
+PORT_r3_3               Net           -        -       1.371     -           2         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       I0       In      -         3.889       -         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       O        Out     0.449     4.338       -         
+g0_4                    Net           -        -       1.371     -           1         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       I3       In      -         5.708       -         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       O        Out     0.316     6.024       -         
+PWM_NUM_RNIKTNT2[0]     Net           -        -       1.371     -           7         
+cntr_esr_RNO_0[3]       SB_LUT4       I2       In      -         7.395       -         
+cntr_esr_RNO_0[3]       SB_LUT4       O        Out     0.379     7.774       -         
+N_78_0                  Net           -        -       1.507     -           1         
+cntr_esr[3]             SB_DFFESR     E        In      -         9.281       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 9.281 is 2.062(22.2%) logic and 7.219(77.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      7.948
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.948
+
+    - Propagation time:                      9.218
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.269
+
+    Number of logic level(s):                4
+    Starting point:                          cntr[2] / Q
+    Ending point:                            cntr_esr[3] / E
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                    Type          Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+cntr[2]                 SB_DFFSR      Q        Out     0.540     0.540       -         
+cntr[2]                 Net           -        -       1.599     -           4         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       I3       In      -         2.139       -         
+PWM_NUM_RNIQIR6[1]      SB_LUT4       O        Out     0.316     2.455       -         
+PORT_r3_3               Net           -        -       1.371     -           2         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       I0       In      -         3.826       -         
+PWM_NUM_RNIQ48Q[0]      SB_LUT4       O        Out     0.449     4.274       -         
+g0_4                    Net           -        -       1.371     -           1         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       I3       In      -         5.645       -         
+PWM_NUM_RNIKTNT2[0]     SB_LUT4       O        Out     0.316     5.961       -         
+PWM_NUM_RNIKTNT2[0]     Net           -        -       1.371     -           7         
+cntr_esr_RNO_0[3]       SB_LUT4       I2       In      -         7.332       -         
+cntr_esr_RNO_0[3]       SB_LUT4       O        Out     0.379     7.711       -         
+N_78_0                  Net           -        -       1.507     -           1         
+cntr_esr[3]             SB_DFFESR     E        In      -         9.218       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 9.218 is 1.999(21.7%) logic and 7.219(78.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      7.948
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         7.843
+
+    - Propagation time:                      8.671
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.828
+
+    Number of logic level(s):                13
+    Starting point:                          clk_div[1] / Q
+    Ending point:                            cntr[1] / D
+    The start point is clocked by            top|CLK [rising] on pin C
+    The end   point is clocked by            top|CLK [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+clk_div[1]               SB_DFF       Q        Out     0.540     0.540       -         
+clk_div[1]               Net          -        -       0.834     -           3         
+clk_div_RNI91U1[1]       SB_CARRY     I0       In      -         1.374       -         
+clk_div_RNI91U1[1]       SB_CARRY     CO       Out     0.258     1.632       -         
+clk_div_2_cry_1          Net          -        -       0.014     -           1         
+clk_div_RNIF3T2[2]       SB_CARRY     CI       In      -         1.646       -         
+clk_div_RNIF3T2[2]       SB_CARRY     CO       Out     0.126     1.772       -         
+clk_div_2_cry_2          Net          -        -       0.014     -           1         
+clk_div_RNIM6S3[3]       SB_CARRY     CI       In      -         1.786       -         
+clk_div_RNIM6S3[3]       SB_CARRY     CO       Out     0.126     1.912       -         
+clk_div_2_cry_3          Net          -        -       0.014     -           1         
+clk_div_RNIUAR4[4]       SB_CARRY     CI       In      -         1.926       -         
+clk_div_RNIUAR4[4]       SB_CARRY     CO       Out     0.126     2.052       -         
+clk_div_2_cry_4          Net          -        -       0.014     -           1         
+clk_div_RNI7GQ5[5]       SB_CARRY     CI       In      -         2.066       -         
+clk_div_RNI7GQ5[5]       SB_CARRY     CO       Out     0.126     2.192       -         
+clk_div_2_cry_5          Net          -        -       0.014     -           1         
+clk_div_RNIHMP6[6]       SB_CARRY     CI       In      -         2.206       -         
+clk_div_RNIHMP6[6]       SB_CARRY     CO       Out     0.126     2.333       -         
+clk_div_2_cry_6          Net          -        -       0.014     -           1         
+clk_div_RNISTO7[7]       SB_CARRY     CI       In      -         2.346       -         
+clk_div_RNISTO7[7]       SB_CARRY     CO       Out     0.126     2.473       -         
+clk_div_2_cry_7          Net          -        -       0.014     -           1         
+clk_div_RNI86O8[8]       SB_CARRY     CI       In      -         2.487       -         
+clk_div_RNI86O8[8]       SB_CARRY     CO       Out     0.126     2.613       -         
+clk_div_2_cry_8          Net          -        -       0.014     -           1         
+clk_div_RNILFN9[9]       SB_CARRY     CI       In      -         2.627       -         
+clk_div_RNILFN9[9]       SB_CARRY     CO       Out     0.126     2.753       -         
+clk_div_2_cry_9          Net          -        -       0.014     -           1         
+clk_div_RNIAAMP[10]      SB_CARRY     CI       In      -         2.767       -         
+clk_div_RNIAAMP[10]      SB_CARRY     CO       Out     0.126     2.893       -         
+clk_div_2_cry_10         Net          -        -       0.386     -           1         
+clk_div_RNI06L91[11]     SB_LUT4      I3       In      -         3.279       -         
+clk_div_RNI06L91[11]     SB_LUT4      O        Out     0.316     3.595       -         
+clk_div_RNI06L91[11]     Net          -        -       1.371     -           4         
+clk_div_RNIM1KP1[11]     SB_LUT4      I0       In      -         4.966       -         
+clk_div_RNIM1KP1[11]     SB_LUT4      O        Out     0.449     5.415       -         
+clk_div_RNIM1KP1[11]     Net          -        -       1.371     -           16        
+cntr_RNO[1]              SB_LUT4      I2       In      -         6.786       -         
+cntr_RNO[1]              SB_LUT4      O        Out     0.379     7.164       -         
+cntr_en[1]               Net          -        -       1.507     -           1         
+cntr[1]                  SB_DFFSR     D        In      -         8.671       -         
+=======================================================================================
+Total path delay (propagation time + setup) of 8.777 is 3.182(36.3%) logic and 5.595(63.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                 Starting                                          Arrival           
+Instance         Reference     Type        Pin     Net             Time        Slack 
+                 Clock                                                               
+-------------------------------------------------------------------------------------
+down_e[0]        System        SB_DFFE     Q       down[0]         0.540       -0.630
+up_e[0]          System        SB_DFFE     Q       up[0]           0.540       -0.630
+down[1]          System        SB_DFFE     Q       down[1]         0.540       -0.581
+shift2_0[1]      System        SB_DFF      Q       shift2_0[1]     0.540       -0.581
+shift_0[1]       System        SB_DFF      Q       shift_0[1]      0.540       -0.581
+shift_ret_1      System        SB_DFF      Q       level_0         0.540       -0.581
+up[1]            System        SB_DFFE     Q       up[1]           0.540       -0.581
+down[2]          System        SB_DFFE     Q       down[2]         0.540       -0.560
+shift2_0[2]      System        SB_DFF      Q       shift2_0[2]     0.540       -0.560
+shift2_ret_1     System        SB_DFF      Q       level2_0        0.540       -0.560
+=====================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                 Starting                                                    Required           
+Instance         Reference     Type        Pin     Net                       Time         Slack 
+                 Clock                                                                          
+------------------------------------------------------------------------------------------------
+down[1]          System        SB_DFFE     D       down_1[1]                 3.465        -0.630
+down[2]          System        SB_DFFE     D       down_1[2]                 3.465        -0.630
+up[1]            System        SB_DFFE     D       up_1[1]                   3.465        -0.630
+up[2]            System        SB_DFFE     D       up_1[2]                   3.465        -0.630
+down_e[0]        System        SB_DFFE     D       down_e_RNO[0]             3.465        -0.581
+shift2_ret_1     System        SB_DFF      D       shift2_ret_1_RNO          3.465        -0.581
+shift_ret_1      System        SB_DFF      D       shift_ret_1_RNO           3.465        -0.581
+up_e[0]          System        SB_DFFE     D       up_e_RNO[0]               3.465        -0.581
+down[1]          System        SB_DFFE     E       shift2_ret_1_RNITCI51     3.570        -0.476
+down[2]          System        SB_DFFE     E       shift2_ret_1_RNITCI51     3.570        -0.476
+================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      3.570
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.465
+
+    - Propagation time:                      4.095
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.630
+
+    Number of logic level(s):                1
+    Starting point:                          down_e[0] / Q
+    Ending point:                            down[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+down_e[0]          SB_DFFE     Q        Out     0.540     0.540       -         
+down[0]            Net         -        -       1.599     -           6         
+down_RNO[1]        SB_LUT4     I0       In      -         2.139       -         
+down_RNO[1]        SB_LUT4     O        Out     0.449     2.588       -         
+down_1[1]          Net         -        -       1.507     -           1         
+down[1]            SB_DFFE     D        In      -         4.095       -         
+================================================================================
+Total path delay (propagation time + setup) of 4.200 is 1.094(26.0%) logic and 3.106(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      3.570
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.465
+
+    - Propagation time:                      4.095
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.630
+
+    Number of logic level(s):                1
+    Starting point:                          up_e[0] / Q
+    Ending point:                            up[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+up_e[0]            SB_DFFE     Q        Out     0.540     0.540       -         
+up[0]              Net         -        -       1.599     -           6         
+up_RNO[1]          SB_LUT4     I0       In      -         2.139       -         
+up_RNO[1]          SB_LUT4     O        Out     0.449     2.588       -         
+up_1[1]            Net         -        -       1.507     -           1         
+up[1]              SB_DFFE     D        In      -         4.095       -         
+================================================================================
+Total path delay (propagation time + setup) of 4.200 is 1.094(26.0%) logic and 3.106(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      3.570
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.465
+
+    - Propagation time:                      4.095
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.630
+
+    Number of logic level(s):                1
+    Starting point:                          down_e[0] / Q
+    Ending point:                            down[2] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+down_e[0]          SB_DFFE     Q        Out     0.540     0.540       -         
+down[0]            Net         -        -       1.599     -           6         
+down_RNO[2]        SB_LUT4     I0       In      -         2.139       -         
+down_RNO[2]        SB_LUT4     O        Out     0.449     2.588       -         
+down_1[2]          Net         -        -       1.507     -           1         
+down[2]            SB_DFFE     D        In      -         4.095       -         
+================================================================================
+Total path delay (propagation time + setup) of 4.200 is 1.094(26.0%) logic and 3.106(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      3.570
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.465
+
+    - Propagation time:                      4.095
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.630
+
+    Number of logic level(s):                1
+    Starting point:                          up_e[0] / Q
+    Ending point:                            up[2] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+up_e[0]            SB_DFFE     Q        Out     0.540     0.540       -         
+up[0]              Net         -        -       1.599     -           6         
+up_RNO[2]          SB_LUT4     I0       In      -         2.139       -         
+up_RNO[2]          SB_LUT4     O        Out     0.449     2.588       -         
+up_1[2]            Net         -        -       1.507     -           1         
+up[2]              SB_DFFE     D        In      -         4.095       -         
+================================================================================
+Total path delay (propagation time + setup) of 4.200 is 1.094(26.0%) logic and 3.106(74.0%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      3.570
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    + Estimated clock delay at ending point: 0.000
+    = Required time:                         3.465
+
+    - Propagation time:                      4.046
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 -0.581
+
+    Number of logic level(s):                1
+    Starting point:                          down[1] / Q
+    Ending point:                            down[1] / D
+    The start point is clocked by            System [rising] on pin C
+    The end   point is clocked by            System [rising] on pin C
+
+Instance / Net                 Pin      Pin               Arrival     No. of    
+Name               Type        Name     Dir     Delay     Time        Fan Out(s)
+--------------------------------------------------------------------------------
+down[1]            SB_DFFE     Q        Out     0.540     0.540       -         
+down[1]            Net         -        -       1.599     -           4         
+down_RNO[1]        SB_LUT4     I1       In      -         2.139       -         
+down_RNO[1]        SB_LUT4     O        Out     0.400     2.539       -         
+down_1[1]          Net         -        -       1.507     -           1         
+down[1]            SB_DFFE     D        In      -         4.046       -         
+================================================================================
+Total path delay (propagation time + setup) of 4.151 is 1.045(25.2%) logic and 3.106(74.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+None
+
+Finished final timing analysis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+
+Finished timing report (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 133MB peak: 135MB)
+
+---------------------------------------
+Resource Usage Report for top 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+SB_CARRY        33 uses
+SB_DFF          33 uses
+SB_DFFE         17 uses
+SB_DFFESR       1 use
+SB_DFFSR        5 uses
+SB_LUT4         71 uses
+
+I/O ports: 4
+I/O primitives: 4
+SB_GB_IO       1 use
+SB_IO          3 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   56 (4%)
+Total load per clock:
+   top|CLK: 1
+
+@S |Mapping Summary:
+Total  LUTs: 71 (5%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 71 = 71 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 29MB peak: 135MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Tue Jul 13 16:01:33 2021
+
+###########################################################]

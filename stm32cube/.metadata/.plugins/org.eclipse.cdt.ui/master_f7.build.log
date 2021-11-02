@@ -1,0 +1,10 @@
+12:12:27 **** Incremental Build of configuration Debug for project master_f7 ****
+make -j12 all 
+arm-none-eabi-size   master_f7.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9588	     24	   1712	  11324	   2c3c	master_f7.elf
+Finished building: default.size.stdout
+ 
+
+12:12:28 Build Finished. 0 errors, 0 warnings. (took 227ms)
+

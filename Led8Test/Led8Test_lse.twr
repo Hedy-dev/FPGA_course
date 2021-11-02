@@ -1,0 +1,275 @@
+--------------------------------------------------------------------------------
+Lattice Synthesis Timing Report, Version  
+Wed Jul 14 13:18:31 2021
+
+Copyright (c) 1991-1994 by NeoCAD Inc. All rights reserved.
+Copyright (c) 1995 AT&T Corp.   All rights reserved.
+Copyright (c) 1995-2001 Lucent Technologies Inc.  All rights reserved.
+Copyright (c) 2001 Agere Systems   All rights reserved.
+Copyright (c) 2002-2016 Lattice Semiconductor Corporation,  All rights reserved.
+
+Report Information
+------------------
+Design:     uart_receiver_mod
+Constraint file:  
+Report level:    verbose report, limited to 3 items per constraint
+--------------------------------------------------------------------------------
+
+
+
+================================================================================
+Constraint: create_clock -period 1000.000000 -name clk0 [get_nets clk_c]
+            4096 items scored, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+Passed:  The following path meets requirements by 959.204ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFF     C              rx_clk_divider_i0  (from clk_c +)
+   Destination:    SB_DFFE    D              rx_bits_remaining_i3  (to clk_c +)
+
+   Delay:                  40.663ns  (26.0% logic, 74.0% route), 26 logic levels.
+
+ Constraint Details:
+
+     40.663ns data_path rx_clk_divider_i0 to rx_bits_remaining_i3 meets
+    1000.000ns delay constraint less
+      0.133ns L_S requirement (totaling 999.867ns) by 959.204ns
+
+ Path Details: rx_clk_divider_i0 to rx_bits_remaining_i3
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              rx_clk_divider_i0 (from clk_c)
+Route         2   e 1.258                                  rx_clk_divider[0]
+LUT4        ---     0.408             I0 to CO             sub_63_add_2_2
+Route         2   e 1.158                                  n1607
+LUT4        ---     0.408             CI to CO             sub_63_add_2_3
+Route         2   e 1.158                                  n1608
+LUT4        ---     0.408             CI to CO             sub_63_add_2_4
+Route         2   e 1.158                                  n1609
+LUT4        ---     0.408             CI to CO             sub_63_add_2_5
+Route         2   e 1.158                                  n1610
+LUT4        ---     0.408             CI to CO             sub_63_add_2_6
+Route         2   e 1.158                                  n1611
+LUT4        ---     0.408             CI to CO             sub_63_add_2_7
+Route         2   e 1.158                                  n1612
+LUT4        ---     0.408             CI to CO             sub_63_add_2_8
+Route         2   e 1.158                                  n1613
+LUT4        ---     0.408             CI to CO             sub_63_add_2_9
+Route         2   e 1.158                                  n1614
+LUT4        ---     0.408             CI to CO             sub_63_add_2_10
+Route         2   e 1.158                                  n1615
+LUT4        ---     0.408             I3 to O              sub_63_add_2_11_lut
+Route         2   e 1.158                                  n21
+LUT4        ---     0.408             I1 to O              i2_2_lut
+Route         2   e 1.158                                  n13_adj_4
+LUT4        ---     0.408             I3 to O              i4_4_lut_adj_5
+Route         1   e 1.020                                  n10_adj_1
+LUT4        ---     0.408             I2 to O              i5_3_lut_4_lut
+Route         2   e 1.158                                  n10
+LUT4        ---     0.408             I1 to CO             sub_64_add_2_2
+Route         2   e 1.158                                  n1602
+LUT4        ---     0.408             CI to CO             sub_64_add_2_3
+Route         2   e 1.158                                  n1603
+LUT4        ---     0.408             CI to CO             sub_64_add_2_4
+Route         2   e 1.158                                  n1604
+LUT4        ---     0.408             CI to CO             sub_64_add_2_5
+Route         2   e 1.158                                  n1605
+LUT4        ---     0.408             CI to CO             sub_64_add_2_6
+Route         1   e 1.020                                  n1606
+LUT4        ---     0.408             I3 to O              sub_64_add_2_7_lut
+Route         2   e 1.158                                  rx_countdown_5__N_51[5]
+LUT4        ---     0.408             I1 to O              i4_4_lut
+Route         1   e 1.020                                  n10_adj_3
+LUT4        ---     0.408             I1 to O              i5_3_lut
+Route         9   e 1.459                                  recv_state_2__N_36[2]
+LUT4        ---     0.408             I1 to O              i2_3_lut_4_lut
+Route         2   e 1.158                                  n851
+LUT4        ---     0.408             I2 to O              i1_3_lut_4_lut_adj_2
+Route         2   e 1.158                                  n1723
+LUT4        ---     0.408             I3 to O              i1_3_lut_4_lut_adj_9
+Route         4   e 1.297                                  n927
+LUT4        ---     0.408             I0 to O              i578_4_lut_4_lut
+Route         1   e 1.020                                  n1016
+                  --------
+                   40.663  (26.0% logic, 74.0% route), 26 logic levels.
+
+
+Passed:  The following path meets requirements by 959.204ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFF     C              rx_clk_divider_i0  (from clk_c +)
+   Destination:    SB_DFF     D              rx_bits_remaining_i2  (to clk_c +)
+
+   Delay:                  40.663ns  (26.0% logic, 74.0% route), 26 logic levels.
+
+ Constraint Details:
+
+     40.663ns data_path rx_clk_divider_i0 to rx_bits_remaining_i2 meets
+    1000.000ns delay constraint less
+      0.133ns L_S requirement (totaling 999.867ns) by 959.204ns
+
+ Path Details: rx_clk_divider_i0 to rx_bits_remaining_i2
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              rx_clk_divider_i0 (from clk_c)
+Route         2   e 1.258                                  rx_clk_divider[0]
+LUT4        ---     0.408             I0 to CO             sub_63_add_2_2
+Route         2   e 1.158                                  n1607
+LUT4        ---     0.408             CI to CO             sub_63_add_2_3
+Route         2   e 1.158                                  n1608
+LUT4        ---     0.408             CI to CO             sub_63_add_2_4
+Route         2   e 1.158                                  n1609
+LUT4        ---     0.408             CI to CO             sub_63_add_2_5
+Route         2   e 1.158                                  n1610
+LUT4        ---     0.408             CI to CO             sub_63_add_2_6
+Route         2   e 1.158                                  n1611
+LUT4        ---     0.408             CI to CO             sub_63_add_2_7
+Route         2   e 1.158                                  n1612
+LUT4        ---     0.408             CI to CO             sub_63_add_2_8
+Route         2   e 1.158                                  n1613
+LUT4        ---     0.408             CI to CO             sub_63_add_2_9
+Route         2   e 1.158                                  n1614
+LUT4        ---     0.408             CI to CO             sub_63_add_2_10
+Route         2   e 1.158                                  n1615
+LUT4        ---     0.408             I3 to O              sub_63_add_2_11_lut
+Route         2   e 1.158                                  n21
+LUT4        ---     0.408             I1 to O              i2_2_lut
+Route         2   e 1.158                                  n13_adj_4
+LUT4        ---     0.408             I3 to O              i4_4_lut_adj_5
+Route         1   e 1.020                                  n10_adj_1
+LUT4        ---     0.408             I2 to O              i5_3_lut_4_lut
+Route         2   e 1.158                                  n10
+LUT4        ---     0.408             I1 to CO             sub_64_add_2_2
+Route         2   e 1.158                                  n1602
+LUT4        ---     0.408             CI to CO             sub_64_add_2_3
+Route         2   e 1.158                                  n1603
+LUT4        ---     0.408             CI to CO             sub_64_add_2_4
+Route         2   e 1.158                                  n1604
+LUT4        ---     0.408             CI to CO             sub_64_add_2_5
+Route         2   e 1.158                                  n1605
+LUT4        ---     0.408             CI to CO             sub_64_add_2_6
+Route         1   e 1.020                                  n1606
+LUT4        ---     0.408             I3 to O              sub_64_add_2_7_lut
+Route         2   e 1.158                                  rx_countdown_5__N_51[5]
+LUT4        ---     0.408             I1 to O              i4_4_lut
+Route         1   e 1.020                                  n10_adj_3
+LUT4        ---     0.408             I1 to O              i5_3_lut
+Route         9   e 1.459                                  recv_state_2__N_36[2]
+LUT4        ---     0.408             I1 to O              i2_3_lut_4_lut
+Route         2   e 1.158                                  n851
+LUT4        ---     0.408             I2 to O              i1_3_lut_4_lut_adj_2
+Route         2   e 1.158                                  n1723
+LUT4        ---     0.408             I3 to O              i1_3_lut_4_lut_adj_9
+Route         4   e 1.297                                  n927
+LUT4        ---     0.408             I0 to O              i576_4_lut_4_lut
+Route         1   e 1.020                                  n1014
+                  --------
+                   40.663  (26.0% logic, 74.0% route), 26 logic levels.
+
+
+Passed:  The following path meets requirements by 959.204ns
+
+ Logical Details:  Cell type  Pin type       Cell name  (clock net +/-)
+
+   Source:         SB_DFF     C              rx_clk_divider_i0  (from clk_c +)
+   Destination:    SB_DFFESR  R              rx_bits_remaining_i1  (to clk_c +)
+
+   Delay:                  40.663ns  (26.0% logic, 74.0% route), 26 logic levels.
+
+ Constraint Details:
+
+     40.663ns data_path rx_clk_divider_i0 to rx_bits_remaining_i1 meets
+    1000.000ns delay constraint less
+      0.133ns L_S requirement (totaling 999.867ns) by 959.204ns
+
+ Path Details: rx_clk_divider_i0 to rx_bits_remaining_i1
+
+   Name    Fanout   Delay (ns)          Pins               Resource(Cell.Net)
+L_CO        ---     0.367              C to Q              rx_clk_divider_i0 (from clk_c)
+Route         2   e 1.258                                  rx_clk_divider[0]
+LUT4        ---     0.408             I0 to CO             sub_63_add_2_2
+Route         2   e 1.158                                  n1607
+LUT4        ---     0.408             CI to CO             sub_63_add_2_3
+Route         2   e 1.158                                  n1608
+LUT4        ---     0.408             CI to CO             sub_63_add_2_4
+Route         2   e 1.158                                  n1609
+LUT4        ---     0.408             CI to CO             sub_63_add_2_5
+Route         2   e 1.158                                  n1610
+LUT4        ---     0.408             CI to CO             sub_63_add_2_6
+Route         2   e 1.158                                  n1611
+LUT4        ---     0.408             CI to CO             sub_63_add_2_7
+Route         2   e 1.158                                  n1612
+LUT4        ---     0.408             CI to CO             sub_63_add_2_8
+Route         2   e 1.158                                  n1613
+LUT4        ---     0.408             CI to CO             sub_63_add_2_9
+Route         2   e 1.158                                  n1614
+LUT4        ---     0.408             CI to CO             sub_63_add_2_10
+Route         2   e 1.158                                  n1615
+LUT4        ---     0.408             I3 to O              sub_63_add_2_11_lut
+Route         2   e 1.158                                  n21
+LUT4        ---     0.408             I1 to O              i2_2_lut
+Route         2   e 1.158                                  n13_adj_4
+LUT4        ---     0.408             I3 to O              i4_4_lut_adj_5
+Route         1   e 1.020                                  n10_adj_1
+LUT4        ---     0.408             I2 to O              i5_3_lut_4_lut
+Route         2   e 1.158                                  n10
+LUT4        ---     0.408             I1 to CO             sub_64_add_2_2
+Route         2   e 1.158                                  n1602
+LUT4        ---     0.408             CI to CO             sub_64_add_2_3
+Route         2   e 1.158                                  n1603
+LUT4        ---     0.408             CI to CO             sub_64_add_2_4
+Route         2   e 1.158                                  n1604
+LUT4        ---     0.408             CI to CO             sub_64_add_2_5
+Route         2   e 1.158                                  n1605
+LUT4        ---     0.408             CI to CO             sub_64_add_2_6
+Route         1   e 1.020                                  n1606
+LUT4        ---     0.408             I3 to O              sub_64_add_2_7_lut
+Route         2   e 1.158                                  rx_countdown_5__N_51[5]
+LUT4        ---     0.408             I1 to O              i4_4_lut
+Route         1   e 1.020                                  n10_adj_3
+LUT4        ---     0.408             I1 to O              i5_3_lut
+Route         9   e 1.459                                  recv_state_2__N_36[2]
+LUT4        ---     0.408             I1 to O              i2_3_lut_4_lut
+Route         2   e 1.158                                  n851
+LUT4        ---     0.408             I2 to O              i1_3_lut_4_lut_adj_2
+Route         2   e 1.158                                  n1723
+LUT4        ---     0.408             I3 to O              i1_3_lut_4_lut_adj_9
+Route         4   e 1.297                                  n927
+LUT4        ---     0.408             I0 to O              i526_2_lut_3_lut
+Route         1   e 1.020                                  n964
+                  --------
+                   40.663  (26.0% logic, 74.0% route), 26 logic levels.
+
+Report: 40.796 ns is the maximum delay for this constraint.
+
+
+Timing Report Summary
+--------------
+--------------------------------------------------------------------------------
+Constraint                              |   Constraint|       Actual|Levels
+--------------------------------------------------------------------------------
+                                        |             |             |
+create_clock -period 1000.000000 -name  |             |             |
+clk0 [get_nets clk_c]                   |  1000.000 ns|    40.796 ns|    26  
+                                        |             |             |
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover  18168 paths, 137 nets, and 331 connections (85.3% coverage)
+
+
+Peak memory: 42475520 bytes, TRCE: 5771264 bytes, DLYMAN: 0 bytes
+CPU_TIME_REPORT: 0 secs 

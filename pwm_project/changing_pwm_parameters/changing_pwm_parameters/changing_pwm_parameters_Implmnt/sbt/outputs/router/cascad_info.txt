@@ -1,0 +1,4 @@
+[VIC]
+PWM_NUM_RNIKTNT2Z0Z_0_cascade_=ltout:in2
+g0_4_cascade_=ltout:in3
+un1_ten_ms_8_cascade_=ltout:in1

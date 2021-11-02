@@ -1,0 +1,20 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MO231 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":49:0:49:5|Found counter in view:work.top(verilog) instance delay[14:0] 
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift2[0] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift2[1] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: BN362 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":62:0:62:5|Removing sequential instance shift2[2] (in view: work.top(verilog)) because it does not drive other instances.
+@N: FX1016 :"d:\projects\fpga\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters.v":8:12:8:14|SB_GB_IO inserted on the port CLK.
+@N: MT611 :|Automatically generated clock top|clk_div_derived_clock[11] is not used and is being removed
+@N: MT611 :|Automatically generated clock top|un1_ten_ms_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock top|level_inferred_clock is not used and is being removed
+@N: MT611 :|Automatically generated clock top|level2_inferred_clock is not used and is being removed
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: D:\projects\FPGA\ksenia\pwm_project\changing_pwm_parameters\changing_pwm_parameters\changing_pwm_parameters_Implmnt\changing_pwm_parameters.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

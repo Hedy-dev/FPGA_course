@@ -1,0 +1,1 @@
+@W: MT529 :"d:\projects\fpga\ksenia\pwm_project\start_pwm_project\pwm.v":15:0:15:5|Found inferred clock top|CLK which controls 12 sequential elements including clk_div[11:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

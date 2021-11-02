@@ -1,0 +1,5 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+@N: CG1223 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:23|Setting "set_option -allow_duplicate_modules 1" in project file allows duplicate modules
+

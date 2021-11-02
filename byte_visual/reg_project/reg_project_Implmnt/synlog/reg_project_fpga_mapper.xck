@@ -1,0 +1,2 @@
+CKID0001:@|S:delay_RNI55JF4[10]@|E:down_e[0]@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+CKID0002:@|S:CLK_ibuf_gb_io@|E:delay[10]@|F:@syn_sample_clock_path==CKID0002@|M:ClockId0002 

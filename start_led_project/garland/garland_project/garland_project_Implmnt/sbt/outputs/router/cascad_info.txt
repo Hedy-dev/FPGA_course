@@ -1,0 +1,9 @@
+[VIC]
+BIT_47_0_a3_0_1_6_cascade_=ltout:in0
+BIT_47_i_o3_0_0_4_cascade_=ltout:in0
+N_17_cascade_=ltout:in0
+N_21_cascade_=ltout:in2
+N_22_cascade_=ltout:in1
+N_45_cascade_=ltout:in1
+clk_div_RNIICCP5Z0Z_19_cascade_=ltout:in2
+cntr_RNIVLLQ5Z0Z_4_cascade_=ltout:in3

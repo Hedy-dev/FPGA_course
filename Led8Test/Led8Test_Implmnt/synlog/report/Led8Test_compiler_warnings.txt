@@ -1,0 +1,3 @@
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\spi_slave.v":1:7:1:15|Previous module with same name spi_slave
+@W: CG679 :"D:\projects\FPGA\ksenia\Led8Test\uart_receiver.v":1:7:1:23|Previous module with same name uart_receiver_mod
+
