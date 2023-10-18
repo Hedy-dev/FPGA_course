@@ -1,0 +1,8 @@
+set_io CLK 15
+set_io BUT1 41
+set_io RST 42
+set_io DSA_out 1
+set_io DSB_out 2
+set_io CLK_out 3
+set_io reset 4
+set_io clk_pos 7
